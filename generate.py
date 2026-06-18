@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Generate the χGRID — Chicago's one-mile "chi" cells — as GeoJSON.
+"""Generate the chiGRID — Chicago's one-mile "chi" cells — as GeoJSON.
 
-χGRID tiles Chicago into regular one-mile cells anchored to the city's address-grid
+chiGRID tiles Chicago into regular one-mile cells anchored to the city's address-grid
 origin at State & Madison. Each cell is bounded by the mile roads and centered on the
-half-mile road between them; it carries a formal chi-ordinate (``χ:S4W2``), a public
+half-mile road between them; it carries a formal chi-ordinate (``χ:5S3W``), a public
 name (``Damen–43rd chi``), and a compact label (``Dam43``).
 
 This script reproduces the cell GEOMETRY and ORDINATES exactly, and names each cell from
@@ -53,9 +53,10 @@ def miles_west(lon: float) -> float:
 
 
 def chi_ordinate(center_lat: float, center_lon: float) -> str:
+    # 1-indexed, number-first: the cells touching the origin are 1S1W / 1S1E / 1N1W / 1N1E.
     s, w = miles_south(center_lat), miles_west(center_lon)
-    ns = f"{'S' if s >= 0 else 'N'}{int(math.floor(abs(s) + 1e-9))}"
-    ew = f"{'W' if w >= 0 else 'E'}{int(math.floor(abs(w) + 1e-9))}"
+    ns = f"{int(math.floor(abs(s) + 1e-9)) + 1}{'S' if s >= 0 else 'N'}"
+    ew = f"{int(math.floor(abs(w) + 1e-9)) + 1}{'W' if w >= 0 else 'E'}"
     return f"χ:{ns}{ew}"
 
 
@@ -130,13 +131,13 @@ def build_chigrid(boundary) -> dict:
     features.sort(key=lambda f: f["properties"]["chi_id"])
     return {
         "type": "FeatureCollection",
-        "properties": {"system": "χGRID", "origin": "State & Madison", "cell_miles": 1, "count": len(features)},
+        "properties": {"system": "chiGRID", "origin": "State & Madison", "cell_miles": 1, "count": len(features)},
         "features": features,
     }
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Generate the χGRID as GeoJSON.")
+    parser = argparse.ArgumentParser(description="Generate the chiGRID as GeoJSON.")
     parser.add_argument("--boundary", help="GeoJSON of the area to tile (e.g. the city outline)")
     args = parser.parse_args()
     boundary = json.load(open(args.boundary)) if args.boundary else None

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>χGRID — Chicago's square-mile chis</title>
+<title>chiGRID — Chicago's square-mile chis</title>
 <style>
   :root {
     --background: #f6f2ea; --surface: #fffdf8; --text: #172026; --muted-text: #5d6b73;
@@ -47,16 +47,16 @@
 </head>
 <body>
 <div class="wrap">
-  <h1>χGRID <span style="color:var(--muted-text);font-size:1rem;font-weight:400">· Chicago's square-mile chis</span></h1>
-  <p class="lede">χGRID divides Chicago into regular <b>one-mile cells called chis</b>, bounded by the
+  <h1>chiGRID <span style="color:var(--muted-text);font-size:1rem;font-weight:400">· Chicago's square-mile chis</span></h1>
+  <p class="lede">chiGRID divides Chicago into regular <b>one-mile cells called chis</b>, bounded by the
     mile roads and centered on the half-mile-road intersection. Each chi has a public name like
     <code>Damen–43rd chi</code>, a compact label <code>Dam43</code>, and a formal chi-ordinate
-    <code>χ:S4W2</code> indexing its position from State &amp; Madison. Click a cell to inspect it.</p>
+    <code>χ:5S3W</code> indexing its position from State &amp; Madison. Click a cell to inspect it.</p>
 
   <div class="layout">
     <div class="mapcard"><div id="map">Loading the grid…</div></div>
     <aside class="panel">
-      <input id="search" class="search" type="text" placeholder="Find by ordinate (S4W2) or name (Damen)" autocomplete="off" />
+      <input id="search" class="search" type="text" placeholder="Find by ordinate (5S3W) or name (Damen)" autocomplete="off" />
       <div id="detail"><p class="hint">Select a chi on the map, or search above.</p></div>
     </aside>
   </div>
@@ -64,15 +64,15 @@
   <details>
     <summary>How the system works</summary>
     <p><b>Origin.</b> The grid is anchored at <b>State &amp; Madison</b>, the zero point of Chicago's
-      address system. χ:S0W0 is the chi at the origin; numbers grow south/north and west/east from there.</p>
+      address system. χ:1S1W is the chi at the origin; numbers grow south/north and west/east from there.</p>
     <p><b>Limits &amp; midpoints.</b> Every chi is bounded by mile roads and centered on the half-mile
       roads between them. The Damen–43rd chi spans Ashland→Western (east–west) and 39th→47th
       (north–south), centered on Damen and 43rd.</p>
     <p><b>Geographic, not address-number.</b> Distances are real miles. Chicago's south-side street
       numbers overstate distance (43rd St is ~4.5 mi south, not 5.4), so the grid uses true geography —
-      which is why 43rd lands in the S4 band and Ashland on the W2 boundary.</p>
+      which is why 43rd lands in the 5S band and Ashland on the 2W/3W boundary.</p>
     <p><b>Names.</b> The x/avenue comes before the y/street: <code>Damen–43rd</code>, <code>Dam43</code>.
-      χGRID sits beneath neighborhood and community-area names — it doesn't replace them.</p>
+      chiGRID sits beneath neighborhood and community-area names — it doesn't replace them.</p>
   </details>
 </div>
 

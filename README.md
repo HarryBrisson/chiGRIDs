@@ -1,6 +1,6 @@
-# χGRID — Chicago's square-mile geography
+# chiGRID — Chicago's square-mile geography
 
-**χGRID** (*Chicago Geographically Reductive Indexed Districts*) is a regular **square-mile
+**chiGRID** (*Chicago Geographically Reductive Indexed Districts*) is a regular **square-mile
 geography for Chicago**. It tiles the city into one-mile cells called **chis**, each anchored to
 Chicago's address-grid origin at **State & Madison**.
 
@@ -10,7 +10,7 @@ addressable. This repo holds the **methodology, the polygons, and a generator**,
 anyone can use, cite, or build on them.
 
 ```
-χ:S4W2  =  Damen–43rd chi  =  "Dam43"
+χ:5S3W  =  Damen–43rd chi  =  "Dam43"
 ```
 
 ## The cell
@@ -21,21 +21,23 @@ Every chi is **one mile square**, with a simple rule:
 - **Midpoints are half-mile roads.** Its center sits on the half-mile ("secondary") road between
   those mile roads, on both axes.
 
-So the χ:S4W2 chi is bounded east–west by **Ashland** (2 mi west) and **Western** (3 mi west) and
+So the χ:5S3W chi is bounded east–west by **Ashland** (2 mi west) and **Western** (3 mi west) and
 north–south by **Pershing/39th** (4 mi south) and **47th** (5 mi south) — centered on **Damen**
 (2.5 mi west) and **43rd** (4.5 mi south). That's the **Damen–43rd chi**.
 
 ## Chi-ordinates
 
-Each cell has a formal coordinate relative to State & Madison:
+Each cell has a formal coordinate relative to State & Madison, written **number-first** and
+**1-indexed**:
 
 ```
-χ:S4W2   →   the cell whose center is ~4 miles South and ~2 miles West of State & Madison
+χ:5S3W   →   the cell in the 5th mile-band South and the 3rd mile-band West of State & Madison
 ```
 
-`S`/`N` give the north–south band, `W`/`E` the east–west band; the number is the whole-mile band
-index (the cell spans miles 4–5 south, 2–3 west). The origin cell is `χ:S0W0`. Ordinates are
-unique and the grid tiles cleanly — every point in the city falls in exactly one chi.
+The number is the count of mile-bands out from the origin (the cell spans miles 4–5 south, 2–3
+west); `S`/`N` and `W`/`E` give the direction. The four cells touching the origin are **1S1W,
+1S1E, 1N1W, 1N1E** — there is no "0" band, so the index never reads as a false zero distance.
+Ordinates are unique and the grid tiles cleanly — every point in the city falls in exactly one chi.
 
 ## Names & labels
 
@@ -43,7 +45,7 @@ A chi is named **x before y** — the north–south *avenue* first, then the eas
 
 | Form | Example | Use |
 | --- | --- | --- |
-| **Ordinate** | `χ:S4W2` | formal / sortable index |
+| **Ordinate** | `χ:5S3W` | formal / sortable index |
 | **Name** | `Damen–43rd chi` | human-readable |
 | **Label** | `Dam43` | compact, for maps and tables |
 
@@ -53,9 +55,9 @@ edges) fall back to their ordinate as the name.
 
 ## Geographic, not address-number
 
-χGRID uses **real miles on the ground**, not Chicago's address numbers. The south-side street
+chiGRID uses **real miles on the ground**, not Chicago's address numbers. The south-side street
 numbers overstate distance — 43rd Street is ~4.5 mi south, not 5.4 — so the grid reads
-geographically: 43rd lands in the **S4** band, Ashland on the **W2** boundary. Chicago's physical
+geographically: 43rd lands in the **5S** band, Ashland on the **2W/3W** boundary. Chicago's physical
 arterials sit ~0.5 mi apart regardless of their numbering, so the cells line up with the real
 street grid.
 
@@ -73,8 +75,8 @@ Each GeoJSON feature:
   "type": "Feature",
   "geometry": { "type": "Polygon", "coordinates": [ [ [lon, lat], ... ] ] },
   "properties": {
-    "chi_id": "S4W2",
-    "chi_ordinate": "χ:S4W2",
+    "chi_id": "5S3W",
+    "chi_ordinate": "χ:5S3W",
     "name": "Damen–43rd chi",
     "label": "Dam43",
     "center": [-87.6763, 41.8168]
@@ -96,7 +98,7 @@ def chi_for(lat, lon):
     return next((c["properties"]["chi_ordinate"] for c in cells
                  if shape(c["geometry"]).covers(p)), None)
 
-chi_for(41.8168, -87.6763)  # -> "χ:S4W2"
+chi_for(41.8168, -87.6763)  # -> "χ:5S3W"
 ```
 
 ## Regenerating
@@ -120,8 +122,8 @@ ordinate, label, and center.
 
 ## License & attribution
 
-**MIT** — see [LICENSE](LICENSE). Use, reference, and build on χGRID freely. The polygons are
+**MIT** — see [LICENSE](LICENSE). Use, reference, and build on chiGRID freely. The polygons are
 derived entirely from public data (Chicago's address grid, the city boundary, and street
 centerlines).
 
-If you use χGRID, a link back to this repo is appreciated but not required.
+If you use chiGRID, a link back to this repo is appreciated but not required.
