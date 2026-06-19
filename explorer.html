@@ -43,6 +43,11 @@
   details { margin-top: 1.75rem; border-top: 1px solid var(--border); padding-top: 1rem; }
   summary { cursor: pointer; font-weight: 600; color: var(--accent-dark); }
   details p { color: var(--text); max-width: 64ch; }
+  .versions { display: inline-flex; border: 1px solid var(--border); border-radius: 9px; overflow: hidden; margin: 0 0 1.25rem; }
+  .vbtn { border: 0; background: var(--surface); color: var(--muted-text); font: inherit; font-size: 0.9rem;
+    padding: 0.4rem 0.9rem; cursor: pointer; }
+  .vbtn + .vbtn { border-left: 1px solid var(--border); }
+  .vbtn.on { background: var(--accent); color: #fff; font-weight: 600; }
 </style>
 </head>
 <body>
@@ -52,6 +57,11 @@
     mile roads and centered on the half-mile-road intersection. Each chi has a public name like
     <code>Damen–43rd chi</code>, a compact label <code>Dam43</code>, and a formal chi-ordinate
     <code>χ:5S3W</code> indexing its position from State &amp; Madison. Click a cell to inspect it.</p>
+
+  <div class="versions" id="versions">
+    <button class="vbtn on" data-v="v2">Street-aligned · v2</button>
+    <button class="vbtn" data-v="v1">Mile-squares · v1</button>
+  </div>
 
   <div class="layout">
     <div class="mapcard"><div id="map">Loading the grid…</div></div>
@@ -80,11 +90,13 @@
   const svgNS = "http://www.w3.org/2000/svg";
   const ORIGIN = [-87.62768, 41.88197];
   let cells = [], selected = null;
+  // v2 cells can be MultiPolygons (lakefront-split); always iterate the outer ring(s).
+  const outerRings = (g) => g.type === "MultiPolygon" ? g.coordinates.map((p) => p[0]) : [g.coordinates[0]];
 
   function render(geo) {
     cells = geo.features;
     const lons = [], lats = [];
-    for (const f of cells) for (const [x, y] of f.geometry.coordinates[0]) { lons.push(x); lats.push(y); }
+    for (const f of cells) for (const ring of outerRings(f.geometry)) for (const [x, y] of ring) { lons.push(x); lats.push(y); }
     const minX = Math.min(...lons), maxX = Math.max(...lons), minY = Math.min(...lats), maxY = Math.max(...lats);
     const W = 760, pad = 8;
     const sx = (W - 2 * pad) / (maxX - minX);
@@ -96,20 +108,22 @@
     svg.setAttribute("viewBox", `0 0 ${W} ${Math.round(H)}`);
     svg.setAttribute("role", "img");
     svg.setAttribute("aria-label", "Map of Chicago's chi cells");
-    const ring0 = cells[0].geometry.coordinates[0];
+    const ring0 = outerRings(cells[0].geometry)[0];
     const cellLon = Math.max(...ring0.map((p) => p[0])) - Math.min(...ring0.map((p) => p[0]));
     const fontPx = Math.max(4, Math.min(8, (sx * cellLon) / 5.5)); // fit ~5 chars in a cell
     for (const f of cells) {
-      const pts = f.geometry.coordinates[0].map(([x, y]) => `${px(x).toFixed(1)},${py(y).toFixed(1)}`).join(" ");
-      const poly = document.createElementNS(svgNS, "polygon");
-      poly.setAttribute("points", pts);
-      poly.setAttribute("class", "chi");
-      poly.dataset.ord = f.properties.chi_ordinate;
-      const t = document.createElementNS(svgNS, "title");
-      t.textContent = `${f.properties.name} · ${f.properties.label}`;
-      poly.appendChild(t);
-      poly.addEventListener("click", () => select(f.properties.chi_ordinate));
-      svg.appendChild(poly);
+      for (const ring of outerRings(f.geometry)) {
+        const pts = ring.map(([x, y]) => `${px(x).toFixed(1)},${py(y).toFixed(1)}`).join(" ");
+        const poly = document.createElementNS(svgNS, "polygon");
+        poly.setAttribute("points", pts);
+        poly.setAttribute("class", "chi");
+        poly.dataset.ord = f.properties.chi_ordinate;
+        const t = document.createElementNS(svgNS, "title");
+        t.textContent = `${f.properties.name} · ${f.properties.label}`;
+        poly.appendChild(t);
+        poly.addEventListener("click", () => select(f.properties.chi_ordinate));
+        svg.appendChild(poly);
+      }
       // compact label inside each cell, for easy reading (e.g. "Cen43")
       const token = f.properties.label.replace(/\s*χ$/, "");
       const txt = document.createElementNS(svgNS, "text");
@@ -135,8 +149,7 @@
   function select(ord) {
     selected = cells.find((f) => f.properties.chi_ordinate === ord);
     document.querySelectorAll(".chi, .chilabel").forEach((p) => p.classList.toggle("sel", p.dataset.ord === ord));
-    const sel = document.querySelector(`.chi[data-ord="${CSS.escape(ord)}"]`);
-    if (sel) sel.parentNode.appendChild(sel); // raise selected above neighbors
+    document.querySelectorAll(`.chi[data-ord="${CSS.escape(ord)}"]`).forEach((s) => s.parentNode.appendChild(s)); // raise above neighbors
     const selLabel = document.querySelector(`.chilabel[data-ord="${CSS.escape(ord)}"]`);
     if (selLabel) selLabel.parentNode.appendChild(selLabel);
     history.replaceState(null, "", `#chi=${ord.replace("χ:", "")}`);
@@ -153,8 +166,10 @@
       <p class="lab">${p.label}</p>
       <dl>
         <dt>Label</dt><dd>${p.label}</dd>
+        ${p.label_canon && p.label_canon !== p.label ? `<dt>Canonical</dt><dd>${p.label_canon}</dd>` : ""}
         <dt>Center</dt><dd>${p.center[1].toFixed(4)}, ${p.center[0].toFixed(4)}</dd>
-        <dt>Cell</dt><dd>1 sq mile</dd>
+        <dt>Cell</dt><dd>${typeof p.area_sqmi === "number" ? p.area_sqmi.toFixed(2) + " sq mi" : "1 sq mile"}</dd>
+        ${p.edge ? `<dt>Edge</dt><dd>city-clipped</dd>` : ""}
       </dl>`;
   }
 
@@ -173,10 +188,21 @@
     if (hit) select(hit.properties.chi_ordinate);
   });
 
-  fetch("./data/chigrid.geojson")
-    .then((r) => r.json())
-    .then(render)
-    .catch(() => { document.getElementById("map").textContent = "Could not load the grid."; });
+  function load(version) {
+    document.getElementById("map").textContent = "Loading the grid…";
+    fetch(`./data/${version}/chigrid.geojson`)
+      .then((r) => r.json())
+      .then(render)
+      .catch(() => { document.getElementById("map").textContent = "Could not load the grid."; });
+  }
+  document.getElementById("versions").addEventListener("click", (e) => {
+    const b = e.target.closest(".vbtn");
+    if (!b) return;
+    document.querySelectorAll(".vbtn").forEach((x) => x.classList.toggle("on", x === b));
+    selected = null; renderDetail();
+    load(b.dataset.v);
+  });
+  load("v2");
 </script>
 </body>
 </html>
