@@ -83,12 +83,16 @@ A few refinements keep it honest:
 
 ## The data
 
-Each version ships the same two files in its folder:
+Each version ships the same files in its folder:
 
 | File | What |
 | --- | --- |
 | `chigrid.geojson` | the chi polygons (WGS84), with `chi_id`, `chi_ordinate`, `name`, `label`, `center` |
 | `chigrid.csv` | the same cells as a flat table |
+| `chigrid_<version>_shapefile.zip` | the same polygons as an ESRI Shapefile (WGS84; field names shortened to 10 characters: `chi_ord`, `label_can`) for ArcGIS and QGIS |
+| `chigrid_<version>_geopackage.zip` | the same polygons as a GeoPackage, one layer `chigrid_<version>`, full field names |
+
+Direct downloads: [v1 shapefile](data/v1/chigrid_v1_shapefile.zip) · [v1 GeoPackage](data/v1/chigrid_v1_geopackage.zip) · [v2 shapefile](data/v2/chigrid_v2_shapefile.zip) · [v2 GeoPackage](data/v2/chigrid_v2_geopackage.zip). The zips are written from the GeoJSON with GeoPandas; the GeoJSON stays the source of truth.
 
 A **v1** GeoJSON feature ([`data/v1/chigrid.geojson`](data/v1/chigrid.geojson)):
 
@@ -158,7 +162,7 @@ Both the boundary and the centerlines are public data (Chicago's [community-area
 
 ## Explore
 
-Open [`explorer.html`](explorer.html) in a browser (served from this folder, e.g. `python -m http.server`) for an interactive map. Use the **version toggle** to switch between the v1 mile-squares and the v2 street-aligned grid; click or search any chi to see its name, ordinate, label, and center.
+The interactive map is published at **[harrybrisson.github.io/chiGRIDs/explorer.html](https://harrybrisson.github.io/chiGRIDs/explorer.html)** (GitHub Pages, from `main`). Or open [`explorer.html`](explorer.html) locally (served from this folder, e.g. `python -m http.server`). Use the **version toggle** to switch between the v1 mile-squares and the v2 street-aligned grid; click or search any chi to see its name, ordinate, label, and center.
 
 ## License & attribution
 
