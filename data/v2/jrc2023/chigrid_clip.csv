@@ -1,0 +1,1045 @@
+chi_ordinate,chi_id,name,label,name_canon,label_canon,center_lat,center_lon,area_sqmi,edge,flag,edge_kind,frame_share,in_city_share,offset_w_mi,offset_s_mi,bounds_rule
+χ:10N10W,10N10W,Oriole–Howard chi,OriHow,Oriole–Howard chi,OriHow,42.015244,-87.817419,1.075,False,False,city,1.0,0.334,0.29,0.06,3
+χ:10N11W,10N11W,Clifton–Northwest chi,CliNor,Cumberland–Howard chi,CumHow,42.018412,-87.837401,0.923,False,False,,1.0,0.0,0.27,0.09,3
+χ:10N12W,10N12W,Dee–Elm chi,DeeElm,χ:10N12W chi,χ:10N12W,42.017859,-87.856155,0.981,False,False,,1.0,0.0,0.24,0.12,3
+χ:10N13W,10N13W,Scott–Everett chi,ScoEve,χ:10N13W chi,χ:10N13W,42.017668,-87.874876,0.864,False,True,,1.0,0.0,0.2,0.12,3
+χ:10N14W,10N14W,Lee–Everett chi,LeeEve,χ:10N14W chi,χ:10N14W,42.017384,-87.89431,0.957,False,False,,1.0,0.0,0.19,0.16,3
+χ:10N15W,10N15W,Mount Prospect–State Rte 72 chi,MouSta,χ:10N15W chi,χ:10N15W,42.016964,-87.914553,0.853,False,True,,1.0,0.0,0.23,0.18,3
+χ:10N16W,10N16W,Elmhurst–Wille chi,ElmWil,χ:10N16W chi,χ:10N16W,42.016764,-87.934022,0.829,False,True,,1.0,0.0,0.24,0.2,3
+χ:10N17W,10N17W,Nicholas–State Rte 72 chi,NicSta,χ:10N17W chi,χ:10N17W,42.016563,-87.953491,0.928,False,False,,1.0,0.0,0.26,0.27,3
+χ:10N18W,10N18W,Lively–Landmeier chi,LivLan,χ:10N18W chi,χ:10N18W,42.014776,-87.972915,1.042,False,False,,1.0,0.0,0.24,0.34,3
+χ:10N19W,10N19W,Arlington Heights–Landmeier chi,ArlLan,χ:10N19W chi,χ:10N19W,42.014363,-87.992378,1.061,False,False,,1.0,0.0,0.24,0.37,3
+χ:10N20W,10N20W,χ:10N20W chi,χ:10N20W,χ:10N20W chi,χ:10N20W,42.015332,-88.01188,0.966,False,False,,1.0,0.0,0.22,0.34,3
+χ:10N21W,10N21W,χ:10N21W chi,χ:10N21W,χ:10N21W chi,χ:10N21W,42.015332,-88.031354,0.936,False,False,,1.0,0.0,0.25,0.27,3
+χ:10N22W,10N22W,χ:10N22W chi,χ:10N22W,χ:10N22W chi,χ:10N22W,42.016138,-88.050852,1.012,False,False,,1.0,0.0,0.24,0.24,3
+χ:10N23W,10N23W,Summit–Weathersfield chi,SumWea,χ:10N23W chi,χ:10N23W,42.015946,-88.070321,1.013,False,False,,1.0,0.0,0.24,0.26,3
+χ:10N24W,10N24W,Cedarcrest–Weathersfield chi,CedWea,χ:10N24W chi,χ:10N24W,42.015748,-88.090505,1.087,False,False,,1.0,0.0,0.28,0.27,3
+χ:10N25W,10N25W,Braintree–Weathersfield chi,BraWea,χ:10N25W chi,χ:10N25W,42.015553,-88.109977,0.939,False,False,,1.0,0.0,0.28,0.28,3
+χ:10N26W,10N26W,Walnut Ln–Yorkshire chi,WalYor,χ:10N26W chi,χ:10N26W,42.015369,-88.128728,1.013,False,False,,1.0,0.0,0.24,0.3,3
+χ:10N27W,10N27W,Barrington–Yorkshire chi,BarYor,χ:10N27W chi,χ:10N27W,42.015177,-88.148197,1.014,False,False,,1.0,0.0,0.24,0.31,3
+χ:10N28W,10N28W,Ridge Cir–State Rte 19 chi,RidSta,χ:10N28W chi,χ:10N28W,42.014984,-88.167666,1.014,False,False,,1.0,0.0,0.24,0.32,3
+χ:10N29W,10N29W,Bartlett–State Rte 19 chi,BarSta,χ:10N29W chi,χ:10N29W,42.014792,-88.187135,0.819,True,False,frame,0.807,0.0,0.24,0.34,3
+χ:10N2W,10N2W,Greenview–South chi,GreSou,Damen–Howard chi,DamHow,42.02494,-87.668935,0.052,True,False,shore,1.0,0.0,0.21,-0.0,2
+χ:10N30W,10N30W,Sutton–State Rte 19 chi,SutSta,χ:10N30W chi,χ:10N30W,42.0146,-88.206604,0.064,True,False,frame,0.063,0.0,0.24,0.35,3
+χ:10N3W,10N3W,Damen–Howard chi,DamHow,Damen–Howard chi,DamHow,42.019593,-87.677087,1.266,False,True,city,1.0,0.652,0.21,0.01,2
+χ:10N4W,10N4W,California–Howard chi,CalHow,California–Howard chi,CalHow,42.019448,-87.700045,0.979,False,False,city,1.0,0.48,0.22,0.02,2
+χ:10N5W,10N5W,Hamlin–Brummel chi,HamBru,Central Park–Howard chi,CenHow,42.019264,-87.719856,1.012,False,False,,1.0,0.0,0.24,0.02,2
+χ:10N6W,10N6W,Kenneth–Brummel chi,KenBru,Kostner–Howard chi,KosHow,42.019199,-87.739597,0.978,False,False,,1.0,0.0,0.25,0.03,3
+χ:10N7W,10N7W,Laramie–Birchwood chi,LarBir,Laramie–Howard chi,LarHow,42.019164,-87.758093,0.904,False,False,,1.0,0.0,0.2,0.03,3
+χ:10N8W,10N8W,Meade–Howard chi,MeaHow,Austin–Howard chi,AusHow,42.019098,-87.777646,1.097,False,False,city,1.0,0.034,0.2,0.04,2
+χ:10N9W,10N9W,Newark–Jarvis chi,NewJar,Oak Park–Howard chi,OakHow,42.015471,-87.797427,0.974,False,False,,1.0,0.0,0.26,0.05,2
+χ:10S10W,10S10W,77th–83rd chi,7783,Oriole–83rd chi,Ori83,41.740565,-87.809138,1.003,False,False,,1.0,0.0,-0.18,0.26,2
+χ:10S11W,10S11W,84th–83rd chi,8483,Cumberland–83rd chi,Cum83,41.740214,-87.82853,1.002,False,False,,1.0,0.0,-0.18,0.28,2
+χ:10S12W,10S12W,Kean–83rd chi,Kea83,χ:10S12W chi,χ:10S12W,41.73987,-87.847694,0.521,True,False,frame,0.533,0.0,-0.2,0.31,3
+χ:10S16W,10S16W,Hamilton–83rd chi,Ham83,χ:10S16W chi,χ:10S16W,41.738255,-87.924819,0.399,True,False,frame,0.386,0.0,-0.24,0.41,3
+χ:10S17W,10S17W,State Rte 83–83rd chi,Sta83,χ:10S17W chi,χ:10S17W,41.738085,-87.944223,0.544,True,False,frame,0.535,0.0,-0.24,0.43,3
+χ:10S18W,10S18W,Nantucket–Frontage chi,NanFro,χ:10S18W chi,χ:10S18W,41.737734,-87.963406,0.573,True,False,frame,0.576,0.0,-0.25,0.45,3
+χ:10S19W,10S19W,Bailey–Frontage chi,BaiFro,χ:10S19W chi,χ:10S19W,41.737385,-87.982861,0.425,True,False,frame,0.406,0.0,-0.25,0.48,3
+χ:10S1E,10S1E,Vernon–83rd chi,Ver83,Martin Luther King–83rd chi,Mar83,41.74371,-87.614682,1.0,False,False,,1.0,1.0,,,
+χ:10S1W,10S1W,Eggleston–83rd chi,Egg83,River–83rd chi,Riv83,41.743422,-87.633988,1.0,False,False,,1.0,1.0,,,
+χ:10S20W,10S20W,Lyman–Plainfield chi,LymPla,χ:10S20W chi,χ:10S20W,41.73763,-88.00345,0.392,True,False,frame,0.354,0.0,-0.2,0.46,3
+χ:10S21W,10S21W,Woodward–83rd chi,Woo83,χ:10S21W chi,χ:10S21W,41.737834,-88.024636,1.069,True,False,frame,0.972,0.0,-0.11,0.45,3
+χ:10S22W,10S22W,Woodridge–83rd chi,Woo83,χ:10S22W chi,χ:10S22W,41.73753,-88.045804,1.065,True,False,frame,0.967,0.0,-0.02,0.47,3
+χ:10S23W,10S23W,State Rte 53–83rd chi,Sta83,χ:10S23W chi,χ:10S23W,41.737265,-88.064287,0.194,True,False,frame,0.236,0.0,-0.07,0.49,3
+χ:10S2E,10S2E,Woodlawn–83rd chi,Woo83,Woodlawn–83rd chi,Woo83,41.744001,-87.59524,1.018,False,False,,1.0,1.0,,,
+χ:10S2W,10S2W,Racine–83rd chi,Rac83,Racine–83rd chi,Rac83,41.743131,-87.65342,1.009,False,False,,1.0,1.0,,,
+χ:10S3E,10S3E,Jeffery–83rd chi,Jef83,Jeffery–83rd chi,Jef83,41.744293,-87.575714,1.013,False,False,,1.0,1.0,,,
+χ:10S3W,10S3W,Damen–83rd chi,Dam83,Damen–83rd chi,Dam83,41.742841,-87.672849,0.996,False,False,,1.0,1.0,,,
+χ:10S4E,10S4E,Burnham–83rd chi,Bur83,Burnham–83rd chi,Bur83,41.744588,-87.55582,1.06,False,False,,1.0,1.0,,,
+χ:10S4W,10S4W,California–83rd chi,Cal83,California–83rd chi,Cal83,41.742549,-87.692379,1.016,False,False,city,1.0,0.998,-0.18,0.12,1
+χ:10S5E,10S5E,Green Bay–83rd chi,Gre83,Avenue L–83rd chi,L83,41.745004,-87.538058,0.649,True,False,"city,frame,shore",0.903,1.0,-0.24,-0.04,3
+χ:10S5W,10S5W,Central Park–83rd chi,Cen83,Central Park–83rd chi,Cen83,41.742263,-87.712013,1.002,False,False,city,1.0,1.0,-0.17,0.14,1
+χ:10S6E,10S6E,χ:10S6E chi,χ:10S6E,χ:10S6E chi,χ:10S6E,41.741465,-87.525132,0.0,True,False,,1.0,1.0,,,
+χ:10S6W,10S6W,Kostner–83rd chi,Kos83,Kostner–83rd chi,Kos83,41.740612,-87.73141,0.991,False,False,city,1.0,0.999,-0.17,0.16,1
+χ:10S7W,10S7W,Latrobe–83rd chi,Lat83,Laramie–83rd chi,Lar83,41.740612,-87.751678,1.081,False,False,,1.0,0.0,-0.13,0.18,1
+χ:10S8W,10S8W,McVicker–83rd chi,McV83,Austin–83rd chi,Aus83,41.741382,-87.771377,0.936,False,False,,1.0,0.0,-0.12,0.2,2
+χ:10S9W,10S9W,Oak Park–83rd chi,Oak83,Oak Park–83rd chi,Oak83,41.740972,-87.789961,0.986,False,False,,1.0,0.0,-0.16,0.23,2
+χ:11N10W,11N10W,Ottawa–Main chi,OttMai,χ:11N10W chi,χ:11N10W,42.033178,-87.817286,1.013,False,False,,1.0,0.0,0.24,0.07,3
+χ:11N11W,11N11W,Cumberland–Monroe chi,CumMon,χ:11N11W chi,χ:11N11W,42.033005,-87.837053,1.008,False,False,,1.0,0.0,0.26,0.07,3
+χ:11N12W,11N12W,Dee–Northwest chi,DeeNor,χ:11N12W chi,χ:11N12W,42.032116,-87.856559,0.996,False,False,,1.0,0.0,0.25,0.13,3
+χ:11N13W,11N13W,River–Algonquin chi,RivAlg,χ:11N13W chi,χ:11N13W,42.03163,-87.87602,0.981,False,False,,1.0,0.0,0.26,0.18,3
+χ:11N14W,11N14W,Graceland–Algonquin chi,GraAlg,χ:11N14W chi,χ:11N14W,42.031144,-87.89548,0.992,False,False,,1.0,0.0,0.26,0.21,3
+χ:11N15W,11N15W,Warrington–Algonquin chi,WarAlg,χ:11N15W chi,χ:11N15W,42.030658,-87.914941,1.008,False,False,,1.0,0.0,0.26,0.25,3
+χ:11N16W,11N16W,Marshall–Algonquin chi,MarAlg,χ:11N16W chi,χ:11N16W,42.03011,-87.9344,1.013,False,False,,1.0,0.0,0.26,0.28,3
+χ:11N17W,11N17W,Busse–Algonquin chi,BusAlg,χ:11N17W chi,χ:11N17W,42.029771,-87.953865,1.004,False,False,,1.0,0.0,0.26,0.3,3
+χ:11N18W,11N18W,Lively–State Rte 72 chi,LivSta,χ:11N18W chi,χ:11N18W,42.029431,-87.973329,0.995,False,False,,1.0,0.0,0.26,0.32,3
+χ:11N19W,11N19W,Arlington Heights–State Rte 72 chi,ArlSta,χ:11N19W chi,χ:11N19W,42.029294,-87.9928,1.007,False,False,,1.0,0.0,0.26,0.34,3
+χ:11N20W,11N20W,χ:11N20W chi,χ:11N20W,χ:11N20W chi,χ:11N20W,42.029252,-88.012273,1.093,False,False,,1.0,0.0,0.27,0.31,3
+χ:11N21W,11N21W,Martingale–Schaumburg chi,MarSch,χ:11N21W chi,χ:11N21W,42.030894,-88.031794,1.087,False,False,,1.0,0.0,0.25,0.26,3
+χ:11N22W,11N22W,National Pkwy–Schaumburg chi,NatSch,χ:11N22W chi,χ:11N22W,42.030801,-88.051266,1.012,False,False,,1.0,0.0,0.26,0.23,3
+χ:11N23W,11N23W,Summit–Schaumburg chi,SumSch,χ:11N23W chi,χ:11N23W,42.030614,-88.070735,1.013,False,False,,1.0,0.0,0.26,0.24,3
+χ:11N24W,11N24W,Cedarcrest–Schaumburg chi,CedSch,χ:11N24W chi,χ:11N24W,42.030422,-88.090708,1.065,False,False,,1.0,0.0,0.29,0.26,3
+χ:11N25W,11N25W,Braintree–Schaumburg chi,BraSch,χ:11N25W chi,χ:11N25W,42.030232,-88.110179,0.961,False,False,,1.0,0.0,0.29,0.27,3
+χ:11N26W,11N26W,Walnut Ln–Schaumburg chi,WalSch,χ:11N26W chi,χ:11N26W,42.030051,-88.129142,1.013,False,False,,1.0,0.0,0.26,0.28,3
+χ:11N27W,11N27W,Barrington–Schaumburg chi,BarSch,χ:11N27W chi,χ:11N27W,42.029863,-88.148611,1.014,False,False,,1.0,0.0,0.26,0.3,3
+χ:11N28W,11N28W,Park–Schaumburg chi,ParSch,χ:11N28W chi,χ:11N28W,42.029675,-88.16808,1.014,False,False,,1.0,0.0,0.26,0.31,3
+χ:11N29W,11N29W,Bartlett–Schaumburg chi,BarSch,χ:11N29W chi,χ:11N29W,42.029488,-88.187549,0.999,True,False,frame,0.984,0.0,0.26,0.32,3
+χ:11N2W,11N2W,Sheridan–Lee chi,SheLee,χ:11N3W chi,χ:11N3W,42.035631,-87.670724,0.087,True,False,shore,1.0,0.0,0.24,0.0,3
+χ:11N30W,11N30W,State Rte 59–Schaumburg chi,StaSch,χ:11N30W chi,χ:11N30W,42.0293,-88.207019,0.514,True,False,frame,0.506,0.0,0.26,0.33,3
+χ:11N31W,11N31W,Rohrssen–Schaumburg chi,RohSch,χ:11N31W chi,χ:11N31W,42.029112,-88.226488,0.007,True,False,frame,0.007,0.0,0.26,0.35,3
+χ:11N3W,11N3W,Custer–Main chi,CusMai,χ:11N3W chi,χ:11N3W,42.033947,-87.680783,0.973,False,False,,1.0,0.0,0.23,0.02,3
+χ:11N4W,11N4W,Dodge–Main chi,DodMai,χ:11N4W chi,χ:11N4W,42.033772,-87.700115,1.02,False,False,,1.0,0.0,0.22,0.02,3
+χ:11N5W,11N5W,Lawndale–Main chi,LawMai,χ:11N5W chi,χ:11N5W,42.033597,-87.720213,1.049,False,False,,1.0,0.0,0.25,0.04,3
+χ:11N6W,11N6W,Kilbourn–Main chi,KilMai,χ:11N6W chi,χ:11N6W,42.033596,-87.739895,0.98,False,False,,1.0,0.0,0.27,0.03,3
+χ:11N7W,11N7W,Lincoln–Main chi,LinMai,χ:11N7W chi,χ:11N7W,42.033657,-87.758525,0.947,False,False,,1.0,0.0,0.22,0.03,3
+χ:11N8W,11N8W,Austin–Main chi,AusMai,χ:11N8W chi,χ:11N8W,42.033504,-87.777801,1.044,False,False,,1.0,0.0,0.21,0.05,3
+χ:11N9W,11N9W,Caldwell–Main chi,CalMai,χ:11N9W chi,χ:11N9W,42.033339,-87.797641,0.993,False,False,,1.0,0.0,0.23,0.06,3
+χ:11S10W,11S10W,76th–91st chi,7691,Oriole–91st chi,Ori91,41.726014,-87.808527,1.002,False,False,,1.0,0.0,-0.21,0.26,2
+χ:11S11W,11S11W,84th–91st chi,8491,Cumberland–91st chi,Cum91,41.725651,-87.827909,1.001,False,False,,1.0,0.0,-0.21,0.29,2
+χ:11S12W,11S12W,Kean–89th chi,Kea89,χ:11S12W chi,χ:11S12W,41.72529,-87.847213,0.481,True,False,frame,0.484,0.0,-0.22,0.31,3
+χ:11S1E,11S1E,Vernon–91st chi,Ver91,Martin Luther King–91st chi,Mar91,41.729112,-87.614323,0.997,False,False,,1.0,1.0,,,
+χ:11S1W,11S1W,Eggleston–91st chi,Egg91,River–91st chi,Riv91,41.728837,-87.633602,0.999,False,False,,1.0,1.0,,,
+χ:11S20W,11S20W,Lemont–Frontage chi,LemFro,χ:11S20W chi,χ:11S20W,41.722896,-88.003111,0.001,True,False,frame,0.001,0.0,-0.21,0.48,3
+χ:11S21W,11S21W,Woodward–Boughton chi,WooBou,χ:11S21W chi,χ:11S21W,41.723178,-88.024233,0.823,True,False,frame,0.75,0.0,-0.13,0.46,3
+χ:11S22W,11S22W,Pinecrest–Boughton chi,PinBou,χ:11S22W chi,χ:11S22W,41.72287,-88.045327,1.097,False,False,,1.0,0.0,-0.04,0.48,3
+χ:11S23W,11S23W,State Rte 53–Royce chi,StaRoy,χ:11S23W chi,χ:11S23W,41.722601,-88.063916,0.565,True,False,frame,0.676,0.0,-0.09,0.5,3
+χ:11S24W,11S24W,Greene–Royce chi,GreRoy,χ:12S24W chi,χ:12S24W,41.72234,-88.080924,0.001,True,False,frame,0.001,0.0,-0.22,0.5,3
+χ:11S2E,11S2E,Woodlawn–91st chi,Woo91,Woodlawn–91st chi,Woo91,41.729392,-87.59484,1.019,False,False,,1.0,1.0,,,
+χ:11S2W,11S2W,Racine–91st chi,Rac91,Racine–91st chi,Rac91,41.728559,-87.653022,1.012,False,False,,1.0,1.0,,,
+χ:11S3E,11S3E,Jeffery–91st chi,Jef91,Jeffery–91st chi,Jef91,41.729672,-87.575216,1.011,False,False,,1.0,1.0,,,
+χ:11S3W,11S3W,Damen–91st chi,Dam91,Damen–91st chi,Dam91,41.728014,-87.672535,1.01,True,False,,1.0,1.0,,,
+χ:11S4E,11S4E,Muskegon–91st chi,Mus91,Burnham–91st chi,Bur91,41.729953,-87.555456,1.033,False,False,,1.0,1.0,,,
+χ:11S4W,11S4W,California–91st chi,Cal91,California–91st chi,Cal91,41.727873,-87.69207,1.013,False,False,,1.0,0.0,-0.2,0.12,1
+χ:11S5E,11S5E,Ewing–93rd chi,Ewi93,Avenue L–91st chi,L91,41.727329,-87.535468,0.837,True,False,"city,frame,shore",0.876,1.0,-0.24,-0.03,3
+χ:11S5W,11S5W,Central Park–83rd chi,Cen83,Central Park–91st chi,Cen91,41.727705,-87.711613,1.011,False,False,city,1.0,0.001,-0.19,0.14,1
+χ:11S6E,11S6E,Ewing–98th chi,Ewi98,χ:11S6E chi,χ:11S6E,41.727097,-87.525053,0.009,True,False,frame,0.352,1.0,,,
+χ:11S6W,11S6W,Kostner–83rd chi,Kos83,Kostner–91st chi,Kos91,41.727403,-87.731034,1.002,False,False,city,1.0,0.004,-0.19,0.16,1
+χ:11S7W,11S7W,52nd–91st chi,5291,Laramie–91st chi,Lar91,41.727153,-87.751369,1.106,False,True,,1.0,0.0,-0.15,0.18,1
+χ:11S8W,11S8W,McVicker–91st chi,McV91,Austin–91st chi,Aus91,41.726756,-87.771037,0.923,False,False,,1.0,0.0,-0.14,0.2,2
+χ:11S9W,11S9W,Oak Park–91st chi,Oak91,Oak Park–91st chi,Oak91,41.726496,-87.789433,0.962,False,False,,1.0,0.0,-0.19,0.23,2
+χ:12N10W,12N10W,Oriole–Church chi,OriChu,χ:12N10W chi,χ:12N10W,42.047596,-87.816067,0.988,False,False,,1.0,0.0,0.18,0.07,2
+χ:12N11W,12N11W,Cumberland–Church chi,CumChu,χ:12N11W chi,χ:12N11W,42.047312,-87.83699,1.148,False,True,,1.0,0.0,0.25,0.08,3
+χ:12N12W,12N12W,Dee–Church chi,DeeChu,χ:12N12W chi,χ:12N12W,42.047069,-87.857477,0.966,False,False,,1.0,0.0,0.31,0.13,3
+χ:12N13W,12N13W,Rand–Ballard chi,RanBal,χ:12N13W chi,χ:12N13W,42.046335,-87.876436,1.051,False,False,,1.0,0.0,0.28,0.16,3
+χ:12N14W,12N14W,2nd–Us Hwy 14 chi,2Us,χ:12N14W chi,χ:12N14W,42.045983,-87.8959,1.058,False,False,,1.0,0.0,0.28,0.18,3
+χ:12N15W,12N15W,Warrington–Millers chi,WarMil,χ:12N15W chi,χ:12N15W,42.045054,-87.915348,1.026,False,False,,1.0,0.0,0.27,0.23,3
+χ:12N16W,12N16W,Maple–State Rte 58 chi,MapSta,χ:12N16W chi,χ:12N16W,42.044735,-87.934813,0.995,False,False,,1.0,0.0,0.28,0.27,3
+χ:12N17W,12N17W,We Go–Willow Ln chi,WeWil,χ:12N17W chi,χ:12N17W,42.044417,-87.954279,1.007,False,False,,1.0,0.0,0.28,0.29,3
+χ:12N18W,12N18W,Arlington Heights–Willow Ln chi,ArlWil,χ:12N18W chi,χ:12N18W,42.044098,-87.973744,1.019,False,False,,1.0,0.0,0.28,0.32,3
+χ:12N19W,12N19W,Elk Grove–Algonquin chi,ElkAlg,χ:12N19W chi,χ:12N19W,42.043991,-87.993215,1.024,False,False,,1.0,0.0,0.28,0.32,3
+χ:12N20W,12N20W,χ:12N20W chi,χ:12N20W,χ:12N20W chi,χ:12N20W,42.044948,-88.012717,1.018,False,False,,1.0,0.0,0.28,0.26,3
+χ:12N21W,12N21W,Martingale–Woodfield chi,MarWoo,χ:12N21W chi,χ:12N21W,42.045648,-88.032211,1.012,False,False,,1.0,0.0,0.28,0.21,3
+χ:12N22W,12N22W,National Pkwy–Woodfield chi,NatWoo,χ:12N22W chi,χ:12N22W,42.045461,-88.051911,1.036,False,False,,1.0,0.0,0.29,0.22,3
+χ:12N23W,12N23W,Roselle–State Rte 72 chi,RosSta,χ:12N23W chi,χ:12N23W,42.045279,-88.071537,1.006,False,False,,1.0,0.0,0.3,0.23,3
+χ:12N24W,12N24W,Jones–Berkley Ln chi,JonBer,χ:12N24W chi,χ:12N24W,42.045097,-88.091069,1.027,False,False,,1.0,0.0,0.31,0.25,3
+χ:12N25W,12N25W,Jones–State Rte 58 chi,JonSta,χ:12N25W chi,χ:12N25W,42.044912,-88.110382,0.983,False,False,,1.0,0.0,0.3,0.26,3
+χ:12N26W,12N26W,Walnut Ln–State Rte 58 chi,WalSta,χ:12N26W chi,χ:12N26W,42.044733,-88.129556,1.011,True,False,frame,0.997,0.0,0.28,0.27,3
+χ:12N27W,12N27W,Barrington–Evanston Elgin chi,BarEva,χ:12N27W chi,χ:12N27W,42.04455,-88.149025,0.355,True,False,frame,0.35,0.0,0.28,0.28,3
+χ:12N28W,12N28W,Park–State Rte 58 chi,ParSta,χ:12N28W chi,χ:12N28W,42.044366,-88.168495,0.13,True,False,frame,0.128,0.0,0.28,0.29,3
+χ:12N29W,12N29W,State Rte 59–Bode chi,StaBod,χ:12N29W chi,χ:12N29W,42.044183,-88.187964,0.143,True,False,frame,0.141,0.0,0.28,0.31,3
+χ:12N2W,12N2W,Judson–Church chi,JudChu,χ:12N3W chi,χ:12N3W,42.054002,-87.671434,0.031,True,False,shore,1.0,0.0,0.28,-0.01,3
+χ:12N30W,12N30W,χ:12N30W chi,χ:12N30W,χ:12N30W chi,χ:12N30W,42.044,-88.207433,0.03,True,False,frame,0.03,0.0,0.28,0.32,3
+χ:12N3W,12N3W,Sherman–Church chi,SheChu,χ:12N3W chi,χ:12N3W,42.049015,-87.681187,0.909,True,False,shore,1.0,0.0,0.23,0.01,3
+χ:12N4W,12N4W,Dodge–Church chi,DodChu,χ:12N4W chi,χ:12N4W,42.048314,-87.699838,1.038,False,False,,1.0,0.0,0.21,0.02,3
+χ:12N5W,12N5W,Lawndale–Church chi,LawChu,χ:12N5W chi,χ:12N5W,42.048096,-87.719963,1.035,False,False,,1.0,0.0,0.24,0.04,3
+χ:12N6W,12N6W,Kenton–Church chi,KenChu,χ:12N6W chi,χ:12N6W,42.04816,-87.739575,0.992,False,False,,1.0,0.0,0.25,0.03,3
+χ:12N7W,12N7W,Lockwood–Church chi,LocChu,χ:12N7W chi,χ:12N7W,42.048332,-87.758677,0.999,False,False,,1.0,0.0,0.23,0.02,3
+χ:12N8W,12N8W,Austin–Church chi,AusChu,χ:12N8W chi,χ:12N8W,42.048087,-87.777784,0.992,False,False,,1.0,0.0,0.21,0.04,3
+χ:12N9W,12N9W,Waukegan–Church chi,WauChu,χ:12N9W chi,χ:12N9W,42.047841,-87.796886,0.986,False,False,,1.0,0.0,0.19,0.05,3
+χ:12S10W,12S10W,76th–99th chi,7699,Oriole–99th chi,Ori99,41.71151,-87.807953,0.993,False,False,,1.0,0.0,-0.24,0.26,2
+χ:12S11W,12S11W,84th–99th chi,8499,Cumberland–99th chi,Cum99,41.711131,-87.827229,0.987,False,False,,1.0,0.0,-0.25,0.29,2
+χ:12S12W,12S12W,Kean–99th chi,Kea99,χ:12S12W chi,χ:12S12W,41.710764,-87.846475,0.345,True,False,frame,0.347,0.0,-0.26,0.31,3
+χ:12S1E,12S1E,Vernon–99th chi,Ver99,Martin Luther King–99th chi,Mar99,41.71451,-87.613964,0.996,False,False,,1.0,1.0,,,
+χ:12S1W,12S1W,Eggleston–99th chi,Egg99,River–99th chi,Riv99,41.714246,-87.633216,0.996,False,False,,1.0,1.0,,,
+χ:12S20W,12S20W,Lemont–Westgate chi,LemWes,χ:12S20W chi,χ:12S20W,41.708163,-88.002628,0.084,True,False,frame,0.076,0.0,-0.24,0.5,3
+χ:12S21W,12S21W,Woodward–Frontage chi,WooFro,χ:12S21W chi,χ:12S21W,41.708525,-88.023739,1.022,True,False,frame,0.933,0.0,-0.15,0.47,3
+χ:12S22W,12S22W,Pinecrest–Rockhurst chi,PinRoc,χ:12S22W chi,χ:12S22W,41.708213,-88.044818,1.096,False,False,,1.0,0.0,-0.07,0.49,3
+χ:12S23W,12S23W,State Rte 53–Falconridge chi,StaFal,χ:13S23W chi,χ:13S23W,41.707935,-88.063519,0.809,True,False,frame,0.954,0.0,-0.11,0.51,3
+χ:12S24W,12S24W,State Rte 53–Boughton chi,StaBou,χ:13S24W chi,χ:13S24W,41.707693,-88.079839,0.754,True,False,frame,0.888,0.0,-0.27,0.53,3
+χ:12S25W,12S25W,Orchard–Boughton chi,OrcBou,χ:13S25W chi,χ:13S25W,41.707408,-88.099147,0.627,True,False,frame,0.54,0.0,-0.28,0.55,3
+χ:12S26W,12S26W,Naperville–Boughton chi,NapBou,χ:13S26W chi,χ:13S26W,41.707098,-88.120031,0.317,True,False,frame,0.313,0.0,-0.21,0.57,3
+χ:12S27W,12S27W,Palmer–Knoch Knolls chi,PalKno,χ:13S27W chi,χ:13S27W,41.706809,-88.1395,0.337,True,False,frame,0.333,0.0,-0.21,0.59,3
+χ:12S28W,12S28W,Plainfield Naperville–Knoch Knolls chi,PlaKno,χ:13S28W chi,χ:13S28W,41.706521,-88.158969,0.031,True,False,frame,0.03,0.0,-0.21,0.61,3
+χ:12S2E,12S2E,Woodlawn–99th chi,Woo99,Woodlawn–99th chi,Woo99,41.714778,-87.59444,1.028,False,False,,1.0,1.0,,,
+χ:12S2W,12S2W,Racine–99th chi,Rac99,Racine–99th chi,Rac99,41.71398,-87.652624,1.008,False,False,,1.0,1.0,,,
+χ:12S3E,12S3E,Jeffery–99th chi,Jef99,Jeffery–99th chi,Jef99,41.715048,-87.574718,1.02,False,False,,1.0,1.0,,,
+χ:12S3W,12S3W,Damen–99th chi,Dam99,Damen–99th chi,Dam99,41.713713,-87.672041,0.993,False,False,,1.0,1.0,,,
+χ:12S4E,12S4E,Muskegon–99th chi,Mus99,Burnham–99th chi,Bur99,41.715316,-87.555091,1.022,False,False,,1.0,1.0,,,
+χ:12S4W,12S4W,California–99th chi,Cal99,California–99th chi,Cal99,41.713808,-87.691583,1.016,False,False,city,1.0,0.296,-0.22,0.13,1
+χ:12S5E,12S5E,Avenue L–99th chi,L99,Avenue L–99th chi,L99,41.715577,-87.536935,0.849,True,False,"city,frame,shore",0.869,0.996,-0.24,-0.02,3
+χ:12S5W,12S5W,Central Park–99th chi,Cen99,Central Park–99th chi,Cen99,41.716727,-87.711312,1.004,False,False,city,1.0,0.251,-0.21,0.15,1
+χ:12S6E,12S6E,Indianapolis–102nd chi,Ind102,χ:12S6E chi,χ:12S6E,41.709238,-87.521507,0.023,True,False,"city,frame,shore",0.627,0.52,-0.25,-0.04,3
+χ:12S6W,12S6W,Kostner–101st chi,Kos101,Kostner–99th chi,Kos99,41.709493,-87.730587,0.985,False,False,,1.0,0.0,-0.21,0.16,1
+χ:12S7W,12S7W,52nd–99th chi,5299,Laramie–99th chi,Lar99,41.71263,-87.750561,1.053,False,False,,1.0,0.0,-0.19,0.18,1
+χ:12S8W,12S8W,Austin–99th chi,Aus99,Austin–99th chi,Aus99,41.712382,-87.770211,0.97,False,False,,1.0,0.0,-0.18,0.21,2
+χ:12S9W,12S9W,Oak Park–99th chi,Oak99,Oak Park–99th chi,Oak99,41.711882,-87.788938,0.964,False,False,,1.0,0.0,-0.22,0.23,2
+χ:13N10W,13N10W,Shermer–Harrison chi,SheHar,χ:13N10W chi,χ:13N10W,42.062131,-87.816052,0.969,False,False,,1.0,0.0,0.18,0.07,2
+χ:13N11W,13N11W,Glendale–Harrison chi,GleHar,χ:13N11W chi,χ:13N11W,42.061929,-87.837458,1.244,False,True,,1.0,0.0,0.28,0.09,2
+χ:13N12W,13N12W,Dee–Central Pkwy chi,DeeCen,χ:13N12W chi,χ:13N12W,42.061705,-87.858272,0.937,False,False,,1.0,0.0,0.35,0.1,3
+χ:13N13W,13N13W,χ:13N13W chi,χ:13N13W,χ:13N13W chi,χ:13N13W,42.061527,-87.876866,1.043,False,False,,1.0,0.0,0.3,0.11,3
+χ:13N14W,13N14W,Us Hwy 45–State Rte 58 chi,UsSta,χ:13N14W chi,χ:13N14W,42.0604,-87.896308,0.993,False,False,,1.0,0.0,0.29,0.16,3
+χ:13N15W,13N15W,Us Hwy 12–Lincoln chi,UsLin,χ:13N15W chi,χ:13N15W,42.059915,-87.915769,0.963,False,False,,1.0,0.0,0.3,0.24,3
+χ:13N16W,13N16W,Emerson–Lincoln chi,EmeLin,χ:13N16W chi,χ:13N16W,42.059155,-87.935567,1.031,False,False,,1.0,0.0,0.32,0.27,3
+χ:13N17W,13N17W,We Go–Lincoln chi,WeLin,χ:13N17W chi,χ:13N17W,42.05901,-87.955031,0.973,False,False,,1.0,0.0,0.32,0.29,3
+χ:13N18W,13N18W,Arlington Heights–Lincoln chi,ArlLin,χ:13N18W chi,χ:13N18W,42.058863,-87.974162,1.019,False,False,,1.0,0.0,0.3,0.3,3
+χ:13N19W,13N19W,Fernandez–Noyes chi,FerNoy,χ:13N19W chi,χ:13N19W,42.05883,-87.993635,1.024,False,False,,1.0,0.0,0.3,0.3,3
+χ:13N20W,13N20W,Wilke–Algonquin chi,WilAlg,χ:13N20W chi,χ:13N20W,42.05969,-88.013133,1.018,False,False,,1.0,0.0,0.3,0.24,3
+χ:13N21W,13N21W,Frontage–Algonquin chi,FroAlg,χ:13N21W chi,χ:13N21W,42.060301,-88.03296,1.046,False,False,,1.0,0.0,0.32,0.19,3
+χ:13N22W,13N22W,Meacham–Commerce chi,MeaCom,χ:13N22W chi,χ:13N22W,42.060126,-88.052797,1.017,False,False,,1.0,0.0,0.34,0.21,3
+χ:13N23W,13N23W,Roselle–Commerce chi,RosCom,χ:13N23W chi,χ:13N23W,42.059946,-88.072099,0.944,True,False,frame,0.953,0.0,0.33,0.22,3
+χ:13N24W,13N24W,Jones–Hillcrest chi,JonHil,χ:13N24W chi,χ:13N24W,42.059769,-88.091288,0.933,True,False,frame,0.928,0.0,0.32,0.23,3
+χ:13N25W,13N25W,Jones–Hillcrest chi,JonHil,χ:13N25W chi,χ:13N25W,42.059592,-88.110596,0.943,True,False,frame,0.94,0.0,0.31,0.24,3
+χ:13N26W,13N26W,χ:13N26W chi,χ:13N26W,χ:13N26W chi,χ:13N26W,42.059415,-88.12997,0.901,True,False,frame,0.889,0.0,0.3,0.26,3
+χ:13N27W,13N27W,Barrington–Shoe Factory chi,BarSho,χ:13N27W chi,χ:13N27W,42.059236,-88.14944,0.087,True,False,frame,0.086,0.0,0.3,0.27,3
+χ:13N2W,13N2W,Sheridan–Noyes chi,SheNoy,χ:13N3W chi,χ:13N3W,42.057154,-87.671758,0.011,True,False,shore,1.0,0.0,0.29,0.01,3
+χ:13N3W,13N3W,Sherman–Lincoln chi,SheLin,χ:13N3W chi,χ:13N3W,42.065097,-87.682587,0.696,True,False,shore,1.0,0.0,0.24,0.06,3
+χ:13N4W,13N4W,Dodge–Lincoln chi,DodLin,χ:13N4W chi,χ:13N4W,42.062253,-87.699556,0.944,False,False,,1.0,0.0,0.2,0.06,3
+χ:13N5W,13N5W,Lawndale–Lincoln chi,LawLin,χ:13N5W chi,χ:13N5W,42.062242,-87.719616,0.977,False,False,,1.0,0.0,0.23,0.06,3
+χ:13N6W,13N6W,Kenton–Old Orchard chi,KenOld,χ:13N6W chi,χ:13N6W,42.06255,-87.739258,0.965,False,False,,1.0,0.0,0.23,0.03,3
+χ:13N7W,13N7W,Laramie–Old Orchard chi,LarOld,χ:13N7W chi,χ:13N7W,42.062956,-87.758494,0.981,False,False,,1.0,0.0,0.22,0.01,3
+χ:13N8W,13N8W,Wagner–Old Orchard chi,WagOld,χ:13N8W chi,χ:13N8W,42.062512,-87.77774,0.975,False,False,,1.0,0.0,0.21,0.04,3
+χ:13N9W,13N9W,Waukegan–Harrison chi,WauHar,χ:13N9W chi,χ:13N9W,42.06232,-87.796979,0.972,False,False,,1.0,0.0,0.2,0.06,3
+χ:13S10W,13S10W,Southwest–107th chi,Sou107,Oriole–107th chi,Ori107,41.696889,-87.807394,1.011,False,False,,1.0,0.0,-0.27,0.27,2
+χ:13S11W,13S11W,84th–107th chi,84107,Cumberland–107th chi,Cum107,41.69648,-87.826574,0.892,True,False,frame,0.888,0.0,-0.28,0.3,2
+χ:13S12W,13S12W,Kean–107th chi,Kea107,χ:13S12W chi,χ:13S12W,41.696069,-87.846122,0.051,True,False,frame,0.048,0.0,-0.28,0.33,3
+χ:13S1E,13S1E,Vernon–107th chi,Ver107,Martin Luther King–107th chi,Mar107,41.699878,-87.613604,0.999,False,False,,1.0,1.0,,,
+χ:13S1W,13S1W,Princeton–107th chi,Pri107,River–107th chi,Riv107,41.699634,-87.632829,1.0,False,False,,1.0,1.0,,,
+χ:13S20W,13S20W,Lemont–Quarry chi,LemQua,χ:14S20W chi,χ:14S20W,41.692744,-88.002383,0.178,True,False,frame,0.158,0.0,-0.24,0.54,3
+χ:13S21W,13S21W,Woodward–Internationale Pkwy chi,WooInt,χ:14S21W chi,χ:14S21W,41.692962,-88.022719,0.446,True,False,frame,0.375,0.0,-0.21,0.54,3
+χ:13S22W,13S22W,Joliet–Internationale Pkwy chi,JolInt,χ:14S22W chi,χ:14S22W,41.692586,-88.043826,1.193,True,False,frame,0.917,0.0,-0.12,0.58,3
+χ:13S23W,13S23W,State Rte 53–Lily Cache Ln chi,StaLil,χ:14S23W chi,χ:14S23W,41.692208,-88.06296,0.974,False,False,,1.0,0.0,-0.14,0.6,3
+χ:13S24W,13S24W,State Rte 53–Lily Cache Ln chi,StaLil,χ:14S24W chi,χ:14S24W,41.691904,-88.079261,0.981,False,False,,1.0,0.0,-0.3,0.62,3
+χ:13S25W,13S25W,Orchard–Lily Cache Ln chi,OrcLil,χ:14S25W chi,χ:14S25W,41.691554,-88.098629,1.362,False,True,,1.0,0.0,-0.31,0.64,3
+χ:13S26W,13S26W,Naperville–Lily Cache Ln chi,NapLil,χ:14S26W chi,χ:14S26W,41.691156,-88.119581,1.193,False,True,,1.0,0.0,-0.23,0.67,3
+χ:13S27W,13S27W,Palmer–Boughton chi,PalBou,χ:14S27W chi,χ:14S27W,41.690792,-88.139048,1.156,True,False,frame,0.961,0.0,-0.23,0.69,3
+χ:13S28W,13S28W,Plainfield Naperville–Boughton chi,PlaBou,χ:14S28W chi,χ:14S28W,41.690429,-88.158515,0.146,True,False,frame,0.12,0.0,-0.23,0.72,3
+χ:13S2E,13S2E,Woodlawn–107th chi,Woo107,Woodlawn–107th chi,Woo107,41.700126,-87.594039,1.038,False,False,,1.0,1.0,,,
+χ:13S2W,13S2W,Racine–107th chi,Rac107,Racine–107th chi,Rac107,41.699387,-87.652226,1.015,False,False,,1.0,1.0,,,
+χ:13S3E,13S3E,Jeffery–107th chi,Jef107,Jeffery–107th chi,Jef107,41.700378,-87.574218,1.028,False,False,,1.0,1.0,,,
+χ:13S3W,13S3W,Longwood–107th chi,Lon107,Damen–107th chi,Dam107,41.699141,-87.671637,1.0,False,False,,1.0,1.0,,,
+χ:13S4E,13S4E,Muskegon–107th chi,Mus107,Burnham–107th chi,Bur107,41.700624,-87.554726,1.005,False,False,,1.0,1.0,,,
+χ:13S4W,13S4W,California–107th chi,Cal107,California–107th chi,Cal107,41.698893,-87.69117,1.026,False,False,,1.0,1.0,,,
+χ:13S5E,13S5E,Avenue L–107th chi,L107,Avenue L–107th chi,L107,41.700869,-87.535447,1.007,False,False,,1.0,1.0,,,
+χ:13S5W,13S5W,Central Park–107th chi,Cen107,Central Park–107th chi,Cen107,41.700901,-87.7109,1.012,False,False,city,1.0,1.0,-0.23,0.15,1
+χ:13S6E,13S6E,Indianapolis–107th chi,Ind107,χ:13S6E chi,χ:13S6E,41.69952,-87.519735,0.574,True,False,"city,frame,shore",0.941,0.105,-0.23,-0.02,3
+χ:13S6W,13S6W,Kostner–105th chi,Kos105,Kostner–107th chi,Kos107,41.700776,-87.730298,0.995,False,False,,1.0,0.0,-0.23,0.17,1
+χ:13S7E,13S7E,χ:13S7E chi,χ:13S7E,χ:13S7E chi,χ:13S7E,41.694353,-87.505838,0.007,True,False,"frame,shore",0.992,0.0,-0.23,-0.05,3
+χ:13S7W,13S7W,Cook–107th chi,Coo107,Laramie–107th chi,Lar107,41.698116,-87.750208,1.07,False,False,,1.0,0.0,-0.21,0.19,1
+χ:13S8W,13S8W,Austin–107th chi,Aus107,Austin–107th chi,Aus107,41.697781,-87.76989,0.962,False,False,,1.0,0.0,-0.19,0.2,2
+χ:13S9W,13S9W,Oak Park–107th chi,Oak107,Oak Park–107th chi,Oak107,41.697294,-87.788462,0.973,False,False,,1.0,0.0,-0.24,0.24,2
+χ:14N10W,14N10W,Patriot–Lake chi,PatLak,χ:14N10W chi,χ:14N10W,42.076567,-87.816036,0.954,False,False,,1.0,0.0,0.18,0.08,3
+χ:14N11W,14N11W,Glendale–Knollwood Ln chi,GleKno,χ:14N11W chi,χ:14N11W,42.076493,-87.837304,1.236,False,True,,1.0,0.0,0.27,0.08,3
+χ:14N12W,14N12W,State Rte 21–Knollwood Ln chi,StaKno,χ:14N12W chi,χ:14N12W,42.076415,-87.858422,0.944,False,False,,1.0,0.0,0.35,0.08,3
+χ:14N13W,14N13W,χ:14N13W chi,χ:14N13W,χ:14N13W chi,χ:14N13W,42.074779,-87.877241,0.901,False,False,,1.0,0.0,0.3,0.14,3
+χ:14N14W,14N14W,χ:14N14W chi,χ:14N14W,χ:14N14W chi,χ:14N14W,42.074734,-87.896714,0.865,False,True,,1.0,0.0,0.33,0.23,3
+χ:14N15W,14N15W,Albert–Henry chi,AlbHen,χ:14N15W chi,χ:14N15W,42.073812,-87.916162,0.963,False,False,,1.0,0.0,0.32,0.27,3
+χ:14N16W,14N16W,State Rte 83–Gregory chi,StaGre,χ:14N16W chi,χ:14N16W,42.073532,-87.936206,1.056,False,False,,1.0,0.0,0.35,0.28,3
+χ:14N17W,14N17W,Waterman–Gregory chi,WatGre,χ:14N17W chi,χ:14N17W,42.073557,-87.955634,0.944,False,False,,1.0,0.0,0.35,0.28,3
+χ:14N18W,14N18W,Douglas–Rockwell chi,DouRoc,χ:14N18W chi,χ:14N18W,42.07358,-87.974553,1.027,False,False,,1.0,0.0,0.32,0.28,3
+χ:14N19W,14N19W,Kaspar–Rockwell chi,KasRoc,χ:14N19W chi,χ:14N19W,42.073675,-87.994165,1.032,False,False,,1.0,0.0,0.33,0.27,3
+χ:14N20W,14N20W,Meadow–Kirchoff chi,MeaKir,χ:14N20W chi,χ:14N20W,42.074436,-88.013786,1.022,False,False,,1.0,0.0,0.33,0.22,3
+χ:14N21W,14N21W,Frontage–Sigwalt chi,FroSig,χ:14N21W chi,χ:14N21W,42.074963,-88.033734,1.053,False,False,,1.0,0.0,0.36,0.19,3
+χ:14N22W,14N22W,Brockway–Algonquin chi,BroAlg,χ:14N22W chi,χ:14N22W,42.074786,-88.053274,0.978,False,False,,1.0,0.0,0.36,0.2,3
+χ:14N23W,14N23W,Roselle–Algonquin chi,RosAlg,χ:14N23W chi,χ:14N23W,42.074616,-88.072197,0.474,True,False,frame,0.478,0.0,0.34,0.21,3
+χ:14N3W,14N3W,Sheridan–Linden chi,SheLin,χ:14N3W chi,χ:14N3W,42.073721,-87.68521,0.347,True,False,shore,1.0,0.0,0.23,0.09,3
+χ:14N4W,14N4W,9th–Greenleaf chi,9Gre,χ:14N4W chi,χ:14N4W,42.075472,-87.699945,1.045,True,False,shore,1.0,0.0,0.22,0.12,3
+χ:14N5W,14N5W,Lawndale–Lake chi,LawLak,χ:14N5W chi,χ:14N5W,42.076073,-87.720562,0.979,False,False,,1.0,0.0,0.27,0.11,3
+χ:14N6W,14N6W,Locust–Lake chi,LocLak,χ:14N6W chi,χ:14N6W,42.07677,-87.740124,0.968,True,False,frame,0.991,0.0,0.28,0.05,3
+χ:14N7W,14N7W,Laramie–Lake chi,LarLak,χ:14N7W chi,χ:14N7W,42.07741,-87.759542,0.982,True,False,frame,0.978,0.0,0.27,0.01,3
+χ:14N8W,14N8W,Wagner–Lake chi,WagLak,χ:14N8W chi,χ:14N8W,42.076954,-87.778924,1.003,False,False,,1.0,0.0,0.27,0.04,3
+χ:14N9W,14N9W,Waukegan–Lake chi,WauLak,χ:14N9W chi,χ:14N9W,42.076634,-87.797687,0.93,False,False,,1.0,0.0,0.23,0.08,3
+χ:14S10E,14S10E,χ:14S11E chi,χ:14S11E,χ:14S11E chi,χ:14S11E,41.683371,-87.431273,0.135,True,False,shore,1.0,0.0,-0.25,-0.13,3
+χ:14S10W,14S10W,76th–115th chi,76115,Oriole–115th chi,Ori115,41.682326,-87.806835,0.707,True,False,frame,0.726,0.0,-0.3,0.28,2
+χ:14S11E,14S11E,χ:14S11E chi,χ:14S11E,χ:14S11E chi,χ:14S11E,41.685942,-87.420584,0.437,True,False,shore,1.0,0.0,-0.25,-0.15,3
+χ:14S11W,14S11W,State Rte 83–Calumet Sag chi,StaCal,Cumberland–115th chi,Cum115,41.681895,-87.826019,0.111,True,False,frame,0.113,0.0,-0.31,0.31,2
+χ:14S1E,14S1E,Front–115th chi,Fro115,Martin Luther King–115th chi,Mar115,41.685267,-87.613245,0.988,False,False,,1.0,1.0,,,
+χ:14S1W,14S1W,Princeton–115th chi,Pri115,River–115th chi,Riv115,41.68505,-87.632443,0.988,False,False,,1.0,1.0,,,
+χ:14S22W,14S22W,χ:15S22W chi,χ:15S22W,χ:15S22W chi,χ:15S22W,41.677016,-88.042903,0.727,True,False,frame,0.629,0.0,-0.17,0.64,3
+χ:14S23W,14S23W,Bolingbrook–Bluff chi,BolBlu,χ:15S23W chi,χ:15S23W,41.676577,-88.062403,0.829,False,True,,1.0,0.0,-0.17,0.67,3
+χ:14S24W,14S24W,State Rte 53–Crossroads Pkwy chi,StaCro,χ:15S24W chi,χ:15S24W,41.676211,-88.078685,0.829,False,True,,1.0,0.0,-0.33,0.7,3
+χ:14S25W,14S25W,Naperville–Remington chi,NapRem,χ:15S25W chi,χ:15S25W,41.675775,-88.098113,1.15,False,True,,1.0,0.0,-0.33,0.73,3
+χ:14S26W,14S26W,Weber–115th chi,Web115,χ:15S26W chi,χ:15S26W,41.675301,-88.119134,0.992,False,False,,1.0,0.0,-0.25,0.76,3
+χ:14S27W,14S27W,Dalton Ln–115th chi,Dal115,χ:15S27W chi,χ:15S27W,41.674864,-88.138599,0.895,True,False,frame,0.903,0.0,-0.25,0.79,3
+χ:14S28W,14S28W,Essington–Hassert chi,EssHas,χ:15S28W chi,χ:15S28W,41.674426,-88.158064,0.058,True,False,frame,0.059,0.0,-0.25,0.82,3
+χ:14S2E,14S2E,Doty–115th chi,Dot115,Woodlawn–115th chi,Woo115,41.685488,-87.593638,1.036,False,False,,1.0,1.0,,,
+χ:14S2W,14S2W,Racine–115th chi,Rac115,Racine–115th chi,Rac115,41.684832,-87.651829,1.002,False,False,,1.0,1.0,,,
+χ:14S3E,14S3E,Jeffery–115th chi,Jef115,Jeffery–115th chi,Jef115,41.685713,-87.573719,1.026,False,False,,1.0,1.0,,,
+χ:14S3W,14S3W,Longwood–115th chi,Lon115,Damen–115th chi,Dam115,41.684613,-87.671235,0.984,False,False,city,1.0,1.0,-0.26,0.12,1
+χ:14S4E,14S4E,Escanaba–115th chi,Esc115,Burnham–115th chi,Bur115,41.685931,-87.55436,0.984,False,False,,1.0,1.0,,,
+χ:14S4W,14S4W,Maplewood–115th chi,Map115,California–115th chi,Cal115,41.687866,-87.690864,1.009,False,False,city,1.0,0.57,-0.26,0.13,1
+χ:14S5E,14S5E,Avenue L–115th chi,L115,Avenue L–115th chi,L115,41.686145,-87.535435,0.987,False,False,,1.0,1.0,,,
+χ:14S5W,14S5W,Central Park–115th chi,Cen115,Central Park–115th chi,Cen115,41.684114,-87.710417,0.991,False,False,city,1.0,0.585,-0.25,0.15,1
+χ:14S6E,14S6E,Avenue L–112th chi,L112,χ:14S6E chi,χ:14S6E,41.686359,-87.516499,0.99,False,False,city,1.0,0.068,-0.21,-0.01,3
+χ:14S6W,14S6W,Hamlin–115th chi,Ham115,Kostner–115th chi,Kos115,41.687406,-87.729932,0.977,False,False,city,1.0,0.51,-0.25,0.16,1
+χ:14S7E,14S7E,Lake–117th chi,Lak117,χ:14S7E chi,χ:14S7E,41.686532,-87.500855,0.589,True,False,"frame,shore",0.962,0.0,-0.23,-0.04,3
+χ:14S7W,14S7W,Laramie–115th chi,Lar115,Laramie–115th chi,Lar115,41.687184,-87.750486,1.103,False,True,,1.0,0.0,-0.2,0.18,1
+χ:14S8E,14S8E,Schrage–117th chi,Sch117,χ:14S8E chi,χ:14S8E,41.682263,-87.485364,0.0,True,False,"frame,shore",0.001,0.0,-0.25,-0.09,3
+χ:14S8W,14S8W,Nagle–115th chi,Nag115,Austin–115th chi,Aus115,41.683309,-87.770026,0.882,False,True,,1.0,0.0,-0.19,0.21,2
+χ:14S9E,14S9E,χ:14S10E chi,χ:14S10E,χ:14S10E chi,χ:14S10E,41.682075,-87.450874,0.074,True,False,shore,1.0,0.0,-0.25,-0.11,3
+χ:14S9W,14S9W,Oak Park–115th chi,Oak115,Oak Park–115th chi,Oak115,41.682749,-87.787988,0.941,False,False,,1.0,0.0,-0.26,0.25,2
+χ:15N10W,15N10W,Lehigh–Chestnut chi,LehChe,χ:15N10W chi,χ:15N10W,42.091066,-87.81776,0.973,False,False,,1.0,0.0,0.27,0.07,3
+χ:15N11W,15N11W,Longmeadow–Lake chi,LonLak,χ:15N11W chi,χ:15N11W,42.091037,-87.838198,1.132,False,True,,1.0,0.0,0.31,0.09,3
+χ:15N12W,15N12W,Landwehr–Lake chi,LanLak,χ:15N12W chi,χ:15N12W,42.091,-87.858571,0.971,False,False,,1.0,0.0,0.36,0.08,3
+χ:15N13W,15N13W,Sanders–Lake chi,SanLak,χ:15N13W chi,χ:15N13W,42.089925,-87.87767,1.046,False,False,,1.0,0.0,0.35,0.17,3
+χ:15N14W,15N14W,Burning Bush Ln–Euclid chi,BurEuc,χ:15N14W chi,χ:15N14W,42.088385,-87.897101,1.083,False,False,,1.0,0.0,0.34,0.26,3
+χ:15N15W,15N15W,Wheeling–Euclid chi,WheEuc,χ:15N15W chi,χ:15N15W,42.088488,-87.916577,1.134,False,True,,1.0,0.0,0.35,0.22,3
+χ:15N16W,15N16W,State Rte 83–Euclid chi,StaEuc,χ:15N16W chi,χ:15N16W,42.088109,-87.93641,1.136,False,True,,1.0,0.0,0.35,0.24,3
+χ:15N17W,15N17W,Waterman–Euclid chi,WatEuc,χ:15N17W chi,χ:15N17W,42.088161,-87.955853,0.964,False,False,,1.0,0.0,0.36,0.27,2
+χ:15N18W,15N18W,Douglas–Euclid chi,DouEuc,χ:15N18W chi,χ:15N18W,42.088253,-87.975024,1.012,False,False,,1.0,0.0,0.34,0.27,3
+χ:15N19W,15N19W,Kennicott–Euclid chi,KenEuc,χ:15N19W chi,χ:15N19W,42.088347,-87.994684,1.01,False,False,,1.0,0.0,0.35,0.26,3
+χ:15N20W,15N20W,Meadow–Euclid chi,MeaEuc,χ:15N20W chi,χ:15N20W,42.088999,-88.014351,0.968,False,False,,1.0,0.0,0.36,0.24,3
+χ:15N21W,15N21W,Hicks–Euclid chi,HicEuc,χ:15N21W chi,χ:15N21W,42.089036,-88.033999,0.974,False,False,,1.0,0.0,0.38,0.2,3
+χ:15N22W,15N22W,Cedar–Euclid chi,CedEuc,χ:15N22W chi,χ:15N22W,42.089453,-88.0533,0.983,True,False,frame,0.998,0.0,0.36,0.18,3
+χ:15N23W,15N23W,Roselle–Euclid chi,RosEuc,χ:15N23W chi,χ:15N23W,42.089286,-88.072453,0.271,True,False,frame,0.269,0.0,0.35,0.19,3
+χ:15N4W,15N4W,Sheridan–Kenilworth chi,SheKen,χ:15N5W chi,χ:15N5W,42.089654,-87.707288,0.482,True,False,shore,1.0,0.0,0.29,0.08,3
+χ:15N5W,15N5W,Green Bay–Winnetka chi,GreWin,χ:15N5W chi,χ:15N5W,42.08995,-87.72188,1.12,True,False,shore,1.0,0.0,0.34,0.05,3
+χ:15N6W,15N6W,Locust–Winnetka chi,LocWin,χ:15N6W chi,χ:15N6W,42.092081,-87.741414,0.421,True,False,frame,0.396,0.0,0.33,0.02,3
+χ:15N7W,15N7W,Laramie–Winnetka chi,LarWin,χ:15N7W chi,χ:15N7W,42.091997,-87.760885,0.152,True,False,frame,0.151,0.0,0.34,0.01,3
+χ:15N8W,15N8W,Wagner–Pleasant Ln chi,WagPle,χ:15N8W chi,χ:15N8W,42.091468,-87.780344,0.743,True,False,frame,0.741,0.0,0.34,0.04,3
+χ:15N9W,15N9W,Waukegan–Pleasant Ln chi,WauPle,χ:15N9W chi,χ:15N9W,42.091094,-87.799184,0.935,False,False,,1.0,0.0,0.31,0.06,3
+χ:15S10E,15S10E,χ:15S11E chi,χ:15S11E,χ:15S11E chi,χ:15S11E,41.674753,-87.43257,0.664,True,False,shore,1.0,0.0,-0.28,-0.13,3
+χ:15S10W,15S10W,76th–122nd chi,76122,Oriole–123rd chi,Ori123,41.667801,-87.806256,0.141,True,False,frame,0.142,0.0,-0.33,0.28,2
+χ:15S11E,15S11E,χ:15S11E chi,χ:15S11E,χ:15S11E chi,χ:15S11E,41.672502,-87.419342,0.854,True,False,shore,1.0,0.0,-0.28,-0.15,3
+χ:15S12E,15S12E,χ:14S12E chi,χ:14S12E,χ:14S12E chi,χ:14S12E,41.680551,-87.408257,0.001,True,False,shore,1.0,0.0,-0.28,-0.17,3
+χ:15S1E,15S1E,Front–122nd chi,Fro122,Martin Luther King–123rd chi,Mar123,41.670862,-87.612891,0.975,False,False,,1.0,1.0,,,
+χ:15S1W,15S1W,Harvard–123rd chi,Har123,River–123rd chi,Riv123,41.6732,-87.632129,0.987,False,False,city,1.0,1.0,-0.27,0.09,1
+χ:15S22W,15S22W,χ:16S22W chi,χ:16S22W,χ:16S22W chi,χ:16S22W,41.662793,-88.041696,0.081,True,False,frame,0.077,0.0,-0.23,0.61,3
+χ:15S23W,15S23W,χ:16S23W chi,χ:16S23W,χ:16S23W chi,χ:16S23W,41.662417,-88.061123,0.096,True,False,frame,0.109,0.0,-0.23,0.66,3
+χ:15S24W,15S24W,State Rte 53–Normantown chi,StaNor,χ:16S24W chi,χ:16S24W,41.66204,-88.07819,0.69,True,False,frame,0.843,0.0,-0.35,0.68,3
+χ:15S25W,15S25W,Veterans Pkwy–Naper-Romeo chi,VetNap,χ:16S25W chi,χ:16S25W,41.66136,-88.097642,1.165,False,True,,1.0,0.0,-0.36,0.72,3
+χ:15S26W,15S26W,Weber–Frontage chi,WebFro,χ:16S26W chi,χ:16S26W,41.660889,-88.118727,0.998,False,False,,1.0,0.0,-0.27,0.75,3
+χ:15S27W,15S27W,Dalton Ln–Remington chi,DalRem,χ:16S27W chi,χ:16S27W,41.660455,-88.138193,0.794,True,False,frame,0.796,0.0,-0.27,0.78,3
+χ:15S28W,15S28W,Essington–Rodeo chi,EssRod,χ:16S28W chi,χ:16S28W,41.660021,-88.157658,0.01,True,False,frame,0.01,0.0,-0.27,0.81,3
+χ:15S2E,15S2E,Doty–122nd chi,Dot122,Woodlawn–123rd chi,Woo123,41.671133,-87.593245,1.016,False,False,,1.0,1.0,,,
+χ:15S2W,15S2W,Racine–123rd chi,Rac123,Racine–123rd chi,Rac123,41.672914,-87.651503,1.012,False,False,city,1.0,0.491,-0.28,0.11,1
+χ:15S3E,15S3E,Jeffery–122nd chi,Jef122,Jeffery–123rd chi,Jef123,41.671405,-87.573231,0.993,False,False,,1.0,1.0,,,
+χ:15S3W,15S3W,Marshfield–115th chi,Mar115,Damen–123rd chi,Dam123,41.669984,-87.670829,1.008,False,False,city,1.0,0.009,-0.28,0.12,1
+χ:15S4E,15S4E,Escanaba–122nd chi,Esc122,Burnham–123rd chi,Bur123,41.671664,-87.554004,0.919,False,False,,1.0,1.0,,,
+χ:15S4W,15S4W,Highland–123rd chi,Hig123,California–123rd chi,Cal123,41.669806,-87.690364,1.046,False,False,,1.0,0.0,-0.28,0.14,1
+χ:15S5E,15S5E,Avenue L–126th chi,L126,Avenue L–123rd chi,L123,41.671917,-87.535423,0.911,False,False,,1.0,1.0,,,
+χ:15S5W,15S5W,Central Park–123rd chi,Cen123,Central Park–123rd chi,Cen123,41.669537,-87.709918,1.019,False,False,,1.0,0.0,-0.28,0.15,1
+χ:15S6E,15S6E,Avenue L–133rd chi,L133,χ:15S6E chi,χ:15S6E,41.672171,-87.51683,0.904,False,False,city,1.0,0.069,-0.19,-0.02,3
+χ:15S6W,15S6W,Kostner–123rd chi,Kos123,Kostner–123rd chi,Kos123,41.669407,-87.729225,1.019,False,False,,1.0,0.0,-0.28,0.17,1
+χ:15S7E,15S7E,Us Hwy 12–121st chi,Us121,χ:15S7E chi,χ:15S7E,41.672357,-87.496783,1.072,False,False,,1.0,0.0,-0.23,-0.05,3
+χ:15S7W,15S7W,Laramie–123rd chi,Lar123,Laramie–123rd chi,Lar123,41.66915,-87.749302,1.108,False,True,,1.0,0.0,-0.25,0.18,1
+χ:15S8E,15S8E,Schrage–121st chi,Sch121,χ:15S8E chi,χ:15S8E,41.673446,-87.479115,0.681,True,False,"frame,shore",0.912,0.0,-0.28,-0.08,3
+χ:15S8W,15S8W,State Rte 83–College chi,StaCol,Austin–123rd chi,Aus123,41.668604,-87.768851,0.977,False,False,,1.0,0.0,-0.25,0.23,2
+χ:15S9E,15S9E,Access–Riley chi,AccRil,χ:15S9E chi,χ:15S9E,41.670145,-87.456761,0.908,True,False,"frame,shore",0.987,0.0,-0.28,-0.1,3
+χ:15S9W,15S9W,69th Ct–122nd chi,69122,Oak Park–123rd chi,Oak123,41.668203,-87.787376,0.942,True,False,frame,0.967,0.0,-0.3,0.25,2
+χ:16N10W,16N10W,Lehigh–Willow chi,LehWil,χ:16N10W chi,χ:16N10W,42.105557,-87.819691,1.001,True,False,frame,1.0,0.0,0.36,0.07,3
+χ:16N11W,16N11W,Shermer–Willow chi,SheWil,χ:16N11W chi,χ:16N11W,42.105565,-87.839246,1.012,False,False,,1.0,0.0,0.37,0.07,3
+χ:16N12W,16N12W,Landwehr–Willow chi,LanWil,χ:16N12W chi,χ:16N12W,42.105573,-87.85872,0.999,False,False,,1.0,0.0,0.37,0.07,3
+χ:16N13W,16N13W,Sanders–Willow chi,SanWil,χ:16N13W chi,χ:16N13W,42.105073,-87.878099,1.046,False,False,,1.0,0.0,0.37,0.13,3
+χ:16N14W,16N14W,Burning Bush Ln–Palatine chi,BurPal,χ:16N14W chi,χ:16N14W,42.104069,-87.897545,1.083,False,False,,1.0,0.0,0.36,0.18,3
+χ:16N15W,16N15W,Wheeling–Palatine chi,WhePal,χ:16N15W chi,χ:16N15W,42.104911,-87.917042,1.046,False,False,,1.0,0.0,0.36,0.14,3
+χ:16N16W,16N16W,State Rte 83–Willow chi,StaWil,χ:16N16W chi,χ:16N16W,42.10511,-87.936649,1.105,False,True,,1.0,0.0,0.38,0.15,3
+χ:16N17W,16N17W,Us Hwy 12–Thomas chi,UsTho,χ:16N17W chi,χ:16N17W,42.103826,-87.956207,1.157,False,True,,1.0,0.0,0.38,0.19,3
+χ:16N18W,16N18W,Douglas–Thomas chi,DouTho,χ:16N18W chi,χ:16N18W,42.103783,-87.975634,1.145,False,True,,1.0,0.0,0.37,0.19,3
+χ:16N19W,16N19W,Kennicott–Thomas chi,KenTho,χ:16N19W chi,χ:16N19W,42.103739,-87.995103,1.129,False,True,,1.0,0.0,0.37,0.2,3
+χ:16N20W,16N20W,Williams–Us Hwy 14 chi,WilUs,χ:16N20W chi,χ:16N20W,42.103696,-88.014572,1.112,False,True,,1.0,0.0,0.37,0.2,3
+χ:16N21W,16N21W,Hicks–Helen chi,HicHel,χ:16N21W chi,χ:16N21W,42.104201,-88.034043,1.058,False,False,,1.0,0.0,0.37,0.18,3
+χ:16N22W,16N22W,Cedar–Helen chi,CedHel,χ:16N22W chi,χ:16N22W,42.104121,-88.053326,0.993,True,False,frame,1.0,0.0,0.37,0.17,3
+χ:16N23W,16N23W,Middleton–Kenilworth chi,MidKen,χ:16N23W chi,χ:16N23W,42.103957,-88.072709,0.448,True,False,frame,0.438,0.0,0.36,0.18,3
+χ:16N5W,16N5W,Sheridan–Elm chi,SheElm,χ:16N6W chi,χ:16N6W,42.105776,-87.727285,0.449,True,False,shore,1.0,0.0,0.36,-0.02,3
+χ:16N6W,16N6W,Locust–Elm chi,LocElm,χ:16N6W chi,χ:16N6W,42.106758,-87.74183,0.664,True,False,frame,0.66,0.0,0.36,-0.01,3
+χ:16N8W,16N8W,Wagner–Willow chi,WagWil,χ:16N8W chi,χ:16N8W,42.105992,-87.780756,0.039,True,False,frame,0.039,0.0,0.36,0.04,3
+χ:16N9W,16N9W,Waukegan–Willow chi,WauWil,χ:16N9W chi,χ:16N9W,42.105549,-87.800217,0.433,True,False,frame,0.434,0.0,0.36,0.07,3
+χ:16S10E,16S10E,χ:16S10E chi,χ:16S10E,χ:16S10E chi,χ:16S10E,41.661211,-87.437029,0.84,True,False,shore,1.0,0.0,-0.3,-0.12,3
+χ:16S11E,16S11E,χ:16S11E chi,χ:16S11E,χ:16S11E chi,χ:16S11E,41.663027,-87.422223,0.279,True,False,shore,1.0,0.0,-0.3,-0.14,3
+χ:16S1E,16S1E,St Lawrence–130th chi,St130,Martin Luther King–130th chi,Mar130,41.65575,-87.612519,0.991,False,False,city,1.0,0.851,-0.28,0.07,1
+χ:16S1W,16S1W,Parnell–128th chi,Par128,River–130th chi,Riv130,41.653264,-87.631601,1.101,False,True,city,1.0,0.359,-0.3,0.09,1
+χ:16S24W,16S24W,State Rte 53–Romeo chi,StaRom,χ:17S24W chi,χ:17S24W,41.647317,-88.077705,0.439,True,False,frame,0.522,0.0,-0.38,0.68,3
+χ:16S25W,16S25W,χ:17S25W chi,χ:17S25W,χ:17S25W chi,χ:17S25W,41.646893,-88.097169,1.168,True,False,frame,0.997,0.0,-0.38,0.72,3
+χ:16S26W,16S26W,Weber–Normantown chi,WebNor,χ:17S26W chi,χ:17S26W,41.646431,-88.11832,0.998,False,False,,1.0,0.0,-0.29,0.75,3
+χ:16S27W,16S27W,χ:17S27W chi,χ:17S27W,χ:17S27W chi,χ:17S27W,41.646006,-88.137785,0.954,True,False,frame,0.957,0.0,-0.29,0.78,3
+χ:16S28W,16S28W,Essington–Normantown chi,EssNor,χ:17S28W chi,χ:17S28W,41.645582,-88.157251,0.19,True,False,frame,0.191,0.0,-0.29,0.81,3
+χ:16S2E,16S2E,Doty–130th chi,Dot130,Woodlawn–130th chi,Woo130,41.656629,-87.592848,1.054,False,False,,1.0,1.0,,,
+χ:16S2W,16S2W,State Rte 1–Broadway chi,StaBro,Racine–130th chi,Rac130,41.653128,-87.650963,0.898,False,True,,1.0,0.0,-0.3,0.11,1
+χ:16S3E,16S3E,Jeffery–130th chi,Jef130,Jeffery–130th chi,Jef130,41.656943,-87.572739,1.044,False,False,,1.0,1.0,,,
+χ:16S3W,16S3W,Chatham–Vermont chi,ChaVer,Damen–130th chi,Dam130,41.655417,-87.670364,0.976,False,False,,1.0,0.0,-0.31,0.13,1
+χ:16S4E,16S4E,Brainard–130th chi,Bra130,Burnham–130th chi,Bur130,41.657241,-87.553645,0.956,False,False,,1.0,1.0,,,
+χ:16S4W,16S4W,Francisco–131st chi,Fra131,California–130th chi,Cal130,41.655165,-87.689783,1.002,False,False,,1.0,0.0,-0.31,0.15,1
+χ:16S5E,16S5E,Avenue L–130th chi,L130,Avenue L–130th chi,L130,41.657526,-87.535411,0.961,False,False,,1.0,1.0,,,
+χ:16S5W,16S5W,Hamlin–131st chi,Ham131,Central Park–130th chi,Cen130,41.654962,-87.709262,0.986,False,False,,1.0,0.0,-0.31,0.17,1
+χ:16S6E,16S6E,Avenue L–133rd chi,L133,χ:16S6E chi,χ:16S6E,41.657812,-87.517164,0.965,False,False,city,1.0,0.07,-0.18,-0.04,3
+χ:16S6W,16S6W,Kostner–131st chi,Kos131,Kostner–130th chi,Kos130,41.654649,-87.728576,0.998,False,False,,1.0,0.0,-0.32,0.18,1
+χ:16S7E,16S7E,New York–129th chi,New129,χ:16S7E chi,χ:16S7E,41.658269,-87.496831,1.17,False,True,,1.0,0.0,-0.22,-0.05,3
+χ:16S7W,16S7W,Laramie–Cal Sag chi,LarCal,Laramie–130th chi,Lar130,41.65441,-87.748076,1.001,False,False,,1.0,0.0,-0.31,0.2,1
+χ:16S8E,16S8E,Access–129th chi,Acc129,χ:16S8E chi,χ:16S8E,41.658514,-87.475907,1.003,False,False,,1.0,0.0,-0.3,-0.08,3
+χ:16S8W,16S8W,Austin–130th chi,Aus130,Austin–130th chi,Aus130,41.654006,-87.767616,0.911,True,False,frame,0.912,0.0,-0.31,0.23,2
+χ:16S9E,16S9E,χ:16S9E chi,χ:16S9E,χ:16S9E chi,χ:16S9E,41.658821,-87.456438,1.003,False,False,,1.0,0.0,-0.3,-0.1,3
+χ:16S9W,16S9W,Oak Park–130th chi,Oak130,Oak Park–130th chi,Oak130,41.653609,-87.786741,0.407,True,False,frame,0.422,0.0,-0.33,0.26,2
+χ:17N10W,17N10W,Waukegan–Voltz chi,WauVol,χ:17N10W chi,χ:17N10W,42.120061,-87.820102,0.682,True,False,frame,0.681,0.0,0.39,0.07,3
+χ:17N11W,17N11W,Shermer–Farnsworth Ln chi,SheFar,χ:17N11W chi,χ:17N11W,42.120107,-87.839336,0.979,False,False,,1.0,0.0,0.37,0.07,3
+χ:17N12W,17N12W,Landwehr–Techny chi,LanTec,χ:17N12W chi,χ:17N12W,42.120153,-87.858809,1.032,False,False,,1.0,0.0,0.37,0.06,3
+χ:17N13W,17N13W,Sanders–Techny chi,SanTec,χ:17N13W chi,χ:17N13W,42.120187,-87.878527,1.046,False,False,,1.0,0.0,0.39,0.08,3
+χ:17N14W,17N14W,Us Hwy 45–Hintz chi,UsHin,χ:17N14W chi,χ:17N14W,42.119752,-87.897988,1.083,False,False,,1.0,0.0,0.39,0.09,3
+χ:17N15W,17N15W,Wheeling–Hintz chi,WheHin,χ:17N15W chi,χ:17N15W,42.119826,-87.917464,1.046,False,False,,1.0,0.0,0.38,0.09,3
+χ:17N16W,17N16W,State Rte 83–Hintz chi,StaHin,χ:17N16W chi,χ:17N16W,42.119748,-87.936854,1.002,False,False,,1.0,0.0,0.38,0.1,3
+χ:17N17W,17N17W,Buffalo Grove–Waverly chi,BufWav,χ:17N17W chi,χ:17N17W,42.119584,-87.956563,1.044,False,False,,1.0,0.0,0.4,0.1,3
+χ:17N18W,17N18W,Arlington Heights–Waverly chi,ArlWav,χ:17N18W chi,χ:17N18W,42.119424,-87.97625,1.001,False,False,,1.0,0.0,0.41,0.12,3
+χ:17N19W,17N19W,Kennicott–Hintz chi,KenHin,χ:17N19W chi,χ:17N19W,42.119265,-87.995525,1.001,False,False,,1.0,0.0,0.4,0.13,3
+χ:17N20W,17N20W,Williams–Anderson chi,WilAnd,χ:17N20W chi,χ:17N20W,42.119107,-88.014804,1.002,False,False,,1.0,0.0,0.39,0.14,3
+χ:17N21W,17N21W,Hicks–Baldwin chi,HicBal,χ:17N21W chi,χ:17N21W,42.118948,-88.034086,1.002,False,False,,1.0,0.0,0.38,0.15,3
+χ:17N22W,17N22W,Cedar–Colfax chi,CedCol,χ:17N22W chi,χ:17N22W,42.118789,-88.053351,0.995,True,False,frame,0.995,0.0,0.37,0.16,3
+χ:17N23W,17N23W,Roselle–Wood chi,RosWoo,χ:17N23W chi,χ:17N23W,42.118627,-88.072965,0.25,True,False,frame,0.241,0.0,0.38,0.17,3
+χ:17N5W,17N5W,Sheridan–Tower chi,SheTow,χ:17N6W chi,χ:17N6W,42.116431,-87.731967,0.013,True,False,shore,1.0,0.0,0.39,-0.03,3
+χ:17N6W,17N6W,Old Green Bay–South chi,OldSou,χ:17N7W chi,χ:17N7W,42.124151,-87.74535,0.804,True,False,"frame,shore",0.999,0.0,0.39,-0.02,3
+χ:17N7W,17N7W,Grove–Tower chi,GroTow,χ:17N7W chi,χ:17N7W,42.121189,-87.761713,0.287,True,False,frame,0.285,0.0,0.39,-0.01,3
+χ:17S10E,17S10E,Alder–138th chi,Ald138,χ:17S10E chi,χ:17S10E,41.644618,-87.436787,0.706,True,False,"frame,shore",0.807,0.0,-0.32,-0.12,3
+χ:17S11E,17S11E,χ:17S11E chi,χ:17S11E,χ:17S11E chi,χ:17S11E,41.640957,-87.42177,0.037,True,False,"frame,shore",0.115,0.0,-0.32,-0.14,3
+χ:17S12W,17S12W,Southwest–State Rte 7 chi,SouSta,χ:17S12W chi,χ:17S12W,41.637864,-87.844693,0.084,True,False,frame,0.079,0.0,-0.35,0.34,3
+χ:17S13W,17S13W,La Grange–State Rte 7 chi,LaSta,χ:17S13W chi,χ:17S13W,41.637436,-87.864858,0.051,True,False,frame,0.051,0.0,-0.32,0.37,3
+χ:17S1E,17S1E,Forest–137th chi,For137,χ:17S1E chi,χ:17S1E,41.63913,-87.61211,1.056,False,False,city,1.0,0.216,-0.3,0.11,2
+χ:17S1W,17S1W,Atlantic–140th chi,Atl140,χ:17S1W chi,χ:17S1W,41.640914,-87.631488,1.094,False,False,,1.0,0.0,-0.3,0.14,2
+χ:17S24W,17S24W,Independence–Murphy chi,IndMur,χ:18S24W chi,χ:18S24W,41.632886,-88.077233,0.082,True,False,frame,0.1,0.0,-0.41,0.69,3
+χ:17S25W,17S25W,χ:18S25W chi,χ:18S25W,χ:18S25W chi,χ:18S25W,41.632469,-88.096697,0.814,True,False,frame,0.695,0.0,-0.41,0.72,3
+χ:17S26W,17S26W,Pinnacle–Murphy chi,PinMur,χ:18S26W chi,χ:18S26W,41.632015,-88.117913,0.993,False,False,,1.0,0.0,-0.32,0.75,3
+χ:17S27W,17S27W,χ:18S27W chi,χ:18S27W,χ:18S27W chi,χ:18S27W,41.631598,-88.137379,0.992,False,False,,1.0,0.0,-0.32,0.78,3
+χ:17S28W,17S28W,Budler–Lakewood Falls chi,BudLak,χ:18S28W chi,χ:18S28W,41.631181,-88.156845,0.702,True,False,frame,0.708,0.0,-0.32,0.8,3
+χ:17S29W,17S29W,Essington–State Rte 126 chi,EssSta,χ:18S29W chi,χ:18S29W,41.630764,-88.17631,0.137,True,False,frame,0.139,0.0,-0.32,0.83,3
+χ:17S2E,17S2E,Doty–137th chi,Dot137,χ:17S2E chi,χ:17S2E,41.639352,-87.592375,1.116,False,True,city,1.0,0.3,-0.31,0.09,2
+χ:17S2W,17S2W,State Rte 1–142nd chi,Sta142,χ:17S2W chi,χ:17S2W,41.640558,-87.650771,1.069,False,False,,1.0,0.0,-0.31,0.15,2
+χ:17S3E,17S3E,Jeffery–136th chi,Jef136,χ:17S3E chi,χ:17S3E,41.639583,-87.572148,1.088,False,False,city,1.0,0.32,-0.35,0.06,2
+χ:17S3W,17S3W,Leavitt–139th chi,Lea139,χ:17S3W chi,χ:17S3W,41.640275,-87.669233,1.024,False,False,,1.0,0.0,-0.36,0.17,2
+χ:17S4E,17S4E,Brainard–136th chi,Bra136,χ:17S4E chi,χ:17S4E,41.64011,-87.553219,0.938,False,False,city,1.0,0.356,-0.32,0.02,3
+χ:17S4W,17S4W,Harrison–139th chi,Har139,χ:17S4W chi,χ:17S4W,41.63992,-87.688526,1.193,False,True,,1.0,0.0,-0.37,0.21,2
+χ:17S5E,17S5E,Avenue L–136th chi,L136,χ:17S5E chi,χ:17S5E,41.640227,-87.535397,0.91,False,False,city,1.0,0.388,-0.24,-0.01,3
+χ:17S5W,17S5W,Lawndale–139th chi,Law139,χ:17S5W chi,χ:17S5W,41.639514,-87.708574,1.124,False,True,,1.0,0.0,-0.34,0.23,2
+χ:17S6E,17S6E,Avenue L–134th chi,L134,χ:17S6E chi,χ:17S6E,41.64037,-87.51757,0.909,False,False,city,1.0,0.028,-0.16,-0.03,3
+χ:17S6W,17S6W,Kostner–Midlothian chi,KosMid,χ:17S6W chi,χ:17S6W,41.64016,-87.728023,1.064,False,False,,1.0,0.0,-0.36,0.22,2
+χ:17S7E,17S7E,Columbia–141st chi,Col141,χ:17S7E chi,χ:17S7E,41.643533,-87.496881,1.192,False,True,,1.0,0.0,-0.22,-0.05,3
+χ:17S7W,17S7W,Laramie–Midlothian chi,LarMid,χ:17S7W chi,χ:17S7W,41.639949,-87.747504,1.003,True,False,frame,1.0,0.0,-0.34,0.2,2
+χ:17S8E,17S8E,Railroad–Columbus chi,RaiCol,χ:17S8E chi,χ:17S8E,41.643989,-87.475493,1.003,False,False,,1.0,0.0,-0.32,-0.08,3
+χ:17S8W,17S8W,χ:17S8W chi,χ:17S8W,χ:17S8W chi,χ:17S8W,41.639532,-87.767041,0.276,True,False,frame,0.274,0.0,-0.34,0.23,2
+χ:17S9E,17S9E,Euclid–138th chi,Euc138,χ:17S9E chi,χ:17S9E,41.6443,-87.456024,1.003,False,False,,1.0,0.0,-0.32,-0.1,3
+χ:18N10W,18N10W,Waukegan–Dundee chi,WauDun,χ:18N10W chi,χ:18N10W,42.134952,-87.820525,0.765,True,False,frame,0.725,0.0,0.41,0.04,3
+χ:18N11W,18N11W,χ:18N11W chi,χ:18N11W,χ:18N11W chi,χ:18N11W,42.134913,-87.839355,0.973,False,False,,1.0,0.0,0.37,0.05,3
+χ:18N12W,18N12W,Landwehr–Crabtree Ln chi,LanCra,χ:18N12W chi,χ:18N12W,42.134865,-87.858828,1.093,True,False,frame,0.999,0.0,0.37,0.05,3
+χ:18N13W,18N13W,Sanders–Dundee chi,SanDun,χ:18N13W chi,χ:18N13W,42.134821,-87.878941,0.77,True,False,frame,0.762,0.0,0.41,0.05,3
+χ:18N14W,18N14W,Us Hwy 45–Dundee chi,UsDun,χ:18N14W chi,χ:18N14W,42.134777,-87.898414,0.927,True,False,frame,0.931,0.0,0.41,0.05,3
+χ:18N15W,18N15W,Northgate Pkwy–State Rte 68 chi,NorSta,χ:18N15W chi,χ:18N15W,42.134701,-87.917885,0.999,False,False,,1.0,0.0,0.41,0.07,3
+χ:18N16W,18N16W,State Rte 83–Dundee chi,StaDun,χ:18N16W chi,χ:18N16W,42.134387,-87.937059,0.98,False,False,,1.0,0.0,0.39,0.09,3
+χ:18N17W,18N17W,Buffalo Grove–Burr Oak chi,BufBur,χ:18N17W chi,χ:18N17W,42.134227,-87.956894,1.078,False,False,,1.0,0.0,0.41,0.09,3
+χ:18N18W,18N18W,Weidner–Dundee chi,WeiDun,χ:18N18W chi,χ:18N18W,42.134069,-87.976826,0.992,False,False,,1.0,0.0,0.44,0.11,3
+χ:18N19W,18N19W,Kennicott–Burr Oak chi,KenBur,χ:18N19W chi,χ:18N19W,42.133916,-87.995923,0.992,False,False,,1.0,0.0,0.42,0.12,3
+χ:18N20W,18N20W,Williams–Dundee chi,WilDun,χ:18N20W chi,χ:18N20W,42.133764,-88.015024,0.993,False,False,,1.0,0.0,0.4,0.13,3
+χ:18N21W,18N21W,Hicks–Cunningham chi,HicCun,χ:18N21W chi,χ:18N21W,42.133611,-88.034129,0.944,True,False,frame,0.951,0.0,0.38,0.14,3
+χ:18N22W,18N22W,Smith–Cunningham chi,SmiCun,χ:18N22W chi,χ:18N22W,42.133457,-88.053377,0.849,True,False,frame,0.843,0.0,0.37,0.15,3
+χ:18N23W,18N23W,χ:18N23W chi,χ:18N23W,χ:18N23W chi,χ:18N23W,42.133298,-88.073221,0.724,True,False,frame,0.685,0.0,0.39,0.16,3
+χ:18N24W,18N24W,Ela–Dundee chi,ElaDun,χ:18N24W chi,χ:18N24W,42.133139,-88.093103,0.004,True,False,frame,0.004,0.0,0.41,0.17,3
+χ:18N6W,18N6W,Sheridan–South chi,SheSou,χ:18N7W chi,χ:18N7W,42.134923,-87.74945,0.238,True,False,"frame,shore",0.894,0.0,0.41,-0.02,3
+χ:18N7W,18N7W,Vernon–Dundee chi,VerDun,χ:18N7W chi,χ:18N7W,42.135785,-87.762127,0.559,True,False,frame,0.555,0.0,0.41,-0.01,3
+χ:18N8W,18N8W,Us Hwy 41–Dundee chi,UsDun,χ:18N8W chi,χ:18N8W,42.135629,-87.781597,0.001,True,False,frame,0.001,0.0,0.41,0.02,3
+χ:18N9W,18N9W,Lee–Dundee chi,LeeDun,χ:18N9W chi,χ:18N9W,42.134995,-87.801052,0.011,True,False,frame,0.011,0.0,0.41,0.04,3
+χ:18S10E,18S10E,Alder–State Rd 312 chi,AldSta,χ:18S10E chi,χ:18S10E,41.630096,-87.436142,0.33,True,False,frame,0.33,0.0,-0.34,-0.12,3
+χ:18S11W,18S11W,χ:18S11W chi,χ:18S11W,χ:18S11W chi,χ:18S11W,41.62373,-87.824315,0.398,True,False,frame,0.392,0.0,-0.4,0.32,3
+χ:18S12W,18S12W,Us Hwy 45–147th chi,Us147,χ:18S12W chi,χ:18S12W,41.623326,-87.8444,1.025,True,False,frame,0.96,0.0,-0.37,0.35,3
+χ:18S13W,18S13W,Highland–State Rte 7 chi,HigSta,χ:18S13W chi,χ:18S13W,41.622923,-87.864447,0.381,True,False,frame,0.379,0.0,-0.34,0.37,3
+χ:18S1E,18S1E,Park–148th chi,Par148,χ:18S1E chi,χ:18S1E,41.626249,-87.609697,0.978,False,False,,1.0,0.0,-0.42,0.14,3
+χ:18S1W,18S1W,Atlantic–146th chi,Atl146,χ:18S1W chi,χ:18S1W,41.625895,-87.629807,1.057,False,False,,1.0,0.0,-0.39,0.17,3
+χ:18S25W,18S25W,χ:19S25W chi,χ:19S25W,χ:19S25W chi,χ:19S25W,41.618604,-88.097198,0.23,True,False,frame,0.23,0.0,-0.38,0.66,3
+χ:18S26W,18S26W,Pinnacle–Taylor chi,PinTay,χ:19S26W chi,χ:19S26W,41.618238,-88.117524,0.786,True,False,frame,0.867,0.0,-0.34,0.7,3
+χ:18S27W,18S27W,χ:19S27W chi,χ:19S27W,χ:19S27W chi,χ:19S27W,41.617872,-88.136992,0.9,False,False,,1.0,0.0,-0.34,0.72,3
+χ:18S28W,18S28W,Budler–Taylor chi,BudTay,χ:19S28W chi,χ:19S28W,41.617506,-88.156459,0.793,True,False,frame,0.888,0.0,-0.34,0.75,3
+χ:18S29W,18S29W,χ:19S29W chi,χ:19S29W,χ:19S29W chi,χ:19S29W,41.61714,-88.175926,0.046,True,False,frame,0.052,0.0,-0.34,0.77,3
+χ:18S2E,18S2E,Minerva–Lincoln chi,MinLin,χ:18S2E chi,χ:18S2E,41.627067,-87.590235,0.995,False,False,,1.0,0.0,-0.42,0.1,3
+χ:18S2W,18S2W,Lexington–146th chi,Lex146,χ:18S2W chi,χ:18S2W,41.62554,-87.649132,0.876,False,True,,1.0,0.0,-0.4,0.18,3
+χ:18S3E,18S3E,Merrill–Stewart chi,MerSte,χ:18S3E chi,χ:18S3E,41.627447,-87.570375,0.956,False,False,,1.0,0.0,-0.44,0.06,3
+χ:18S3W,18S3W,Seeley–Spaulding chi,SeeSpa,χ:18S3W chi,χ:18S3W,41.625237,-87.667093,0.905,False,False,,1.0,0.0,-0.48,0.23,3
+χ:18S4E,18S4E,Exchange–Stewart chi,ExcSte,χ:18S4E chi,χ:18S4E,41.627826,-87.551137,0.939,False,False,,1.0,0.0,-0.43,0.03,3
+χ:18S4W,18S4W,Harrison–148th chi,Har148,χ:18S4W chi,χ:18S4W,41.624861,-87.687285,1.072,False,False,,1.0,0.0,-0.44,0.24,3
+χ:18S5E,18S5E,Lincoln–Harding chi,LinHar,χ:18S5E chi,χ:18S5E,41.628509,-87.533475,0.869,False,True,,1.0,0.0,-0.34,-0.02,3
+χ:18S5W,18S5W,Lawndale–148th chi,Law148,χ:18S5W chi,χ:18S5W,41.624493,-87.70798,0.934,False,False,,1.0,0.0,-0.38,0.26,3
+χ:18S6E,18S6E,Towle–State Rd 312 chi,TowSta,χ:18S6E chi,χ:18S6E,41.628811,-87.515732,0.959,False,False,,1.0,0.0,-0.25,-0.02,3
+χ:18S6W,18S6W,Kostner–147th chi,Kos147,χ:18S6W chi,χ:18S6W,41.624592,-87.727429,0.979,False,False,,1.0,0.0,-0.37,0.24,3
+χ:18S7E,18S7E,Columbia–State Rd 312 chi,ColSta,χ:18S7E chi,χ:18S7E,41.629113,-87.49565,1.114,False,True,,1.0,0.0,-0.28,-0.07,3
+χ:18S7W,18S7W,Laramie–147th chi,Lar147,χ:18S7W chi,χ:18S7W,41.625286,-87.746924,1.021,True,False,frame,0.999,0.0,-0.37,0.21,2
+χ:18S8E,18S8E,Railroad–State Rd 312 chi,RaiSta,χ:18S8E chi,χ:18S8E,41.629464,-87.475079,1.003,False,False,,1.0,0.0,-0.34,-0.08,3
+χ:18S8W,18S8W,χ:18S8W chi,χ:18S8W,χ:18S8W chi,χ:18S8W,41.624894,-87.766459,0.629,True,False,frame,0.612,0.0,-0.37,0.24,2
+χ:18S9E,18S9E,Euclid–State Rd 312 chi,EucSta,χ:18S9E chi,χ:18S9E,41.62978,-87.455611,0.973,True,False,frame,0.971,0.0,-0.34,-0.1,3
+χ:18S9W,18S9W,Oak Park–147th chi,Oak147,χ:18S9W chi,χ:18S9W,41.624508,-87.785634,0.119,True,False,frame,0.122,0.0,-0.39,0.26,2
+χ:19N10W,19N10W,Carlisle–Lake Cook chi,CarLak,χ:19N10W chi,χ:19N10W,42.149928,-87.820949,0.921,True,False,frame,0.913,0.0,0.43,0.01,3
+χ:19N11W,19N11W,Cty Hwy 43–Lake Cook chi,CtyLak,χ:19N11W chi,χ:19N11W,42.149786,-87.839362,0.9,False,False,,1.0,0.0,0.37,0.02,3
+χ:19N12W,19N12W,Huehl–Commercial chi,HueCom,χ:19N12W chi,χ:19N12W,42.149632,-87.858835,1.064,True,False,frame,0.952,0.0,0.37,0.03,3
+χ:19N13W,19N13W,Sanders–Lake Cook chi,SanLak,χ:19N13W chi,χ:19N13W,42.149475,-87.879356,0.105,True,False,frame,0.104,0.0,0.43,0.04,3
+χ:19N14W,19N14W,Portwine–Lake Cook chi,PorLak,χ:19N14W chi,χ:19N14W,42.149324,-87.898826,0.203,True,False,frame,0.201,0.0,0.43,0.05,3
+χ:19N15W,19N15W,Us Hwy 45–Lake Cook chi,UsLak,χ:19N15W chi,χ:19N15W,42.149173,-87.918295,0.761,True,False,frame,0.753,0.0,0.43,0.06,3
+χ:19N16W,19N16W,Elmhurst–Lake Cook chi,ElmLak,χ:19N16W chi,χ:19N16W,42.149026,-87.937265,0.959,False,False,,1.0,0.0,0.4,0.08,3
+χ:19N17W,19N17W,Buffalo Grove–Bernard chi,BufBer,χ:19N17W chi,χ:19N17W,42.14887,-87.957224,1.113,False,True,,1.0,0.0,0.43,0.08,3
+χ:19N18W,19N18W,Weidner–Bernard chi,WeiBer,χ:19N18W chi,χ:19N18W,42.148716,-87.977285,0.97,False,False,,1.0,0.0,0.46,0.1,3
+χ:19N19W,19N19W,Kennicott–Nichols chi,KenNic,χ:19N19W chi,χ:19N19W,42.148567,-87.996252,0.999,False,False,,1.0,0.0,0.43,0.1,3
+χ:19N20W,19N20W,Wilke–Nichols chi,WilNic,χ:19N20W chi,χ:19N20W,42.148418,-88.015492,1.0,False,False,,1.0,0.0,0.42,0.11,3
+χ:19N21W,19N21W,Us Hwy 12–Lake Cook chi,UsLak,χ:19N21W chi,χ:19N21W,42.148269,-88.034735,0.711,True,False,frame,0.711,0.0,0.41,0.12,3
+χ:19N22W,19N22W,χ:19N22W chi,χ:19N22W,χ:19N22W chi,χ:19N22W,42.148124,-88.053759,0.001,True,False,frame,0.001,0.0,0.39,0.14,3
+χ:19N9W,19N9W,Skokie Valley–Lake Cook chi,SkoLak,χ:19N9W chi,χ:19N9W,42.150079,-87.80148,0.096,True,False,frame,0.095,0.0,0.43,0.0,3
+χ:19S10W,19S10W,76th–Wheeler chi,76Whe,χ:19S10W chi,χ:19S10W,41.609459,-87.804202,0.832,True,False,frame,0.819,0.0,-0.43,0.3,3
+χ:19S11W,19S11W,82nd–Wheeler chi,82Whe,χ:19S11W chi,χ:19S11W,41.609094,-87.823753,1.015,True,False,frame,1.0,0.0,-0.43,0.33,3
+χ:19S12W,19S12W,94th–Wheeler chi,94Whe,χ:19S12W chi,χ:19S12W,41.608719,-87.843914,1.032,True,False,frame,0.957,0.0,-0.39,0.35,3
+χ:19S13W,19S13W,West–153rd chi,Wes153,χ:19S13W chi,χ:19S13W,41.608344,-87.864034,0.115,True,False,frame,0.114,0.0,-0.36,0.38,3
+χ:19S1E,19S1E,Park–156th chi,Par156,χ:19S2E chi,χ:19S2E,41.611931,-87.607359,0.981,False,False,,1.0,0.0,-0.54,0.13,3
+χ:19S1W,19S1W,Vincennes–152nd chi,Vin152,χ:19S1E chi,χ:19S1E,41.611715,-87.627184,1.027,False,False,,1.0,0.0,-0.53,0.13,3
+χ:19S26W,19S26W,Weber–Airport chi,WebAir,χ:20S26W chi,χ:20S26W,41.60436,-88.117133,0.275,True,False,frame,0.271,0.0,-0.36,0.66,3
+χ:19S27W,19S27W,χ:20S27W chi,χ:20S27W,χ:20S27W chi,χ:20S27W,41.604039,-88.136601,0.708,True,False,frame,0.698,0.0,-0.36,0.68,3
+χ:19S28W,19S28W,Budler–Airport chi,BudAir,χ:20S28W chi,χ:20S28W,41.603719,-88.15607,0.405,True,False,frame,0.399,0.0,-0.36,0.7,3
+χ:19S29W,19S29W,χ:20S29W chi,χ:20S29W,χ:20S29W chi,χ:20S29W,41.603398,-88.175539,0.013,True,False,frame,0.013,0.0,-0.36,0.72,3
+χ:19S2E,19S2E,Woodlawn–156th chi,Woo156,χ:19S3E chi,χ:19S3E,41.61262,-87.588064,0.993,False,False,,1.0,0.0,-0.54,0.08,3
+χ:19S2W,19S2W,Center–153rd chi,Cen153,χ:19S1W chi,χ:19S1W,41.611536,-87.646642,0.926,False,False,,1.0,0.0,-0.53,0.17,3
+χ:19S3E,19S3E,Paxton–154th chi,Pax154,χ:19S4E chi,χ:19S4E,41.61339,-87.568738,0.997,False,False,,1.0,0.0,-0.53,0.03,3
+χ:19S3W,19S3W,Robey–153rd chi,Rob153,χ:19S2W chi,χ:19S2W,41.611332,-87.665632,0.955,False,False,,1.0,0.0,-0.55,0.17,3
+χ:19S4E,19S4E,Exchange–Memorial chi,ExcMem,χ:19S5E chi,χ:19S5E,41.61371,-87.549296,1.009,False,False,,1.0,0.0,-0.53,0.01,3
+χ:19S4W,19S4W,California–155th chi,Cal155,χ:19S3W chi,χ:19S3W,41.611115,-87.68602,1.016,True,False,frame,0.973,0.0,-0.5,0.18,3
+χ:19S5E,19S5E,Lincoln–Webb chi,LinWeb,χ:19S5E chi,χ:19S5E,41.614005,-87.531425,0.834,False,True,,1.0,0.0,-0.44,-0.01,3
+χ:19S5W,19S5W,Clifton Park–155th chi,Cli155,χ:19S5W chi,χ:19S5W,41.610913,-87.706926,0.407,True,False,frame,0.413,0.0,-0.43,0.21,3
+χ:19S6E,19S6E,Sohl–Summer chi,SohSum,χ:19S6E chi,χ:19S6E,41.614297,-87.513603,1.003,False,False,,1.0,0.0,-0.36,-0.03,3
+χ:19S6W,19S6W,Kostner–155th chi,Kos155,χ:19S6W chi,χ:19S6W,41.610844,-87.726904,0.286,True,False,frame,0.293,0.0,-0.4,0.21,3
+χ:19S7E,19S7E,White Oak–Michigan chi,WhiMic,χ:19S7E chi,χ:19S7E,41.614618,-87.494134,1.003,False,False,,1.0,0.0,-0.36,-0.05,3
+χ:19S7W,19S7W,Laramie–155th chi,Lar155,χ:19S7W chi,χ:19S7W,41.610536,-87.74634,0.926,True,False,frame,0.917,0.0,-0.4,0.23,2
+χ:19S8E,19S8E,Railroad–Michigan chi,RaiMic,χ:19S8E chi,χ:19S8E,41.614939,-87.474666,1.001,True,False,frame,0.998,0.0,-0.36,-0.07,3
+χ:19S8W,19S8W,χ:19S8W chi,χ:19S8W,χ:19S8W chi,χ:19S8W,41.610173,-87.765883,1.027,False,False,,1.0,0.0,-0.4,0.25,2
+χ:19S9E,19S9E,Kennedy–Us Hwy 20 chi,KenUs,χ:19S9E chi,χ:19S9E,41.615259,-87.455197,0.262,True,False,frame,0.261,0.0,-0.36,-0.1,3
+χ:19S9W,19S9W,Oak Park–Victoria chi,OakVic,χ:19S9W chi,χ:19S9W,41.609815,-87.785085,0.791,True,False,frame,0.813,0.0,-0.41,0.28,2
+χ:1N10W,1N10W,Lathrop–Lake chi,LatLak,Oriole–Kinzie chi,OriKin,41.886836,-87.814211,0.997,False,False,,1.0,0.0,0.08,0.17,3
+χ:1N11W,1N11W,State Rte 171–Oak chi,StaOak,Cumberland–Kinzie chi,CumKin,41.886339,-87.833786,1.05,False,False,,1.0,0.0,0.09,0.19,3
+χ:1N12W,1N12W,17th–Oak chi,17Oak,χ:1N12W chi,χ:1N12W,41.88593,-87.85357,1.027,False,False,,1.0,0.0,0.11,0.23,3
+χ:1N13W,1N13W,Eastern–Oak chi,EasOak,χ:1N13W chi,χ:1N13W,41.885525,-87.872613,0.978,False,False,,1.0,0.0,0.08,0.25,3
+χ:1N14W,1N14W,51st–Bohlander chi,51Boh,χ:1N14W chi,χ:1N14W,41.885029,-87.891488,1.017,False,False,,1.0,0.0,0.05,0.29,3
+χ:1N15W,1N15W,Irving–Randolph chi,IrvRan,χ:1N15W chi,χ:1N15W,41.884593,-87.910763,1.014,False,False,,1.0,0.0,0.04,0.32,3
+χ:1N16W,1N16W,Poplar–Vallette chi,PopVal,χ:1N16W chi,χ:1N16W,41.884153,-87.93011,1.023,False,False,,1.0,0.0,0.04,0.35,3
+χ:1N17W,1N17W,Spring–Vallette chi,SprVal,χ:1N17W chi,χ:1N17W,41.883714,-87.949521,1.025,False,False,,1.0,0.0,0.03,0.38,3
+χ:1N18W,1N18W,Villa–Illinois Prairie Path - Main Stem chi,VilIll,χ:1N18W chi,χ:1N18W,41.883275,-87.968837,1.017,False,False,,1.0,0.0,0.03,0.41,3
+χ:1N19W,1N19W,Wisconsin–North Broadway chi,WisNor,χ:1N19W chi,χ:1N19W,41.882832,-87.988419,1.058,False,False,,1.0,0.0,0.03,0.44,3
+χ:1N1E,1N1E,River–Illinois chi,RivIll,Martin Luther King–Kinzie chi,MarKin,41.88943,-87.618607,0.888,True,False,"city,frame,shore",0.987,0.995,0.02,-0.02,1
+χ:1N1W,1N1W,Clark–Kinzie chi,ClaKin,River–Kinzie chi,RivKin,41.889224,-87.637847,1.011,False,False,,1.0,1.0,,,
+χ:1N20W,1N20W,Grace–North Broadway chi,GraNor,χ:1N20W chi,χ:1N20W,41.882387,-88.008123,1.034,False,False,,1.0,0.0,0.04,0.47,3
+χ:1N21W,1N21W,Edson–Illinois Prairie Path - Main Stem chi,EdsIll,χ:1S21W chi,χ:1S21W,41.881947,-88.027586,0.738,True,False,frame,0.712,0.0,0.04,0.5,3
+χ:1N22W,1N22W,Bryant–Crescent chi,BryCre,χ:1S22W chi,χ:1S22W,41.881506,-88.047049,0.0,True,False,frame,0.0,0.0,0.04,0.53,3
+χ:1N2E,1N2E,Woodlawn–Kinzie chi,WooKin,Woodlawn–Kinzie chi,WooKin,41.894783,-87.605457,0.142,True,False,"city,shore",1.0,0.989,0.04,-0.04,1
+χ:1N2W,1N2W,Racine–Kinzie chi,RacKin,Racine–Kinzie chi,RacKin,41.88896,-87.657399,1.009,False,False,,1.0,1.0,,,
+χ:1N3W,1N3W,Damen–Kinzie chi,DamKin,Damen–Kinzie chi,DamKin,41.888698,-87.676891,1.006,False,False,,1.0,1.0,,,
+χ:1N4W,1N4W,California–Kinzie chi,CalKin,California–Kinzie chi,CalKin,41.888435,-87.696418,1.013,False,False,,1.0,1.0,,,
+χ:1N5W,1N5W,Central Park–Kinzie chi,CenKin,Central Park–Kinzie chi,CenKin,41.888171,-87.716017,1.014,False,False,,1.0,1.0,,,
+χ:1N6W,1N6W,Kostner–Kinzie chi,KosKin,Kostner–Kinzie chi,KosKin,41.887908,-87.735604,1.012,False,False,,1.0,1.0,,,
+χ:1N7W,1N7W,Laramie–Kinzie chi,LarKin,Laramie–Kinzie chi,LarKin,41.887646,-87.755056,1.0,False,False,,1.0,1.0,,,
+χ:1N8W,1N8W,Austin–Fulton chi,AusFul,Austin–Kinzie chi,AusKin,41.887382,-87.774618,1.023,False,False,city,1.0,0.513,0.05,0.13,1
+χ:1N9W,1N9W,Oak Park–South chi,OakSou,Oak Park–Kinzie chi,OakKin,41.887114,-87.794589,1.045,False,False,,1.0,0.0,0.07,0.15,1
+χ:1S10W,1S10W,Des Plaines–Harrison chi,DesHar,Oriole–Congress chi,OriCon,41.872093,-87.81426,1.015,False,False,,1.0,0.0,0.08,0.18,3
+χ:1S11W,1S11W,State Rte 171–Harrison chi,StaHar,Cumberland–Congress chi,CumCon,41.871646,-87.833815,1.013,False,False,,1.0,0.0,0.09,0.21,3
+χ:1S12W,1S12W,17th–Harrison chi,17Har,χ:1S12W chi,χ:1S12W,41.871199,-87.85336,1.011,False,False,,1.0,0.0,0.09,0.24,3
+χ:1S13W,1S13W,Norfolk–Harrison chi,NorHar,χ:1S13W chi,χ:1S13W,41.870771,-87.872161,0.934,False,False,,1.0,0.0,0.06,0.27,3
+χ:1S14W,1S14W,Us Hwy 12–Harrison chi,UsHar,χ:1S14W chi,χ:1S14W,41.87034,-87.890928,1.005,False,False,,1.0,0.0,0.02,0.3,3
+χ:1S15W,1S15W,Irving–Harrison chi,IrvHar,χ:1S15W chi,χ:1S15W,41.869895,-87.910391,1.003,False,False,,1.0,0.0,0.02,0.33,3
+χ:1S16W,1S16W,Poplar–Butterfield chi,PopBut,χ:1S16W chi,χ:1S16W,41.86945,-87.929854,1.002,False,False,,1.0,0.0,0.02,0.36,3
+χ:1S17W,1S17W,Spring–Van Buren chi,SprVan,χ:1S17W chi,χ:1S17W,41.869004,-87.949317,1.003,False,False,,1.0,0.0,0.02,0.4,3
+χ:1S18W,1S18W,Villa–Jackson chi,VilJac,χ:1S18W chi,χ:1S18W,41.868534,-87.968637,0.989,False,False,,1.0,0.0,0.02,0.43,3
+χ:1S19W,1S19W,Wisconsin–Wilson chi,WisWil,χ:1S19W chi,χ:1S19W,41.868084,-87.988103,1.017,False,False,,1.0,0.0,0.02,0.46,3
+χ:1S1E,1S1E,Michigan–Harrison chi,MicHar,Martin Luther King–Congress chi,MarCon,41.872445,-87.621913,0.607,True,False,"city,frame,shore",0.991,0.993,-0.0,-0.01,1
+χ:1S1W,1S1W,Clark–Congress chi,ClaCon,River–Congress chi,RivCon,41.874608,-87.63746,1.016,False,False,,1.0,1.0,,,
+χ:1S20W,1S20W,Grace–Wilson chi,GraWil,χ:1S20W chi,χ:1S20W,41.867635,-88.007706,1.003,False,False,,1.0,0.0,0.02,0.49,3
+χ:1S21W,1S21W,Finley–Wilson chi,FinWil,χ:2S21W chi,χ:2S21W,41.867168,-88.027168,0.887,True,False,frame,0.884,0.0,0.02,0.52,3
+χ:1S22W,1S22W,Bryant–Turner chi,BryTur,χ:1S22W chi,χ:1S22W,41.867909,-88.046665,0.045,True,False,frame,0.05,0.0,0.01,0.5,3
+χ:1S2W,1S2W,Racine–Congress chi,RacCon,Racine–Congress chi,RacCon,41.874349,-87.657001,1.014,False,False,,1.0,1.0,,,
+χ:1S3W,1S3W,Damen–Congress chi,DamCon,Damen–Congress chi,DamCon,41.874091,-87.676486,1.009,False,False,,1.0,1.0,,,
+χ:1S4W,1S4W,California–Congress chi,CalCon,California–Congress chi,CalCon,41.873832,-87.696013,1.017,False,False,,1.0,1.0,,,
+χ:1S5W,1S5W,Central Park–Congress chi,CenCon,Central Park–Congress chi,CenCon,41.873572,-87.715616,1.015,False,False,,1.0,1.0,,,
+χ:1S6W,1S6W,Kostner–Congress chi,KosCon,Kostner–Congress chi,KosCon,41.873312,-87.735189,1.012,False,False,city,1.0,1.0,0.02,0.1,1
+χ:1S7W,1S7W,Laramie–Congress chi,LarCon,Laramie–Congress chi,LarCon,41.873058,-87.754721,1.01,False,False,city,1.0,1.0,0.03,0.12,1
+χ:1S8W,1S8W,Austin–Arthington chi,AusArt,Austin–Congress chi,AusCon,41.872793,-87.774282,1.013,False,False,city,1.0,0.506,0.03,0.13,1
+χ:1S9W,1S9W,Oak Park–Harrison chi,OakHar,Oak Park–Congress chi,OakCon,41.872512,-87.79428,1.057,False,False,,1.0,0.0,0.06,0.15,1
+χ:20N10W,20N10W,Carlisle–Clavey chi,CarCla,χ:20N10W chi,χ:20N10W,42.164538,-87.821363,0.078,True,False,frame,0.077,0.0,0.45,0.0,3
+χ:20N11W,20N11W,Waukegan–Deerfield chi,WauDee,χ:20N11W chi,χ:20N11W,42.164404,-87.839369,0.777,True,False,frame,0.906,0.0,0.38,0.02,3
+χ:20N12W,20N12W,Pine–Deerfield chi,PinDee,χ:20N12W chi,χ:20N12W,42.164255,-87.858843,1.153,True,False,frame,0.994,0.0,0.38,0.02,3
+χ:20N13W,20N13W,Saunders–Deerfield chi,SauDee,χ:20N13W chi,χ:20N13W,42.164099,-87.879771,0.222,True,False,frame,0.22,0.0,0.45,0.03,3
+χ:20N15W,20N15W,Us Hwy 45–Deerfield chi,UsDee,χ:20N15W chi,χ:20N15W,42.163806,-87.918709,0.322,True,False,frame,0.319,0.0,0.45,0.05,3
+χ:20N16W,20N16W,χ:20N16W chi,χ:20N16W,χ:20N16W chi,χ:20N16W,42.163659,-87.93788,0.979,False,False,,1.0,0.0,0.44,0.06,3
+χ:20N17W,20N17W,Highland Grove–Pauline chi,HigPau,χ:20N17W chi,χ:20N17W,42.163518,-87.957615,1.071,False,False,,1.0,0.0,0.45,0.08,3
+χ:20N18W,20N18W,Arlington Heights–Checker chi,ArlChe,χ:20N18W chi,χ:20N18W,42.163362,-87.977394,0.982,False,False,,1.0,0.0,0.47,0.08,3
+χ:20N19W,20N19W,Schaeffer–Checker chi,SchChe,χ:20N19W chi,χ:20N19W,42.16322,-87.996586,0.424,True,False,frame,0.419,0.0,0.45,0.09,3
+χ:20N20W,20N20W,χ:20N20W chi,χ:20N20W,χ:20N20W chi,χ:20N20W,42.163074,-88.016055,0.059,True,False,frame,0.058,0.0,0.45,0.1,3
+χ:20N21W,20N21W,χ:20N21W chi,χ:20N21W,χ:20N21W chi,χ:20N21W,42.162927,-88.035524,0.051,True,False,frame,0.05,0.0,0.45,0.11,3
+χ:20S10E,20S10E,Rhode Island–Gibson Transfer chi,RhoGib,χ:20S10E chi,χ:20S10E,41.601064,-87.435315,0.059,True,False,frame,0.059,0.0,-0.38,-0.12,3
+χ:20S10W,20S10W,76th–163rd chi,76163,χ:20S10W chi,χ:20S10W,41.594866,-87.803639,1.007,False,False,,1.0,0.0,-0.46,0.31,3
+χ:20S11W,20S11W,84th–163rd chi,84163,χ:20S11W chi,χ:20S11W,41.594514,-87.823194,1.007,False,False,,1.0,0.0,-0.46,0.33,3
+χ:20S12W,20S12W,Haven–163rd chi,Hav163,χ:20S12W chi,χ:20S12W,41.59415,-87.843428,0.902,True,False,frame,0.839,0.0,-0.42,0.36,3
+χ:20S13W,20S13W,104th–Us Hwy 6 chi,104Us,χ:20S13W chi,χ:20S13W,41.593787,-87.863622,0.019,True,False,frame,0.019,0.0,-0.38,0.38,3
+χ:20S1E,20S1E,Park–163rd chi,Par163,χ:20S2E chi,χ:20S2E,41.598081,-87.607116,0.899,False,True,,1.0,0.0,-0.56,0.09,3
+χ:20S1W,20S1W,Vincennes–Us Hwy 6 chi,VinUs,χ:20S1E chi,χ:20S1E,41.597966,-87.626271,0.935,False,False,,1.0,0.0,-0.57,0.11,3
+χ:20S26W,20S26W,Borio–Co Hwy 36 chi,BorCo,χ:21S26W chi,χ:21S26W,41.589684,-88.116719,0.021,True,False,frame,0.02,0.0,-0.38,0.67,3
+χ:20S27W,20S27W,Gaylord–Renwick chi,GayRen,χ:21S27W chi,χ:21S27W,41.589359,-88.136187,0.016,True,False,frame,0.016,0.0,-0.38,0.69,3
+χ:20S2E,20S2E,Woodlawn East–163rd chi,Woo163,χ:20S3E chi,χ:20S3E,41.598143,-87.587985,0.959,False,False,,1.0,0.0,-0.55,0.07,3
+χ:20S2W,20S2W,Center–162nd chi,Cen162,χ:20S1W chi,χ:20S1W,41.597645,-87.645906,1.004,False,False,,1.0,0.0,-0.56,0.13,3
+χ:20S3E,20S3E,Paxton–Us Hwy 6 chi,PaxUs,χ:20S4E chi,χ:20S4E,41.598837,-87.568644,0.998,False,False,,1.0,0.0,-0.53,0.04,3
+χ:20S3W,20S3W,Winchester–162nd chi,Win162,χ:20S2W chi,χ:20S2W,41.597073,-87.665055,0.958,True,False,frame,0.995,0.0,-0.58,0.15,3
+χ:20S4E,20S4E,State Rte 83–River Oaks chi,StaRiv,χ:20S5E chi,χ:20S5E,41.599162,-87.549217,1.006,False,False,,1.0,0.0,-0.53,0.01,3
+χ:20S4W,20S4W,Sawyer–163rd chi,Saw163,χ:20S3W chi,χ:20S3W,41.597007,-87.684418,0.222,True,False,frame,0.211,0.0,-0.58,0.16,3
+χ:20S5E,20S5E,Lincoln–River Oaks chi,LinRiv,χ:20S5E chi,χ:20S5E,41.599464,-87.53119,0.853,False,True,,1.0,0.0,-0.46,-0.01,3
+χ:20S6E,20S6E,Sohl–Kenwood chi,SohKen,χ:20S6E chi,χ:20S6E,41.599763,-87.513189,1.003,False,False,,1.0,0.0,-0.38,-0.03,3
+χ:20S7E,20S7E,Columbia–Kenwood chi,ColKen,χ:20S7E chi,χ:20S7E,41.600089,-87.493721,1.003,False,False,,1.0,0.0,-0.38,-0.05,3
+χ:20S7W,20S7W,Laramie–163rd chi,Lar163,χ:20S7W chi,χ:20S7W,41.595907,-87.745762,0.383,True,False,frame,0.384,0.0,-0.43,0.24,2
+χ:20S8E,20S8E,Indianapolis–Summer chi,IndSum,χ:20S8E chi,χ:20S8E,41.600414,-87.474252,1.003,False,False,,1.0,0.0,-0.38,-0.07,3
+χ:20S8W,20S8W,χ:20S8W chi,χ:20S8W,χ:20S8W chi,χ:20S8W,41.595556,-87.765331,0.625,True,False,frame,0.611,0.0,-0.43,0.26,2
+χ:20S9E,20S9E,California–Gibson Transfer chi,CalGib,χ:20S9E chi,χ:20S9E,41.600739,-87.454784,0.553,True,False,frame,0.552,0.0,-0.38,-0.09,3
+χ:20S9W,20S9W,Oak Park–163rd chi,Oak163,χ:20S9W chi,χ:20S9W,41.595209,-87.784559,0.959,False,False,,1.0,0.0,-0.44,0.29,2
+χ:21N11W,21N11W,χ:21N11W chi,χ:21N11W,χ:21N11W chi,χ:21N11W,42.179006,-87.840421,0.271,True,False,frame,0.293,0.0,0.43,-0.01,3
+χ:21N12W,21N12W,Telegraph–Hazel chi,TelHaz,χ:21N12W chi,χ:21N12W,42.178877,-87.859875,0.464,True,False,frame,0.423,0.0,0.43,0.03,3
+χ:21N13W,21N13W,χ:21N13W chi,χ:21N13W,χ:21N13W chi,χ:21N13W,42.178723,-87.880185,0.051,True,False,frame,0.05,0.0,0.47,0.02,3
+χ:21N15W,21N15W,χ:21N15W chi,χ:21N15W,χ:21N15W chi,χ:21N15W,42.178439,-87.919123,0.177,True,False,frame,0.176,0.0,0.47,0.04,3
+χ:21N16W,21N16W,Barclay–Aptakisic chi,BarApt,χ:21N16W chi,χ:21N16W,42.178297,-87.938592,0.99,True,False,frame,0.98,0.0,0.47,0.05,3
+χ:21N17W,21N17W,Prairie–Thompson chi,PraTho,χ:21N17W chi,χ:21N17W,42.178155,-87.958061,0.945,True,False,frame,0.935,0.0,0.47,0.06,3
+χ:21N18W,21N18W,Brandywyn Ln–Thompson chi,BraTho,χ:21N18W chi,χ:21N18W,42.178014,-87.977531,0.548,True,False,frame,0.542,0.0,0.47,0.07,3
+χ:21N19W,21N19W,Schaeffer–Old McHenry chi,SchOld,χ:21N19W chi,χ:21N19W,42.177872,-87.997,0.108,True,False,frame,0.107,0.0,0.47,0.08,3
+χ:21S10E,21S10E,Rhode Island–15th chi,Rho15,χ:21S10E chi,χ:21S10E,41.586549,-87.434901,0.722,True,False,frame,0.721,0.0,-0.4,-0.12,3
+χ:21S10W,21S10W,Odell–171st chi,Ode171,χ:21S10W chi,χ:21S10W,41.580281,-87.803077,1.015,False,False,,1.0,0.0,-0.49,0.32,3
+χ:21S11E,21S11E,Colfax–15th chi,Col15,χ:21S11E chi,χ:21S11E,41.586878,-87.415433,0.0,True,False,frame,0.0,0.0,-0.4,-0.14,3
+χ:21S11W,21S11W,84th–171st chi,84171,χ:21S11W chi,χ:21S11W,41.57996,-87.822635,1.011,False,False,,1.0,0.0,-0.49,0.34,3
+χ:21S12W,21S12W,Haven–171st chi,Hav171,χ:21S12W chi,χ:21S12W,41.579627,-87.842945,0.78,True,False,frame,0.719,0.0,-0.44,0.36,3
+χ:21S13W,21S13W,χ:21S13W chi,χ:21S13W,χ:21S13W chi,χ:21S13W,41.579296,-87.863211,0.0,True,False,frame,0.0,0.0,-0.4,0.38,3
+χ:21S1E,21S1E,Park–170th chi,Par170,χ:21S2E chi,χ:21S2E,41.584679,-87.606812,0.876,True,False,frame,1.0,0.0,-0.57,0.01,3
+χ:21S1W,21S1W,Vincennes–168th chi,Vin168,χ:21S1E chi,χ:21S1E,41.584373,-87.626189,0.946,True,False,frame,0.966,0.0,-0.57,0.04,3
+χ:21S2E,21S2E,Woodlawn East–170th chi,Woo170,χ:21S3E chi,χ:21S3E,41.584713,-87.587912,0.956,True,False,frame,0.996,0.0,-0.55,0.03,3
+χ:21S2W,21S2W,Center–171st chi,Cen171,χ:21S1W chi,χ:21S1W,41.583351,-87.645984,0.91,True,False,frame,0.933,0.0,-0.55,0.12,3
+χ:21S3E,21S3E,Paxton–170th chi,Pax170,χ:21S4E chi,χ:21S4E,41.584285,-87.56855,0.999,False,False,,1.0,0.0,-0.54,0.04,3
+χ:21S3W,21S3W,Winchester–169th chi,Win169,χ:21S2W chi,χ:21S2W,41.582435,-87.664671,0.73,True,False,frame,0.774,0.0,-0.6,0.17,3
+χ:21S4E,21S4E,Lorenz–170th chi,Lor170,χ:21S5E chi,χ:21S5E,41.584614,-87.549138,1.004,False,False,,1.0,0.0,-0.53,0.02,3
+χ:21S4W,21S4W,χ:21S3W chi,χ:21S3W,χ:21S3W chi,χ:21S3W,41.582336,-87.683239,0.138,True,False,frame,0.141,0.0,-0.65,0.17,3
+χ:21S5E,21S5E,Bernadine–170th chi,Ber170,χ:21S5E chi,χ:21S5E,41.584923,-87.530955,0.871,False,True,,1.0,0.0,-0.47,-0.0,3
+χ:21S6E,21S6E,Jackson–171st chi,Jac171,χ:21S6E chi,χ:21S6E,41.58523,-87.512776,1.003,False,False,,1.0,0.0,-0.4,-0.02,3
+χ:21S7E,21S7E,Southeastern–171st chi,Sou171,χ:21S7E chi,χ:21S7E,41.585559,-87.493307,1.003,False,False,,1.0,0.0,-0.4,-0.05,3
+χ:21S8E,21S8E,Woodmar–171st chi,Woo171,χ:21S8E chi,χ:21S8E,41.585889,-87.473839,1.003,False,False,,1.0,0.0,-0.4,-0.07,3
+χ:21S8W,21S8W,χ:21S8W chi,χ:21S8W,χ:21S8W chi,χ:21S8W,41.580909,-87.764789,0.09,True,False,frame,0.086,0.0,-0.46,0.27,2
+χ:21S9E,21S9E,Colorado–171st chi,Col171,χ:21S9E chi,χ:21S9E,41.586219,-87.45437,1.003,False,False,,1.0,0.0,-0.4,-0.09,3
+χ:21S9W,21S9W,Oak Park–171st chi,Oak171,χ:21S9W chi,χ:21S9W,41.580593,-87.784043,0.866,True,False,frame,0.898,0.0,-0.47,0.29,2
+χ:22N15W,22N15W,Us Hwy 45–State Rte 22 chi,UsSta,χ:22N15W chi,χ:22N15W,42.193073,-87.919537,0.108,True,False,frame,0.107,0.0,0.49,0.03,3
+χ:22N16W,22N16W,Barclay–State Rte 22 chi,BarSta,χ:22N16W chi,χ:22N16W,42.192935,-87.939006,0.645,True,False,frame,0.638,0.0,0.49,0.04,3
+χ:22N17W,22N17W,Brandywyn Ln–State Rte 22 chi,BraSta,χ:22N17W chi,χ:22N17W,42.192798,-87.958476,0.483,True,False,frame,0.477,0.0,0.49,0.05,3
+χ:22S10E,22S10E,Grand–Orchard chi,GraOrc,χ:22S10E chi,χ:22S10E,41.572033,-87.434488,0.774,True,False,frame,0.772,0.0,-0.42,-0.11,3
+χ:22S10W,22S10W,χ:22S9W chi,χ:22S9W,χ:22S9W chi,χ:22S9W,41.5656,-87.802511,0.967,True,False,frame,0.951,0.0,-0.52,0.33,3
+χ:22S11E,22S11E,Colfax–Us Hwy 6 chi,ColUs,χ:22S11E chi,χ:22S11E,41.572368,-87.415019,0.006,True,False,frame,0.006,0.0,-0.42,-0.14,3
+χ:22S11W,22S11W,84th–179th chi,84179,χ:22S10W chi,χ:22S10W,41.565405,-87.822077,1.003,False,False,,1.0,0.0,-0.51,0.34,3
+χ:22S12W,22S12W,94th–179th chi,94179,χ:22S12W chi,χ:22S12W,41.565198,-87.842464,0.547,True,False,frame,0.511,0.0,-0.47,0.35,3
+χ:22S1E,22S1E,Park–Margaret chi,ParMar,χ:22S2E chi,χ:22S2E,41.571278,-87.60623,0.003,True,False,frame,0.003,0.0,-0.6,-0.06,3
+χ:22S1W,22S1W,State Rte 1–Margaret chi,StaMar,χ:22S1E chi,χ:22S1E,41.570788,-87.625854,0.065,True,False,frame,0.065,0.0,-0.59,-0.02,3
+χ:22S2E,22S2E,State Rte 394–Thornton Lansing chi,StaTho,χ:22S3E chi,χ:22S3E,41.570782,-87.587401,0.248,True,False,frame,0.287,0.0,-0.56,-0.05,3
+χ:22S2W,22S2W,Center–174th chi,Cen174,χ:22S1W chi,χ:22S1W,41.569074,-87.645827,0.248,True,False,frame,0.255,0.0,-0.56,0.11,3
+χ:22S3E,22S3E,Paxton–179th chi,Pax179,χ:22S4E chi,χ:22S4E,41.57083,-87.568327,0.703,True,False,frame,0.848,0.0,-0.55,-0.04,3
+χ:22S4E,22S4E,School–179th chi,Sch179,χ:22S5E chi,χ:22S5E,41.570995,-87.549064,0.873,False,True,,1.0,0.0,-0.54,-0.04,3
+χ:22S5E,22S5E,Bernadine–178th chi,Ber178,χ:22S5E chi,χ:22S5E,41.571002,-87.530729,0.811,False,True,,1.0,0.0,-0.48,-0.04,3
+χ:22S6E,22S6E,Monroe–River chi,MonRiv,χ:22S6E chi,χ:22S6E,41.571029,-87.512372,0.955,False,False,,1.0,0.0,-0.43,-0.05,3
+χ:22S7E,22S7E,Beech–River chi,BeeRiv,χ:22S7E chi,χ:22S7E,41.571063,-87.492894,0.989,False,False,,1.0,0.0,-0.43,-0.05,3
+χ:22S8E,22S8E,Woodmar–Us Hwy 6 chi,WooUs,χ:22S8E chi,χ:22S8E,41.571365,-87.473425,1.003,False,False,,1.0,0.0,-0.42,-0.07,3
+χ:22S8W,22S8W,χ:22S7W chi,χ:22S7W,χ:22S7W chi,χ:22S7W,41.565935,-87.763828,0.097,True,False,frame,0.09,0.0,-0.51,0.32,2
+χ:22S9E,22S9E,Colorado–177th chi,Col177,χ:22S9E chi,χ:22S9E,41.571699,-87.453956,1.002,False,False,,1.0,0.0,-0.42,-0.09,3
+χ:22S9W,22S9W,67th Ct–179th chi,67179,χ:22S8W chi,χ:22S8W,41.565796,-87.783107,0.881,True,False,frame,0.87,0.0,-0.52,0.32,2
+χ:23N16W,23N16W,Us Hwy 45–Port Clinton chi,UsPor,χ:23N17W chi,χ:23N17W,42.207574,-87.93942,0.011,True,False,frame,0.011,0.0,0.51,0.03,3
+χ:23N17W,23N17W,Buffalo Grove–Port Clinton chi,BufPor,χ:23N18W chi,χ:23N18W,42.207441,-87.95889,0.063,True,False,frame,0.062,0.0,0.51,0.04,3
+χ:23S10E,23S10E,Kleinman–Franklin chi,KleFra,χ:23S10E chi,χ:23S10E,41.557518,-87.434074,1.002,False,False,,1.0,0.0,-0.45,-0.11,3
+χ:23S10W,23S10W,76th–185th chi,76185,χ:23S9W chi,χ:23S9W,41.551545,-87.80197,0.373,True,False,frame,0.387,0.0,-0.54,0.31,3
+χ:23S11E,23S11E,Colfax–35th chi,Col35,χ:23S11E chi,χ:23S11E,41.557857,-87.414606,0.661,True,False,frame,0.66,0.0,-0.45,-0.14,3
+χ:23S11W,23S11W,80th–185th chi,80185,χ:23S10W chi,χ:23S10W,41.551118,-87.821529,0.509,True,False,frame,0.504,0.0,-0.54,0.34,3
+χ:23S12E,23S12E,Clark–35th chi,Cla35,χ:23S12E chi,χ:23S12E,41.558196,-87.395137,0.042,True,False,frame,0.041,0.0,-0.45,-0.16,3
+χ:23S12W,23S12W,96th–187th chi,96187,χ:23S12W chi,χ:23S12W,41.550688,-87.841981,0.056,True,False,frame,0.048,0.0,-0.49,0.37,3
+χ:23S3E,23S3E,Clyde–186th chi,Cly186,χ:23S4E chi,χ:23S4E,41.556397,-87.568221,0.159,True,False,frame,0.14,0.0,-0.55,-0.03,3
+χ:23S4E,23S4E,School–186th chi,Sch186,χ:23S5E chi,χ:23S5E,41.556456,-87.548985,0.929,True,False,frame,0.823,0.0,-0.54,-0.04,3
+χ:23S5E,23S5E,Wentworth–186th chi,Wen186,χ:23S5E chi,χ:23S5E,41.556494,-87.530494,0.842,True,False,frame,0.854,0.0,-0.49,-0.04,3
+χ:23S6E,23S6E,Monroe–Fisher chi,MonFis,χ:23S6E chi,χ:23S6E,41.556532,-87.511959,1.032,True,False,frame,0.981,0.0,-0.44,-0.04,3
+χ:23S7E,23S7E,Beech–Fisher chi,BeeFis,χ:23S7E chi,χ:23S7E,41.55667,-87.492485,1.017,False,False,,1.0,0.0,-0.44,-0.05,3
+χ:23S8E,23S8E,Us Hwy 41–Highway chi,UsHig,χ:23S8E chi,χ:23S8E,41.55684,-87.473011,1.003,False,False,,1.0,0.0,-0.45,-0.07,3
+χ:23S9E,23S9E,Parrish–Condit chi,ParCon,χ:23S9E chi,χ:23S9E,41.557179,-87.453543,1.002,False,False,,1.0,0.0,-0.45,-0.09,3
+χ:24S10E,24S10E,Harvey–41st chi,Har41,χ:24S10E chi,χ:24S10E,41.543003,-87.433661,1.002,False,False,,1.0,0.0,-0.47,-0.11,3
+χ:24S11E,24S11E,Colfax–41st chi,Col41,χ:24S11E chi,χ:24S11E,41.543347,-87.414192,0.686,True,False,frame,0.684,0.0,-0.47,-0.13,3
+χ:24S6E,24S6E,Calumet–Camellia chi,CalCam,χ:24S6E chi,χ:24S6E,41.541629,-87.511535,0.332,True,False,frame,0.331,0.0,-0.47,-0.02,3
+χ:24S7E,24S7E,White Oak–Fran Lin Pkwy chi,WhiFra,χ:24S7E chi,χ:24S7E,41.541973,-87.492066,0.885,True,False,frame,0.882,0.0,-0.47,-0.04,3
+χ:24S8E,24S8E,Us Hwy 41–45th chi,Us45,χ:24S8E chi,χ:24S8E,41.542316,-87.472598,1.003,False,False,,1.0,0.0,-0.47,-0.06,3
+χ:24S9E,24S9E,Parrish–43rd chi,Par43,χ:24S9E chi,χ:24S9E,41.54266,-87.453129,1.002,False,False,,1.0,0.0,-0.47,-0.09,3
+χ:25S10E,25S10E,Harvey–Miller chi,HarMil,χ:25S10E chi,χ:25S10E,41.528489,-87.433247,0.754,True,False,frame,0.752,0.0,-0.49,-0.11,3
+χ:25S11E,25S11E,Colfax–Miller chi,ColMil,χ:25S11E chi,χ:25S11E,41.528837,-87.413779,0.36,True,False,frame,0.359,0.0,-0.49,-0.13,3
+χ:25S7E,25S7E,White Oak–Main chi,WhiMai,χ:25S7E chi,χ:25S7E,41.527444,-87.491653,0.315,True,False,frame,0.314,0.0,-0.49,-0.04,3
+χ:25S8E,25S8E,Us Hwy 41–Main chi,UsMai,χ:25S8E chi,χ:25S8E,41.527792,-87.472184,0.82,True,False,frame,0.817,0.0,-0.49,-0.06,3
+χ:25S9E,25S9E,5th–Pine chi,5Pin,χ:25S9E chi,χ:25S9E,41.52814,-87.452716,0.188,True,False,frame,0.188,0.0,-0.49,-0.09,3
+χ:26S7E,26S7E,Saint Andrews–213th chi,Sai213,χ:26S8E chi,χ:26S8E,41.512916,-87.491239,0.0,True,False,frame,0.0,0.0,-0.51,-0.04,3
+χ:26S8E,26S8E,Us Hwy 41–213th chi,Us213,χ:26S9E chi,χ:26S9E,41.513269,-87.471771,0.241,True,False,frame,0.24,0.0,-0.51,-0.06,3
+χ:2N10W,2N10W,Oak Park–Armitage chi,OakArm,Oriole–Division chi,OriDivi,41.901451,-87.814305,0.966,False,False,city,1.0,0.0,0.09,0.15,3
+χ:2N11W,2N11W,State Rte 171–Division chi,StaDivi,Cumberland–Division chi,CumDivi,41.901115,-87.833879,1.065,False,False,,1.0,0.0,0.09,0.18,3
+χ:2N12W,2N12W,17th–Division chi,17Divi,χ:2N12W chi,χ:2N12W,41.900646,-87.853941,1.023,False,False,,1.0,0.0,0.12,0.21,3
+χ:2N13W,2N13W,24th–Division chi,24Divi,χ:2N13W chi,χ:2N13W,41.900275,-87.873195,0.981,False,False,,1.0,0.0,0.11,0.24,3
+χ:2N14W,2N14W,Roberta–Division chi,RobDivi,χ:2N14W chi,χ:2N14W,41.899908,-87.892082,0.987,False,False,,1.0,0.0,0.08,0.27,3
+χ:2N15W,2N15W,Taft–Park chi,TafPar,χ:2N15W chi,χ:2N15W,41.899431,-87.910986,0.995,False,False,,1.0,0.0,0.05,0.3,3
+χ:2N16W,2N16W,Poplar–1st chi,Pop1,χ:2N16W chi,χ:2N16W,41.899023,-87.930152,1.023,False,False,,1.0,0.0,0.04,0.32,3
+χ:2N17W,2N17W,Myrtle–Park chi,MyrPar,χ:2N17W chi,χ:2N17W,41.898612,-87.94956,1.025,False,False,,1.0,0.0,0.04,0.35,3
+χ:2N18W,2N18W,Villa–Vermont chi,VilVer,χ:2N18W chi,χ:2N18W,41.898202,-87.968962,1.027,False,False,,1.0,0.0,0.03,0.38,3
+χ:2N19W,2N19W,Addison–Vermont chi,AddVer,χ:2N19W chi,χ:2N19W,41.897783,-87.988739,1.068,False,False,,1.0,0.0,0.05,0.41,3
+χ:2N1E,2N1E,La Salle–Division chi,LaDivi,Martin Luther King–Division chi,MarDivi,41.903944,-87.625971,0.332,True,False,"city,shore",1.0,0.999,0.03,-0.02,1
+χ:2N1W,2N1W,Clark–Division chi,ClaDivi,River–Division chi,RivDivi,41.903775,-87.638232,1.011,False,False,,1.0,1.0,,,
+χ:2N20W,2N20W,Grace–Berkshire chi,GraBer,χ:2N20W chi,χ:2N20W,41.897365,-88.008546,1.034,False,False,,1.0,0.0,0.07,0.44,3
+χ:2N21W,2N21W,West–Berkshire chi,WesBer,χ:2N21W chi,χ:2N21W,41.896953,-88.02801,0.875,True,False,frame,0.844,0.0,0.07,0.47,3
+χ:2N22W,2N22W,Swift–Saint Charles chi,SwiSai,χ:2N22W chi,χ:2N22W,41.896541,-88.047474,0.023,True,False,frame,0.022,0.0,0.07,0.5,3
+χ:2N2W,2N2W,Racine–Division chi,RacDivi,Racine–Division chi,RacDivi,41.903517,-87.657797,1.007,False,False,,1.0,1.0,,,
+χ:2N3W,2N3W,Damen–Division chi,DamDivi,Damen–Division chi,DamDivi,41.90326,-87.677295,1.005,False,False,,1.0,1.0,,,
+χ:2N4W,2N4W,California–Division chi,CalDivi,California–Division chi,CalDivi,41.903002,-87.696821,1.01,False,False,,1.0,1.0,,,
+χ:2N5W,2N5W,Central Park–Division chi,CenDivi,Central Park–Division chi,CenDivi,41.902743,-87.716417,1.013,False,False,,1.0,1.0,,,
+χ:2N6W,2N6W,Kostner–Division chi,KosDivi,Kostner–Division chi,KosDivi,41.902485,-87.736019,1.012,False,False,,1.0,1.0,,,
+χ:2N7W,2N7W,Laramie–Division chi,LarDivi,Laramie–Division chi,LarDivi,41.90223,-87.755391,0.99,False,False,,1.0,1.0,,,
+χ:2N8W,2N8W,Austin–Division chi,AusDivi,Austin–Division chi,AusDivi,41.90197,-87.774953,1.033,False,False,city,1.0,0.521,0.07,0.12,1
+χ:2N9W,2N9W,Oak Park–Armitage chi,OakArm,Oak Park–Division chi,OakDivi,41.901699,-87.794956,1.037,False,False,city,1.0,0.001,0.09,0.14,1
+χ:2S10W,2S10W,Hannah–16th chi,Han16,Oriole–16th chi,Ori16,41.857437,-87.814021,1.011,False,False,,1.0,0.0,0.07,0.19,3
+χ:2S11W,2S11W,1st–22nd chi,122,Cumberland–16th chi,Cum16,41.857008,-87.833425,1.01,False,False,,1.0,0.0,0.07,0.22,3
+χ:2S12W,2S12W,17th–14th chi,1714,χ:2S12W chi,χ:2S12W,41.856579,-87.85282,1.008,False,False,,1.0,0.0,0.07,0.25,3
+χ:2S13W,2S13W,Norfolk–Canterbury chi,NorCan,χ:2S13W chi,χ:2S13W,41.856164,-87.871647,0.949,False,False,,1.0,0.0,0.03,0.28,3
+χ:2S14W,2S14W,Mayfair–Canterbury chi,MayCan,χ:2S14W chi,χ:2S14W,41.855746,-87.890515,1.011,False,False,,1.0,0.0,0.0,0.31,3
+χ:2S15W,2S15W,Boeger–State Rte 38 chi,BoeSta,χ:2S15W chi,χ:2S15W,41.855316,-87.909979,0.957,True,False,frame,0.947,0.0,0.0,0.34,3
+χ:2S16W,2S16W,York–Harger chi,YorHar,χ:2S16W chi,χ:2S16W,41.854885,-87.929442,0.369,True,False,frame,0.366,0.0,0.0,0.37,3
+χ:2S17W,2S17W,State Rte 83–Harger chi,StaHar,χ:2S17W chi,χ:2S17W,41.854426,-87.948905,0.301,True,False,frame,0.299,0.0,0.0,0.4,3
+χ:2S18W,2S18W,Euclid–Butterfield chi,EucBut,χ:2S18W chi,χ:2S18W,41.853995,-87.968325,0.93,True,False,frame,0.931,0.0,-0.0,0.43,3
+χ:2S19W,2S19W,Meyers–16th chi,Mey16,χ:2S19W chi,χ:2S19W,41.85356,-87.987791,1.007,False,False,,1.0,0.0,-0.0,0.46,3
+χ:2S1E,2S1E,Prairie–16th chi,Pra16,Martin Luther King–16th chi,Mar16,41.860075,-87.617543,0.921,True,False,"city,frame,shore",0.918,0.987,-0.02,-0.0,1
+χ:2S1W,2S1W,Clark–16th chi,Cla16,River–16th chi,Riv16,41.860027,-87.637074,1.006,False,False,,1.0,1.0,,,
+χ:2S20W,2S20W,Grace–16th chi,Gra16,χ:2S20W chi,χ:2S20W,41.853109,-88.007295,1.003,False,False,,1.0,0.0,0.0,0.49,3
+χ:2S21W,2S21W,Finley–State Rte 38 chi,FinSta,χ:3S21W chi,χ:3S21W,41.852635,-88.026758,0.77,True,False,frame,0.767,0.0,0.0,0.52,3
+χ:2S22W,2S22W,State Rte 53–State Rte 38 chi,StaSta,χ:2S22W chi,χ:2S22W,41.853541,-88.046259,0.005,True,False,frame,0.005,0.0,0.0,0.46,3
+χ:2S2E,2S2E,Woodlawn–16th chi,Woo16,Woodlawn–16th chi,Woo16,41.861051,-87.6069,0.058,True,False,"city,frame,shore",0.721,0.699,-0.0,-0.02,1
+χ:2S2W,2S2W,Racine–16th chi,Rac16,Racine–16th chi,Rac16,41.859763,-87.656603,1.007,False,False,,1.0,1.0,,,
+χ:2S3W,2S3W,Damen–16th chi,Dam16,Damen–16th chi,Dam16,41.8595,-87.676082,1.003,False,False,,1.0,1.0,,,
+χ:2S4W,2S4W,California–16th chi,Cal16,California–16th chi,Cal16,41.859237,-87.695609,1.015,False,False,,1.0,1.0,,,
+χ:2S5W,2S5W,Central Park–16th chi,Cen16,Central Park–16th chi,Cen16,41.858973,-87.715216,1.014,False,False,,1.0,1.0,,,
+χ:2S6W,2S6W,Kostner–16th chi,Kos16,Kostner–16th chi,Kos16,41.858709,-87.734773,1.012,False,False,city,1.0,0.755,0.0,0.11,1
+χ:2S7W,2S7W,Laramie–Fillmore chi,LarFil,Laramie–16th chi,Lar16,41.858433,-87.754385,1.023,False,False,city,1.0,0.001,0.01,0.12,1
+χ:2S8W,2S8W,Austin–Fillmore chi,AusFil,Austin–16th chi,Aus16,41.85818,-87.773947,1.01,False,False,city,1.0,0.001,0.01,0.14,1
+χ:2S9W,2S9W,Oak Park–16th chi,Oak16,Oak Park–16th chi,Oak16,41.857855,-87.793984,1.076,False,False,,1.0,0.0,0.04,0.17,1
+χ:3N10W,3N10W,Oak Park–Armitage chi,OakArm,Oriole–Armitage chi,OriArm,41.916037,-87.814796,0.975,False,False,city,1.0,0.033,0.11,0.15,3
+χ:3N11W,3N11W,State Rte 171–State Rte 64 chi,StaSta,Cumberland–Armitage chi,CumArm,41.915793,-87.834087,1.027,False,False,,1.0,0.0,0.1,0.18,3
+χ:3N12W,3N12W,15th–State Rte 64 chi,15Sta,χ:3N12W chi,χ:3N12W,41.915474,-87.853018,0.952,False,False,,1.0,0.0,0.08,0.21,3
+χ:3N13W,3N13W,Scott–Armitage chi,ScoArm,χ:3N13W chi,χ:3N13W,41.914823,-87.872759,1.097,False,False,,1.0,0.0,0.08,0.2,3
+χ:3N14W,3N14W,Roberta–Armitage chi,RobArm,χ:3N14W chi,χ:3N14W,41.914632,-87.892545,0.972,False,False,,1.0,0.0,0.11,0.25,3
+χ:3N15W,3N15W,Railroad–Whitehall chi,RaiWhi,χ:3N15W chi,χ:3N15W,41.914596,-87.911098,1.018,False,False,,1.0,0.0,0.06,0.25,3
+χ:3N16W,3N16W,Emroy–Lake chi,EmrLak,χ:3N16W chi,χ:3N16W,41.914559,-87.930129,1.119,False,True,,1.0,0.0,0.04,0.25,3
+χ:3N17W,3N17W,Walnut–Armitage chi,WalArm,χ:3N17W chi,χ:3N17W,41.913411,-87.949633,1.081,False,False,,1.0,0.0,0.03,0.3,3
+χ:3N18W,3N18W,Villa–Armitage chi,VilArm,χ:3N18W chi,χ:3N18W,41.912995,-87.969131,1.016,False,False,,1.0,0.0,0.04,0.36,3
+χ:3N19W,3N19W,Addison–Factory chi,AddFac,χ:3N19W chi,χ:3N19W,41.912569,-87.989056,1.058,False,False,,1.0,0.0,0.06,0.39,3
+χ:3N1E,3N1E,La Salle–Schiller chi,LaSch,Martin Luther King–Armitage chi,MarArm,41.9175,-87.627998,0.049,True,False,"city,frame,shore",0.363,0.775,0.05,-0.03,1
+χ:3N1W,3N1W,Clark–Armitage chi,ClaArm,River–Armitage chi,RivArm,41.916354,-87.638565,0.982,True,False,"city,frame",0.969,0.989,0.06,-0.01,1
+χ:3N20W,3N20W,Grace–Factory chi,GraFac,χ:3N20W chi,χ:3N20W,41.912146,-88.008964,1.009,False,False,,1.0,0.0,0.09,0.42,3
+χ:3N21W,3N21W,Lombard–State Rte 64 chi,LomSta,χ:3N21W chi,χ:3N21W,41.911731,-88.028427,0.941,True,False,frame,0.935,0.0,0.09,0.45,3
+χ:3N22W,3N22W,Swift–Armitage chi,SwiArm,χ:3N22W chi,χ:3N22W,41.911316,-88.047891,0.088,True,False,frame,0.087,0.0,0.09,0.47,3
+χ:3N2W,3N2W,Racine–Armitage chi,RacArm,Racine–Armitage chi,RacArm,41.918068,-87.658194,1.008,False,False,,1.0,1.0,,,
+χ:3N3W,3N3W,Damen–Armitage chi,DamArm,Damen–Armitage chi,DamArm,41.917815,-87.677698,1.007,False,False,,1.0,1.0,,,
+χ:3N4W,3N4W,California–Armitage chi,CalArm,California–Armitage chi,CalArm,41.917562,-87.697224,1.01,False,False,,1.0,1.0,,,
+χ:3N5W,3N5W,Central Park–Armitage chi,CenArm,Central Park–Armitage chi,CenArm,41.917308,-87.716816,1.014,False,False,,1.0,1.0,,,
+χ:3N6W,3N6W,Kostner–Armitage chi,KosArm,Kostner–Armitage chi,KosArm,41.917054,-87.736434,1.013,False,False,,1.0,1.0,,,
+χ:3N7W,3N7W,Laramie–Armitage chi,LarArm,Laramie–Armitage chi,LarArm,41.916804,-87.755725,0.98,False,False,,1.0,1.0,,,
+χ:3N8W,3N8W,Austin–Armitage chi,AusArm,Austin–Armitage chi,AusArm,41.916549,-87.775288,1.041,False,False,city,1.0,1.0,0.08,0.11,1
+χ:3N9W,3N9W,Oak Park–Armitage chi,OakArm,Oak Park–Armitage chi,OakArm,41.91629,-87.795365,1.034,True,False,,1.0,1.0,,,
+χ:3S10W,3S10W,Des Plaines–26th chi,Des26,Oriole–26th chi,Ori26,41.842772,-87.813782,1.0,False,False,,1.0,0.0,0.06,0.2,3
+χ:3S11W,3S11W,State Rte 171–26th chi,Sta26,Cumberland–26th chi,Cum26,41.842353,-87.833035,0.999,False,False,,1.0,0.0,0.05,0.23,3
+χ:3S12W,3S12W,Maple–26th chi,Map26,χ:3S12W chi,χ:3S12W,41.841934,-87.852279,0.999,False,False,,1.0,0.0,0.04,0.26,3
+χ:3S13W,3S13W,Robinhood Ln–26th chi,Rob26,χ:3S13W chi,χ:3S13W,41.841525,-87.871132,0.959,False,False,,1.0,0.0,0.01,0.29,3
+χ:3S14W,3S14W,χ:3S14W chi,χ:3S14W,χ:3S14W chi,χ:3S14W,41.841111,-87.890101,0.915,True,False,frame,0.906,0.0,-0.02,0.32,3
+χ:3S15W,3S15W,χ:3S15W chi,χ:3S15W,χ:3S15W chi,χ:3S15W,41.840687,-87.909565,0.062,True,False,frame,0.061,0.0,-0.02,0.35,3
+χ:3S17W,3S17W,Jorie–22nd chi,Jor22,χ:3S17W chi,χ:3S17W,41.83984,-87.948493,0.0,True,False,frame,0.0,0.0,-0.02,0.41,3
+χ:3S18W,3S18W,Midwest–22nd chi,Mid22,χ:3S18W chi,χ:3S18W,41.839416,-87.968012,0.401,True,False,frame,0.395,0.0,-0.02,0.44,3
+χ:3S19W,3S19W,Meyers–Butterfield chi,MeyBut,χ:3S19W chi,χ:3S19W,41.83899,-87.987479,0.44,True,False,frame,0.439,0.0,-0.02,0.46,3
+χ:3S1E,3S1E,Prairie–26th chi,Pra26,Martin Luther King–26th chi,Mar26,41.845479,-87.617832,0.937,True,False,"city,frame,shore",0.98,0.99,-0.04,0.0,1
+χ:3S1W,3S1W,Lake Shore–26th chi,Lak26,River–26th chi,Riv26,41.845425,-87.636688,1.014,False,False,,1.0,1.0,,,
+χ:3S20W,3S20W,Stewart–Butterfield chi,SteBut,χ:3S20W chi,χ:3S20W,41.838529,-88.006883,0.843,True,False,frame,0.838,0.0,-0.02,0.5,3
+χ:3S21W,3S21W,Finley–Butterfield chi,FinBut,χ:4S21W chi,χ:4S21W,41.838101,-88.026347,0.614,True,False,frame,0.612,0.0,-0.02,0.53,3
+χ:3S2E,3S2E,Cottage Grove–33rd chi,Cot33,Woodlawn–26th chi,Woo26,41.839505,-87.606986,0.001,True,False,"city,frame,shore",0.136,0.714,-0.02,-0.01,1
+χ:3S2W,3S2W,Racine–26th chi,Rac26,Racine–26th chi,Rac26,41.845169,-87.656204,1.012,False,False,,1.0,1.0,,,
+χ:3S3W,3S3W,Damen–26th chi,Dam26,Damen–26th chi,Dam26,41.844914,-87.675678,1.004,False,False,,1.0,1.0,,,
+χ:3S4W,3S4W,California–26th chi,Cal26,California–26th chi,Cal26,41.844658,-87.695206,1.013,False,False,,1.0,1.0,,,
+χ:3S5W,3S5W,Central Park–26th chi,Cen26,Central Park–26th chi,Cen26,41.844401,-87.714816,1.008,False,False,,1.0,1.0,,,
+χ:3S6W,3S6W,Kostner–26th chi,Kos26,Kostner–26th chi,Kos26,41.844145,-87.734358,1.001,False,False,city,1.0,0.752,-0.02,0.11,1
+χ:3S7W,3S7W,Laramie–26th chi,Lar26,Laramie–26th chi,Lar26,41.843887,-87.75405,1.018,False,False,,1.0,0.0,-0.01,0.13,1
+χ:3S8W,3S8W,Austin–26th chi,Aus26,Austin–26th chi,Aus26,41.84363,-87.773676,0.996,False,False,,1.0,0.0,0.0,0.15,2
+χ:3S9W,3S9W,Oak Park–26th chi,Oak26,Oak Park–26th chi,Oak26,41.843209,-87.793756,1.078,False,False,,1.0,0.0,0.03,0.18,2
+χ:4N10W,4N10W,Oak Park–Diversey chi,OakDive,Oriole–Diversey chi,OriDive,41.930613,-87.815286,0.985,False,False,city,1.0,0.164,0.14,0.14,3
+χ:4N11W,4N11W,Cumberland–Addison chi,CumAdd,Cumberland–Diversey chi,CumDive,41.930301,-87.834332,0.985,False,False,city,1.0,0.005,0.12,0.16,3
+χ:4N12W,4N12W,Cumberland–Forest Preserve chi,CumFor,χ:4N12W chi,χ:4N12W,41.930144,-87.852133,0.856,False,True,city,1.0,0.004,0.03,0.18,3
+χ:4N13W,4N13W,Ruby–Grand chi,RubGra,χ:4N13W chi,χ:4N13W,41.929932,-87.870361,1.058,False,False,,1.0,0.0,-0.02,0.23,3
+χ:4N14W,4N14W,Geneva–Grand chi,GenGra,χ:4N14W chi,χ:4N14W,41.929479,-87.891307,1.145,False,True,,1.0,0.0,0.04,0.2,3
+χ:4N15W,4N15W,Northwest–Grand chi,NorGra,χ:4N15W chi,χ:4N15W,41.929518,-87.911208,0.927,False,False,,1.0,0.0,0.06,0.22,3
+χ:4N16W,4N16W,Emroy–Grand chi,EmrGra,χ:4N16W chi,χ:4N16W,41.929683,-87.930108,0.973,False,False,,1.0,0.0,0.04,0.21,3
+χ:4N17W,4N17W,Church–Grand chi,ChuGra,χ:4N17W chi,χ:4N17W,41.929642,-87.949714,1.036,False,False,,1.0,0.0,0.05,0.25,3
+χ:4N18W,4N18W,State Rte 83–Grand chi,StaGra,χ:4N18W chi,χ:4N18W,41.928418,-87.969306,1.113,False,True,,1.0,0.0,0.05,0.3,3
+χ:4N19W,4N19W,Addison–Diversey chi,AddDive,χ:4N19W chi,χ:4N19W,41.928085,-87.989389,1.185,False,True,,1.0,0.0,0.08,0.32,3
+χ:4N1W,4N1W,Clark–Diversey chi,ClaDive,River–Diversey chi,RivDive,41.932735,-87.63976,0.883,True,False,"city,frame,shore",0.953,0.974,0.08,-0.01,1
+χ:4N20W,4N20W,Mill–Diversey chi,MilDive,χ:4N20W chi,χ:4N20W,41.927749,-88.009405,1.137,False,True,,1.0,0.0,0.11,0.34,3
+χ:4N21W,4N21W,Rohlwing–Army Trail chi,RohArm,χ:4N21W chi,χ:4N21W,41.927424,-88.028871,1.139,True,False,frame,0.989,0.0,0.11,0.37,3
+χ:4N22W,4N22W,Swift–Army Trail chi,SwiArm,χ:4N22W chi,χ:4N22W,41.927099,-88.048337,0.202,True,False,frame,0.173,0.0,0.11,0.39,3
+χ:4N2W,4N2W,Racine–Diversey chi,RacDive,Racine–Diversey chi,RacDive,41.932635,-87.658591,1.008,False,False,,1.0,1.0,,,
+χ:4N3W,4N3W,Damen–Diversey chi,DamDive,Damen–Diversey chi,DamDive,41.932384,-87.678102,1.008,False,False,,1.0,1.0,,,
+χ:4N4W,4N4W,California–Diversey chi,CalDive,California–Diversey chi,CalDive,41.932133,-87.697628,1.01,False,False,,1.0,1.0,,,
+χ:4N5W,4N5W,Central Park–Diversey chi,CenDive,Central Park–Diversey chi,CenDive,41.931881,-87.717216,1.015,False,False,,1.0,1.0,,,
+χ:4N6W,4N6W,Kostner–Diversey chi,KosDive,Kostner–Diversey chi,KosDive,41.931628,-87.736849,1.015,False,False,,1.0,1.0,,,
+χ:4N7W,4N7W,Laramie–Diversey chi,LarDive,Laramie–Diversey chi,LarDive,41.931381,-87.75606,0.971,False,False,,1.0,1.0,,,
+χ:4N8W,4N8W,Austin–Diversey chi,AusDive,Austin–Diversey chi,AusDive,41.931129,-87.775623,1.051,False,False,,1.0,1.0,,,
+χ:4N9W,4N9W,Oak Park–Diversey chi,OakDive,Oak Park–Diversey chi,OakDive,41.93087,-87.795774,1.033,False,False,,1.0,1.0,,,
+χ:4S10W,4S10W,Maple–39th chi,Map39,Oriole–35th chi,Ori35,41.82821,-87.81291,0.981,False,False,,1.0,0.0,0.02,0.21,3
+χ:4S11W,4S11W,State Rte 171–Brookfield chi,StaBro,Cumberland–35th chi,Cum35,41.827863,-87.832083,0.985,False,False,,1.0,0.0,0.0,0.24,3
+χ:4S12W,4S12W,Maple–Monroe chi,MapMon,χ:4S12W chi,χ:4S12W,41.827325,-87.851233,0.991,False,False,,1.0,0.0,-0.02,0.27,3
+χ:4S13W,4S13W,Robinhood Ln–Harding chi,RobHar,χ:4S13W chi,χ:4S13W,41.826937,-87.870394,0.991,False,False,,1.0,0.0,-0.03,0.3,3
+χ:4S14W,4S14W,Gilbert–Harding chi,GilHar,χ:4S14W chi,χ:4S14W,41.826506,-87.889744,0.885,True,False,frame,0.877,0.0,-0.04,0.33,3
+χ:4S15W,4S15W,Woodland–Ogden chi,WooOgd,χ:4S15W chi,χ:4S15W,41.826077,-87.909065,0.222,True,False,frame,0.224,0.0,-0.04,0.35,3
+χ:4S16W,4S16W,York–Oak Brook chi,YorOak,χ:4S16W chi,χ:4S16W,41.825657,-87.928317,0.131,True,False,frame,0.13,0.0,-0.06,0.39,3
+χ:4S17W,4S17W,Adams–35th chi,Ada35,χ:4S17W chi,χ:4S17W,41.825231,-87.947641,0.23,True,False,frame,0.23,0.0,-0.06,0.41,3
+χ:4S18W,4S18W,Midwest–35th chi,Mid35,χ:4S18W chi,χ:4S18W,41.824825,-87.966962,0.662,True,False,frame,0.661,0.0,-0.07,0.44,3
+χ:4S19W,4S19W,Meyers–35th chi,Mey35,χ:4S19W chi,χ:4S19W,41.82441,-87.986415,0.207,True,False,frame,0.205,0.0,-0.07,0.47,3
+χ:4S1E,4S1E,Calumet–35th chi,Cal35,Martin Luther King–35th chi,Mar35,41.831153,-87.616832,0.984,True,False,frame,0.989,1.0,,,
+χ:4S1W,4S1W,Lake Shore–35th chi,Lak35,River–35th chi,Riv35,41.830889,-87.636303,0.999,False,False,,1.0,1.0,,,
+χ:4S20W,4S20W,Highland–38th chi,Hig38,χ:5S20W chi,χ:5S20W,41.823985,-88.006191,0.095,True,False,frame,0.092,0.0,-0.05,0.51,3
+χ:4S21W,4S21W,Finley–39th chi,Fin39,χ:5S21W chi,χ:5S21W,41.823551,-88.025936,0.158,True,False,frame,0.157,0.0,-0.04,0.53,3
+χ:4S2E,4S2E,Cottage Grove–35th chi,Cot35,Woodlawn–35th chi,Woo35,41.831276,-87.604884,0.199,True,False,"city,frame,shore",0.773,0.964,-0.04,-0.01,1
+χ:4S2W,4S2W,Racine–35th chi,Rac35,Racine–35th chi,Rac35,41.830623,-87.655807,1.005,False,False,,1.0,1.0,,,
+χ:4S3W,4S3W,Damen–35th chi,Dam35,Damen–35th chi,Dam35,41.830359,-87.675274,1.003,False,False,,1.0,1.0,,,
+χ:4S4W,4S4W,California–35th chi,Cal35,California–35th chi,Cal35,41.830093,-87.694802,1.019,False,False,,1.0,1.0,,,
+χ:4S5W,4S5W,Central Park–35th chi,Cen35,Central Park–35th chi,Cen35,41.829826,-87.714416,1.019,False,False,,1.0,1.0,,,
+χ:4S6W,4S6W,Kostner–35th chi,Kos35,Kostner–35th chi,Kos35,41.829561,-87.733943,1.018,False,False,city,1.0,0.745,-0.04,0.12,1
+χ:4S7W,4S7W,Laramie–35th chi,Lar35,Laramie–35th chi,Lar35,41.829305,-87.753715,1.052,False,False,,1.0,0.0,-0.02,0.14,1
+χ:4S8W,4S8W,Austin–35th chi,Aus35,Austin–35th chi,Aus35,41.828921,-87.773409,1.009,False,False,,1.0,0.0,-0.01,0.16,2
+χ:4S9W,4S9W,Oak Park–36th chi,Oak36,Oak Park–35th chi,Oak35,41.828561,-87.793203,1.047,False,False,,1.0,0.0,0.0,0.18,2
+χ:5N10W,5N10W,Oriole–Addison chi,OriAdd,Oriole–Addison chi,OriAdd,41.94523,-87.815778,0.999,False,False,city,1.0,0.999,0.16,0.13,3
+χ:5N11W,5N11W,Cumberland–Addison chi,CumAdd,Cumberland–Addison chi,CumAdd,41.944989,-87.835027,1.0,False,False,,1.0,1.0,,,
+χ:5N12W,5N12W,Cumberland–Wilson chi,CumWil,χ:5N12W chi,χ:5N12W,41.944764,-87.852961,0.864,False,True,city,1.0,0.506,0.07,0.17,3
+χ:5N13W,5N13W,Atlantic–Addison chi,AtlAdd,χ:5N13W chi,χ:5N13W,41.944555,-87.869585,0.864,False,True,,1.0,0.0,-0.07,0.18,3
+χ:5N14W,5N14W,χ:5N14W chi,χ:5N14W,χ:5N14W chi,χ:5N14W,41.943882,-87.890124,1.253,False,True,city,1.0,0.005,-0.02,0.2,3
+χ:5N15W,5N15W,χ:5N15W chi,χ:5N15W,χ:5N15W chi,χ:5N15W,41.943723,-87.911312,0.951,False,False,city,1.0,0.033,0.07,0.22,3
+χ:5N16W,5N16W,York–3rd chi,Yor3,χ:5N16W chi,χ:5N16W,41.943854,-87.930575,1.063,False,False,,1.0,0.0,0.06,0.22,3
+χ:5N17W,5N17W,Church–3rd chi,Chu3,χ:5N17W chi,χ:5N17W,41.943854,-87.950697,1.003,False,False,,1.0,0.0,0.1,0.23,3
+χ:5N18W,5N18W,Cedar–3rd chi,Ced3,χ:5N18W chi,χ:5N18W,41.943692,-87.970254,1.016,False,False,,1.0,0.0,0.1,0.24,3
+χ:5N19W,5N19W,χ:5N19W chi,χ:5N19W,χ:5N19W chi,χ:5N19W,41.943476,-87.990066,1.043,False,False,,1.0,0.0,0.12,0.26,3
+χ:5N1W,5N1W,Clark–Addison chi,ClaAdd,River–Addison chi,RivAdd,41.946085,-87.64245,0.65,True,False,"city,shore",1.0,0.961,0.1,-0.02,1
+χ:5N20W,5N20W,Mill–Us Hwy 20 chi,MilUs,χ:5N20W chi,χ:5N20W,41.943254,-88.009843,1.012,False,False,,1.0,0.0,0.13,0.27,3
+χ:5N21W,5N21W,State Rte 53–Us Hwy 20 chi,StaUs,χ:5N21W chi,χ:5N21W,41.943039,-88.029312,1.012,False,False,,1.0,0.0,0.13,0.29,3
+χ:5N22W,5N22W,χ:5N22W chi,χ:5N22W,χ:5N22W chi,χ:5N22W,41.942824,-88.048781,0.344,True,False,frame,0.339,0.0,0.13,0.3,3
+χ:5N2W,5N2W,Racine–Addison chi,RacAdd,Racine–Addison chi,RacAdd,41.947197,-87.658989,1.007,False,False,,1.0,1.0,,,
+χ:5N3W,5N3W,Damen–Addison chi,DamAdd,Damen–Addison chi,DamAdd,41.946952,-87.678506,1.008,False,False,,1.0,1.0,,,
+χ:5N4W,5N4W,California–Addison chi,CalAdd,California–Addison chi,CalAdd,41.946707,-87.698031,1.009,False,False,,1.0,1.0,,,
+χ:5N5W,5N5W,Central Park–Addison chi,CenAdd,Central Park–Addison chi,CenAdd,41.946461,-87.717617,1.015,False,False,,1.0,1.0,,,
+χ:5N6W,5N6W,Kostner–Addison chi,KosAdd,Kostner–Addison chi,KosAdd,41.946215,-87.737264,1.017,False,False,,1.0,1.0,,,
+χ:5N7W,5N7W,Laramie–Addison chi,LarAdd,Laramie–Addison chi,LarAdd,41.945976,-87.756396,0.964,False,False,,1.0,1.0,,,
+χ:5N8W,5N8W,Austin–Addison chi,AusAdd,Austin–Addison chi,AusAdd,41.945729,-87.775959,1.063,False,False,,1.0,1.0,,,
+χ:5N9W,5N9W,Oak Park–Addison chi,OakAdd,Oak Park–Addison chi,OakAdd,41.945476,-87.796183,1.034,False,False,,1.0,1.0,,,
+χ:5S10W,5S10W,Joliet–44th chi,Jol44,Oriole–43rd chi,Ori43,41.813754,-87.811995,0.986,False,False,,1.0,0.0,-0.03,0.21,3
+χ:5S11W,5S11W,State Rte 171–44th chi,Sta44,Cumberland–43rd chi,Cum43,41.813201,-87.831041,0.996,False,False,,1.0,0.0,-0.05,0.24,3
+χ:5S12W,5S12W,Elm–Shields chi,ElmShi,χ:5S12W chi,χ:5S12W,41.812751,-87.850179,0.99,False,False,,1.0,0.0,-0.07,0.28,3
+χ:5S13W,5S13W,Us Hwy 12–Cossitt chi,UsCos,χ:5S13W chi,χ:5S13W,41.812365,-87.869612,1.019,False,False,,1.0,0.0,-0.07,0.3,3
+χ:5S14W,5S14W,Gilbert–Hillgrove chi,GilHil,χ:5S14W chi,χ:5S14W,41.811924,-87.889213,1.008,False,False,,1.0,0.0,-0.06,0.33,3
+χ:5S15W,5S15W,Woodland–Hickory chi,WooHic,χ:5S15W chi,χ:5S15W,41.811495,-87.908414,0.98,False,False,,1.0,0.0,-0.08,0.36,3
+χ:5S16W,5S16W,York–Hickory chi,YorHic,χ:5S16W chi,χ:5S16W,41.811064,-87.927537,0.778,True,False,frame,0.778,0.0,-0.1,0.39,3
+χ:5S17W,5S17W,State Rte 83–Us Hwy 34 chi,StaUs,χ:5S17W chi,χ:5S17W,41.810652,-87.946766,0.982,True,False,frame,0.991,0.0,-0.11,0.42,3
+χ:5S18W,5S18W,Blackhawk–Ogden chi,BlaOgd,χ:5S18W chi,χ:5S18W,41.810266,-87.965892,0.988,False,False,,1.0,0.0,-0.13,0.45,3
+χ:5S19W,5S19W,Park–Ogden chi,ParOgd,χ:5S19W chi,χ:5S19W,41.809846,-87.985324,0.86,True,False,frame,0.842,0.0,-0.13,0.48,3
+χ:5S1E,5S1E,Calumet–43rd chi,Cal43,Martin Luther King–43rd chi,Mar43,41.81659,-87.616473,1.012,False,False,,1.0,1.0,,,
+χ:5S1W,5S1W,Shields–43rd chi,Shi43,River–43rd chi,Riv43,41.816306,-87.635917,1.012,False,False,,1.0,1.0,,,
+χ:5S20W,5S20W,Elm–Ogden chi,ElmOgd,χ:6S20W chi,χ:6S20W,41.809413,-88.005497,0.833,True,False,frame,0.783,0.0,-0.09,0.51,3
+χ:5S21W,5S21W,Lee–Ogden chi,LeeOgd,χ:6S21W chi,χ:6S21W,41.808981,-88.025524,0.117,True,False,frame,0.116,0.0,-0.06,0.54,3
+χ:5S2E,5S2E,Woodlawn–43rd chi,Woo43,Woodlawn–43rd chi,Woo43,41.81681,-87.599453,0.753,True,False,"city,shore",1.0,0.995,-0.06,-0.01,1
+χ:5S2W,5S2W,Racine–43rd chi,Rac43,Racine–43rd chi,Rac43,41.816021,-87.655409,1.015,False,False,,1.0,1.0,,,
+χ:5S3E,5S3E,Woodlawn–48th chi,Woo48,Jeffery–43rd chi,Jef43,41.810723,-87.587228,0.004,True,False,"city,shore",1.0,0.969,-0.04,-0.03,1
+χ:5S3W,5S3W,Damen–43rd chi,Dam43,Damen–43rd chi,Dam43,41.815737,-87.674869,1.006,False,False,,1.0,1.0,,,
+χ:5S4W,5S4W,California–43rd chi,Cal43,California–43rd chi,Cal43,41.815452,-87.694397,1.02,False,False,,1.0,1.0,,,
+χ:5S5W,5S5W,Central Park–43rd chi,Cen43,Central Park–43rd chi,Cen43,41.815166,-87.714013,1.013,False,False,,1.0,1.0,,,
+χ:5S6W,5S6W,Kostner–43rd chi,Kos43,Kostner–43rd chi,Kos43,41.814881,-87.733525,1.007,True,False,,1.0,1.0,,,
+χ:5S7W,5S7W,Laramie–43rd chi,Lar43,Laramie–43rd chi,Lar43,41.814591,-87.753377,1.047,False,False,city,1.0,0.277,-0.04,0.15,1
+χ:5S8W,5S8W,Elmwood–39th chi,Elm39,Austin–43rd chi,Aus43,41.814313,-87.773008,0.982,False,False,,1.0,0.0,-0.03,0.17,2
+χ:5S9W,5S9W,Oak Park–41st chi,Oak41,Oak Park–43rd chi,Oak43,41.814037,-87.792506,1.033,False,False,,1.0,0.0,-0.03,0.19,2
+χ:6N10W,6N10W,Oriole–Montrose chi,OriMon,Oriole–Montrose chi,OriMon,41.959767,-87.816267,0.997,False,False,,1.0,1.0,,,
+χ:6N11W,6N11W,Cumberland–Montrose chi,CumMon,Cumberland–Montrose chi,CumMon,41.959517,-87.835714,0.995,False,False,,1.0,1.0,,,
+χ:6N12W,6N12W,East River–Foster chi,EasFos,χ:6N12W chi,χ:6N12W,41.959285,-87.853785,0.853,False,True,city,1.0,0.535,0.12,0.16,3
+χ:6N13W,6N13W,Ruby–State Rte 19 chi,RubSta,χ:6N13W chi,χ:6N13W,41.959071,-87.870482,0.852,False,True,,1.0,0.0,-0.03,0.18,3
+χ:6N14W,6N14W,χ:6N14W chi,χ:6N14W,χ:6N14W chi,χ:6N14W,41.958856,-87.887176,0.851,False,True,city,1.0,0.58,0.01,0.2,3
+χ:6N15W,6N15W,χ:6N15W chi,χ:6N15W,χ:6N15W chi,χ:6N15W,41.958605,-87.910941,1.536,False,True,city,1.0,0.916,0.08,0.22,3
+χ:6N16W,6N16W,χ:6N16W chi,χ:6N16W,χ:6N16W chi,χ:6N16W,41.958239,-87.934233,0.831,False,True,city,1.0,0.09,0.09,0.23,3
+χ:6N17W,6N17W,Church–Green chi,ChuGre,χ:6N17W chi,χ:6N17W,41.95821,-87.951841,0.999,False,False,,1.0,0.0,0.15,0.23,3
+χ:6N18W,6N18W,Cedar–Montrose chi,CedMon,χ:6N18W chi,χ:6N18W,41.958329,-87.971319,1.011,False,False,,1.0,0.0,0.15,0.23,3
+χ:6N19W,6N19W,Addison–Forest Preserve chi,AddFor,χ:6N19W chi,χ:6N19W,41.958118,-87.990788,1.011,False,False,,1.0,0.0,0.15,0.25,3
+χ:6N1W,6N1W,Clark–Montrose chi,ClaMon,River–Montrose chi,RivMon,41.961939,-87.641222,0.609,True,False,"city,frame,shore",0.961,0.979,0.12,-0.03,1
+χ:6N20W,6N20W,Elm–Forest Preserve chi,ElmFor,χ:6N20W chi,χ:6N20W,41.957908,-88.010257,1.012,False,False,,1.0,0.0,0.15,0.26,3
+χ:6N21W,6N21W,State Rte 53–Us Hwy 20 chi,StaUs,χ:6N21W chi,χ:6N21W,41.957697,-88.029726,1.012,False,False,,1.0,0.0,0.15,0.27,3
+χ:6N22W,6N22W,Medinah–Us Hwy 20 chi,MedUs,χ:6N22W chi,χ:6N22W,41.957486,-88.049195,0.433,True,False,frame,0.427,0.0,0.15,0.29,3
+χ:6N2W,6N2W,Racine–Montrose chi,RacMon,Racine–Montrose chi,RacMon,41.961785,-87.659387,1.013,False,False,,1.0,1.0,,,
+χ:6N3W,6N3W,Damen–Montrose chi,DamMon,Damen–Montrose chi,DamMon,41.961534,-87.67891,1.013,False,False,,1.0,1.0,,,
+χ:6N4W,6N4W,California–Montrose chi,CalMon,California–Montrose chi,CalMon,41.961283,-87.698435,1.01,False,False,,1.0,1.0,,,
+χ:6N5W,6N5W,Central Park–Montrose chi,CenMon,Central Park–Montrose chi,CenMon,41.961031,-87.718016,1.015,False,False,,1.0,1.0,,,
+χ:6N6W,6N6W,Kostner–Montrose chi,KosMon,Kostner–Montrose chi,KosMon,41.960778,-87.737679,1.015,False,False,,1.0,1.0,,,
+χ:6N7W,6N7W,Laramie–Montrose chi,LarMon,Laramie–Montrose chi,LarMon,41.960534,-87.75673,0.949,False,False,,1.0,1.0,,,
+χ:6N8W,6N8W,Austin–Montrose chi,AusMon,Austin–Montrose chi,AusMon,41.960281,-87.776294,1.065,False,False,,1.0,1.0,,,
+χ:6N9W,6N9W,Oak Park–Montrose chi,OakMon,Oak Park–Montrose chi,OakMon,41.96002,-87.796591,1.022,False,False,,1.0,1.0,,,
+χ:6S10W,6S10W,74th–Archer chi,74Arc,Oriole–51st chi,Ori51,41.798988,-87.811587,0.978,False,False,,1.0,0.0,-0.05,0.22,3
+χ:6S11W,6S11W,State Rte 171–Joliet chi,StaJol,Cumberland–51st chi,Cum51,41.798561,-87.830497,0.991,False,False,,1.0,0.0,-0.08,0.25,3
+χ:6S12W,6S12W,Vernon–Plainfield chi,VerPla,χ:6S12W chi,χ:6S12W,41.798191,-87.849618,0.99,False,False,,1.0,0.0,-0.1,0.28,3
+χ:6S13W,6S13W,Lagrange–51st chi,Lag51,χ:6S13W chi,χ:6S13W,41.797763,-87.868976,1.016,False,False,,1.0,0.0,-0.1,0.31,2
+χ:6S14W,6S14W,Willow Springs–51st chi,Wil51,χ:6S14W chi,χ:6S14W,41.797334,-87.888445,1.001,False,False,,1.0,0.0,-0.1,0.34,2
+χ:6S15W,6S15W,Woodland–51st chi,Woo51,χ:6S15W chi,χ:6S15W,41.796912,-87.90772,0.577,True,False,frame,0.581,0.0,-0.11,0.37,2
+χ:6S16W,6S16W,Park–6th chi,Par6,χ:6S16W chi,χ:6S16W,41.796486,-87.926992,0.585,True,False,frame,0.587,0.0,-0.12,0.4,2
+χ:6S17W,6S17W,Robert Kingery Hwy S–6th chi,Rob6,χ:6S17W chi,χ:6S17W,41.796099,-87.946283,0.994,False,False,,1.0,0.0,-0.13,0.43,3
+χ:6S18W,6S18W,Wilmette–Burlington chi,WilBur,χ:6S18W chi,χ:6S18W,41.795688,-87.965524,0.994,False,False,,1.0,0.0,-0.14,0.45,3
+χ:6S19W,6S19W,Park–Burlington chi,ParBur,χ:6S19W chi,χ:6S19W,41.79527,-87.984936,1.013,False,False,,1.0,0.0,-0.15,0.48,3
+χ:6S1E,6S1E,Dr Martin Luther King Jr–51st chi,Dr51,Martin Luther King–51st chi,Mar51,41.80193,-87.616113,1.008,False,False,,1.0,1.0,,,
+χ:6S1W,6S1W,Shields–51st chi,Shi51,River–51st chi,Riv51,41.801647,-87.635529,1.01,False,False,,1.0,1.0,,,
+χ:6S20W,6S20W,Elm–Burlington chi,ElmBur,χ:7S20W chi,χ:7S20W,41.794841,-88.005054,0.983,True,False,frame,0.921,0.0,-0.11,0.51,3
+χ:6S21W,6S21W,Lee–Curtiss chi,LeeCur,χ:7S21W chi,χ:7S21W,41.794411,-88.025113,0.07,True,False,frame,0.069,0.0,-0.08,0.54,3
+χ:6S2E,6S2E,Woodlawn–Hyde Park chi,WooHyd,Woodlawn–51st chi,Woo51,41.802212,-87.596834,0.994,False,False,,1.0,1.0,,,
+χ:6S2W,6S2W,Racine–51st chi,Rac51,Racine–51st chi,Rac51,41.801362,-87.655009,1.017,False,False,,1.0,1.0,,,
+χ:6S3E,6S3E,East End–Hyde Park chi,EasHyd,Jeffery–51st chi,Jef51,41.801618,-87.583836,0.328,True,False,"city,shore",1.0,0.971,-0.07,-0.02,1
+χ:6S3W,6S3W,Damen–51st chi,Dam51,Damen–51st chi,Dam51,41.801078,-87.674463,1.01,False,False,,1.0,1.0,,,
+χ:6S4W,6S4W,California–51st chi,Cal51,California–51st chi,Cal51,41.800794,-87.693991,1.027,False,False,,1.0,1.0,,,
+χ:6S5W,6S5W,Central Park–51st chi,Cen51,Central Park–51st chi,Cen51,41.800507,-87.713611,1.021,False,False,,1.0,1.0,,,
+χ:6S6W,6S6W,Kostner–51st chi,Kos51,Kostner–51st chi,Kos51,41.800223,-87.733108,1.016,False,False,,1.0,1.0,,,
+χ:6S7W,6S7W,Laramie–51st chi,Lar51,Laramie–51st chi,Lar51,41.796356,-87.752959,1.069,False,False,city,1.0,0.752,-0.06,0.16,1
+χ:6S8W,6S8W,Austin–51st chi,Aus51,Austin–51st chi,Aus51,41.796037,-87.772518,0.979,False,False,city,1.0,0.512,-0.06,0.18,1
+χ:6S9W,6S9W,Oak Park–51st chi,Oak51,Oak Park–51st chi,Oak51,41.795898,-87.791991,1.064,False,False,city,1.0,0.485,-0.05,0.2,1
+χ:7N10W,7N10W,Oriole–Foster chi,OriFos,Oriole–Foster chi,OriFos,41.974834,-87.816773,1.086,False,False,,1.0,1.0,,,
+χ:7N11W,7N11W,Cumberland–Foster chi,CumFos,Cumberland–Foster chi,CumFos,41.97465,-87.83643,1.097,False,False,,1.0,1.0,,,
+χ:7N12W,7N12W,East River–Foster chi,EasFos,χ:7N12W chi,χ:7N12W,41.978093,-87.854851,0.946,False,False,city,1.0,0.684,0.16,0.12,3
+χ:7N13W,7N13W,Mannheim–Higgins chi,ManHig,χ:7N13W chi,χ:7N13W,41.978049,-87.871654,0.954,False,False,city,1.0,0.206,0.02,0.13,3
+χ:7N14W,7N14W,Mannheim–Higgins chi,ManHig,χ:7N14W chi,χ:7N14W,41.977524,-87.888425,0.962,False,False,city,1.0,0.969,0.06,0.14,3
+χ:7N15W,7N15W,χ:7N15W chi,χ:7N15W,χ:7N15W chi,χ:7N15W,41.974001,-87.904974,0.97,False,False,,1.0,1.0,,,
+χ:7N16W,7N16W,χ:7N16W chi,χ:7N16W,χ:7N16W chi,χ:7N16W,41.973812,-87.927949,1.706,False,True,city,1.0,0.903,0.14,0.18,3
+χ:7N17W,7N17W,Thomas–Foster chi,ThoFos,χ:7N17W chi,χ:7N17W,41.973075,-87.952261,1.079,False,False,,1.0,0.0,0.16,0.19,3
+χ:7N18W,7N18W,Lively–Foster chi,LivFos,χ:7N18W chi,χ:7N18W,41.972973,-87.971733,1.011,False,False,,1.0,0.0,0.17,0.22,3
+χ:7N19W,7N19W,Prospect–State Rte 19 chi,ProSta,χ:7N19W chi,χ:7N19W,41.972767,-87.991202,1.011,False,False,,1.0,0.0,0.17,0.24,3
+χ:7N1W,7N1W,Lake Shore–Leland chi,LakLel,River–Foster chi,RivFos,41.970422,-87.644555,0.002,True,False,shore,1.0,0.0,0.14,-0.02,1
+χ:7N20W,7N20W,Elm–State Rte 19 chi,ElmSta,χ:7N20W chi,χ:7N20W,41.972561,-88.010671,1.012,False,False,,1.0,0.0,0.18,0.25,3
+χ:7N21W,7N21W,State Rte 53–State Rte 19 chi,StaSta,χ:7N21W chi,χ:7N21W,41.972355,-88.03014,1.012,False,False,,1.0,0.0,0.18,0.26,3
+χ:7N22W,7N22W,Medinah–Foster chi,MedFos,χ:7N22W chi,χ:7N22W,41.972149,-88.049609,0.985,True,False,frame,0.973,0.0,0.18,0.28,3
+χ:7N23W,7N23W,Circle–Foster chi,CirFos,χ:7N23W chi,χ:7N23W,41.971943,-88.069078,0.647,True,False,frame,0.639,0.0,0.18,0.29,3
+χ:7N24W,7N24W,Bloomingdale–Walnut chi,BloWal,χ:7N24W chi,χ:7N24W,41.971724,-88.089179,0.395,True,False,frame,0.366,0.0,0.21,0.3,3
+χ:7N25W,7N25W,Rodenburg–Us Hwy 20 chi,RodUs,χ:7N25W chi,χ:7N25W,41.971531,-88.108632,0.79,True,False,frame,0.833,0.0,0.21,0.33,3
+χ:7N26W,7N26W,Gary–Us Hwy 20 chi,GarUs,χ:7N26W chi,χ:7N26W,41.971325,-88.127485,0.839,True,False,frame,0.828,0.0,0.18,0.33,3
+χ:7N27W,7N27W,County Farm–Stearns chi,CouSte,χ:7N27W chi,χ:7N27W,41.971119,-88.146954,0.825,True,False,frame,0.814,0.0,0.18,0.35,3
+χ:7N28W,7N28W,Prospect–Stearns chi,ProSte,χ:7N28W chi,χ:7N28W,41.970913,-88.166423,0.532,True,False,frame,0.525,0.0,0.18,0.36,3
+χ:7N29W,7N29W,Bartlett–Co Rd 29 chi,BarCo,χ:7N29W chi,χ:7N29W,41.970707,-88.185893,0.074,True,False,frame,0.073,0.0,0.18,0.38,3
+χ:7N2W,7N2W,Sheridan–Foster chi,SheFos,Racine–Foster chi,RacFos,41.974955,-87.657884,1.113,True,False,,1.0,1.0,,,
+χ:7N3W,7N3W,Damen–Foster chi,DamFos,Damen–Foster chi,DamFos,41.976125,-87.679314,1.003,False,False,,1.0,1.0,,,
+χ:7N4W,7N4W,California–Foster chi,CalFos,California–Foster chi,CalFos,41.975941,-87.698841,1.011,False,False,,1.0,1.0,,,
+χ:7N5W,7N5W,Central Park–Foster chi,CenFos,Central Park–Foster chi,CenFos,41.975758,-87.718421,1.031,False,False,,1.0,1.0,,,
+χ:7N6W,7N6W,Kostner–Foster chi,KosFos,Kostner–Foster chi,KosFos,41.975573,-87.7381,1.044,False,False,,1.0,1.0,,,
+χ:7N7W,7N7W,Laramie–Foster chi,LarFos,Laramie–Foster chi,LarFos,41.975392,-87.757071,0.977,False,False,,1.0,1.0,,,
+χ:7N8W,7N8W,Austin–Foster chi,AusFos,Austin–Foster chi,AusFos,41.975213,-87.776637,1.13,False,True,,1.0,1.0,,,
+χ:7N9W,7N9W,Oak Park–Foster chi,OakFos,Oak Park–Foster chi,OakFos,41.97502,-87.797011,1.087,False,False,,1.0,1.0,,,
+χ:7S10W,7S10W,State Rte 171–59th chi,Sta59,Oriole–59th chi,Ori59,41.784195,-87.811166,0.977,False,False,,1.0,0.0,-0.08,0.24,3
+χ:7S11W,7S11W,Cumberland–59th chi,Cum59,Cumberland–59th chi,Cum59,41.783977,-87.830154,1.0,False,False,,1.0,0.0,-0.1,0.26,3
+χ:7S12W,7S12W,χ:7S12W chi,χ:7S12W,χ:7S12W chi,χ:7S12W,41.783577,-87.849213,0.971,False,False,,1.0,0.0,-0.12,0.29,3
+χ:7S13W,7S13W,Us Hwy 12–59th chi,Us59,χ:7S13W chi,χ:7S13W,41.783183,-87.868341,0.976,True,False,frame,0.971,0.0,-0.14,0.32,3
+χ:7S14W,7S14W,Willow Springs–59th chi,Wil59,χ:7S14W chi,χ:7S14W,41.782782,-87.887679,0.483,True,False,frame,0.488,0.0,-0.14,0.34,3
+χ:7S15W,7S15W,Grand–62nd chi,Gra62,χ:7S15W chi,χ:7S15W,41.782348,-87.907026,0.057,True,False,frame,0.056,0.0,-0.15,0.37,2
+χ:7S16W,7S16W,Park–Co Rd 35 chi,ParCo,χ:7S16W chi,χ:7S16W,41.781939,-87.926449,0.663,True,False,frame,0.664,0.0,-0.15,0.4,2
+χ:7S17W,7S17W,Stough–59th chi,Sto59,χ:7S17W chi,χ:7S17W,41.781534,-87.945766,0.973,True,False,frame,0.977,0.0,-0.16,0.43,2
+χ:7S18W,7S18W,Richmond–59th chi,Ric59,χ:7S18W chi,χ:7S18W,41.781129,-87.965125,1.002,False,False,,1.0,0.0,-0.16,0.46,2
+χ:7S19W,7S19W,Williams–59th chi,Wil59,χ:7S19W chi,χ:7S19W,41.780719,-87.984549,1.0,False,False,,1.0,0.0,-0.17,0.49,2
+χ:7S1E,7S1E,Dr Martin Luther King Jr–59th chi,Dr59,Martin Luther King–59th chi,Mar59,41.787526,-87.615759,0.975,False,False,,1.0,1.0,,,
+χ:7S1W,7S1W,Shields–59th chi,Shi59,River–59th chi,Riv59,41.787198,-87.635147,0.981,False,False,,1.0,1.0,,,
+χ:7S20W,7S20W,Lyman–59th chi,Lym59,χ:8S20W chi,χ:8S20W,41.780299,-88.004612,1.0,True,False,frame,0.938,0.0,-0.14,0.52,3
+χ:7S21W,7S21W,Springside–59th chi,Spr59,χ:8S21W chi,χ:8S21W,41.779877,-88.024702,0.314,True,False,frame,0.314,0.0,-0.1,0.54,3
+χ:7S22W,7S22W,Chase–59th chi,Cha59,χ:8S22W chi,χ:8S22W,41.779677,-88.044173,0.304,True,False,frame,0.282,0.0,-0.09,0.53,3
+χ:7S23W,7S23W,Kingston–Maple chi,KinMap,χ:8S23W chi,χ:8S23W,41.780259,-88.063666,0.339,True,False,frame,0.292,0.0,-0.1,0.52,3
+χ:7S24W,7S24W,Yackley–Maple chi,YacMap,χ:8S24W chi,χ:8S24W,41.779927,-88.083133,0.52,True,False,frame,0.445,0.0,-0.1,0.54,3
+χ:7S2E,7S2E,Woodlawn–59th chi,Woo59,Woodlawn–59th chi,Woo59,41.787854,-87.596441,0.964,False,False,,1.0,1.0,,,
+χ:7S2W,7S2W,Racine–59th chi,Rac59,Racine–59th chi,Rac59,41.786869,-87.654613,0.993,False,False,,1.0,1.0,,,
+χ:7S3E,7S3E,East End–Midway Plaisance chi,EasMid,Jeffery–59th chi,Jef59,41.788061,-87.581994,0.504,True,False,"city,frame,shore",0.989,0.954,-0.09,-0.03,1
+χ:7S3W,7S3W,Damen–59th chi,Dam59,Damen–59th chi,Dam59,41.78654,-87.67406,0.989,False,False,,1.0,1.0,,,
+χ:7S4W,7S4W,California–59th chi,Cal59,California–59th chi,Cal59,41.78621,-87.693587,1.012,False,False,,1.0,1.0,,,
+χ:7S5W,7S5W,Central Park–59th chi,Cen59,Central Park–59th chi,Cen59,41.785877,-87.71321,1.01,False,False,,1.0,1.0,,,
+χ:7S6W,7S6W,Kostner–59th chi,Kos59,Kostner–59th chi,Kos59,41.785547,-87.73269,1.008,False,False,,1.0,1.0,,,
+χ:7S7W,7S7W,Laramie–59th chi,Lar59,Laramie–59th chi,Lar59,41.78521,-87.752703,1.076,False,False,,1.0,1.0,,,
+χ:7S8W,7S8W,Austin–59th chi,Aus59,Austin–59th chi,Aus59,41.784876,-87.772261,0.971,False,False,,1.0,1.0,,,
+χ:7S9W,7S9W,Oak Park–59th chi,Oak59,Oak Park–59th chi,Oak59,41.78455,-87.791673,1.072,False,False,city,1.0,0.969,-0.07,0.22,1
+χ:8N10W,8N10W,Oriole–Peterson chi,OriPet,Oriole–Peterson chi,OriPet,41.991033,-87.817318,1.021,False,False,city,1.0,0.795,0.24,0.06,3
+χ:8N11W,8N11W,Cumberland–Gregory chi,CumGre,Cumberland–Peterson chi,CumPet,41.992423,-87.837271,1.02,False,False,city,1.0,0.274,0.26,0.06,3
+χ:8N12W,8N12W,East River–Higgins chi,EasHig,χ:8N12W chi,χ:8N12W,41.992378,-87.85566,0.866,False,True,city,1.0,0.231,0.2,0.07,3
+χ:8N13W,8N13W,Mannheim–Higgins chi,ManHig,χ:8N13W chi,χ:8N13W,41.988777,-87.872317,0.866,False,True,city,1.0,0.151,0.07,0.08,3
+χ:8N14W,8N14W,Mannheim–Higgins chi,ManHig,χ:8N14W chi,χ:8N14W,41.988732,-87.889174,0.866,False,True,city,1.0,0.979,0.1,0.09,3
+χ:8N15W,8N15W,χ:8N15W chi,χ:8N15W,χ:8N15W chi,χ:8N15W,41.989363,-87.90608,0.866,False,True,,1.0,1.0,,,
+χ:8N16W,8N16W,χ:8N16W chi,χ:8N16W,χ:8N16W chi,χ:8N16W,41.989244,-87.928742,1.463,False,True,city,1.0,0.881,0.2,0.1,3
+χ:8N17W,8N17W,Nicholas–Thorndale chi,NicTho,χ:8N17W chi,χ:8N17W,41.988478,-87.952697,1.006,False,False,,1.0,0.0,0.2,0.15,3
+χ:8N18W,8N18W,Lively–Mark chi,LivMar,χ:8N18W chi,χ:8N18W,41.987618,-87.972147,1.011,False,False,,1.0,0.0,0.2,0.21,3
+χ:8N19W,8N19W,Prospect–Mark chi,ProMar,χ:8N19W chi,χ:8N19W,41.987416,-87.991616,1.011,False,False,,1.0,0.0,0.2,0.22,3
+χ:8N20W,8N20W,Arlington Heights–Thorndale chi,ArlTho,χ:8N20W chi,χ:8N20W,41.987215,-88.011085,1.012,False,False,,1.0,0.0,0.2,0.24,3
+χ:8N21W,8N21W,State Rte 53–Thorndale chi,StaTho,χ:8N21W chi,χ:8N21W,41.987013,-88.030554,1.012,False,False,,1.0,0.0,0.2,0.25,3
+χ:8N22W,8N22W,Medinah–Thorndale chi,MedTho,χ:8N22W chi,χ:8N22W,41.986812,-88.050023,1.012,False,False,,1.0,0.0,0.2,0.27,3
+χ:8N23W,8N23W,Spring–Granville chi,SprGra,χ:8N23W chi,χ:8N23W,41.98661,-88.069492,1.013,False,False,,1.0,0.0,0.2,0.28,3
+χ:8N24W,8N24W,Mitchell–State Rte 19 chi,MitSta,χ:8N24W chi,χ:8N24W,41.986398,-88.0901,1.131,False,True,,1.0,0.0,0.26,0.3,3
+χ:8N25W,8N25W,Rodenburg–Mensching chi,RodMen,χ:8N25W chi,χ:8N25W,41.986195,-88.109571,0.895,False,True,,1.0,0.0,0.26,0.31,3
+χ:8N26W,8N26W,χ:8N26W chi,χ:8N26W,χ:8N26W chi,χ:8N26W,41.986006,-88.1279,1.013,False,False,,1.0,0.0,0.2,0.32,3
+χ:8N27W,8N27W,County Farm–Us Hwy 20 chi,CouUs,χ:8N27W chi,χ:8N27W,41.985805,-88.147369,1.014,False,False,,1.0,0.0,0.2,0.34,3
+χ:8N28W,8N28W,χ:8N28W chi,χ:8N28W,χ:8N28W chi,χ:8N28W,41.985603,-88.166838,1.014,False,False,,1.0,0.0,0.2,0.35,3
+χ:8N29W,8N29W,Oak–Railroad chi,OakRai,χ:8N29W chi,χ:8N29W,41.985402,-88.186307,0.79,True,False,frame,0.779,0.0,0.2,0.36,3
+χ:8N2W,8N2W,Sheridan–Norwood chi,SheNor,Racine–Peterson chi,RacPet,41.990585,-87.662075,0.849,True,False,"city,frame,shore",0.998,0.997,0.17,0.0,1
+χ:8N30W,8N30W,χ:8N30W chi,χ:8N30W,χ:8N30W chi,χ:8N30W,41.9852,-88.205776,0.008,True,False,frame,0.008,0.0,0.2,0.38,3
+χ:8N3W,8N3W,Ridge–Peterson chi,RidPet,Damen–Peterson chi,DamPet,41.99056,-87.679714,1.004,False,False,,1.0,1.0,,,
+χ:8N4W,8N4W,California–Peterson chi,CalPet,California–Peterson chi,CalPet,41.990456,-87.699242,1.0,False,False,,1.0,1.0,,,
+χ:8N5W,8N5W,Central Park–Peterson chi,CenPet,Central Park–Peterson chi,CenPet,41.990213,-87.718817,1.01,False,False,city,1.0,0.981,0.18,0.02,1
+χ:8N6W,8N6W,Kostner–Peterson chi,KosPet,Kostner–Peterson chi,KosPet,41.99016,-87.738515,1.013,False,False,city,1.0,0.986,0.19,0.03,1
+χ:8N7W,8N7W,Forest Glen–Peterson chi,ForPet,Laramie–Peterson chi,LarPet,41.990127,-87.75741,0.927,False,False,city,1.0,0.998,0.16,0.04,1
+χ:8N8W,8N8W,Austin–Peterson chi,AusPet,Austin–Peterson chi,AusPet,41.990045,-87.776978,1.082,False,False,,1.0,1.0,,,
+χ:8N9W,8N9W,Oak Park–Peterson chi,OakPet,Oak Park–Peterson chi,OakPet,41.989937,-87.797429,1.019,False,False,,1.0,1.0,,,
+χ:8S10W,8S10W,75th–Columbia chi,75Col,Oriole–67th chi,Ori67,41.769864,-87.810743,0.944,False,False,,1.0,0.0,-0.09,0.24,3
+χ:8S11W,8S11W,State Rte 171–Columbia chi,StaCol,Cumberland–67th chi,Cum67,41.769374,-87.829775,1.01,False,False,,1.0,0.0,-0.12,0.27,3
+χ:8S12W,8S12W,χ:8S12W chi,χ:8S12W,χ:8S12W chi,χ:8S12W,41.769005,-87.848778,0.94,True,False,frame,0.983,0.0,-0.14,0.29,3
+χ:8S13W,8S13W,χ:8S13W chi,χ:8S13W,χ:8S13W chi,χ:8S13W,41.768636,-87.867708,0.177,True,False,frame,0.178,0.0,-0.17,0.32,3
+χ:8S16W,8S16W,Elm–Plainfield chi,ElmPla,χ:8S16W chi,χ:8S16W,41.767439,-87.925908,0.028,True,False,frame,0.029,0.0,-0.18,0.4,3
+χ:8S17W,8S17W,State Rte 83–67th chi,Sta67,χ:8S17W chi,χ:8S17W,41.767087,-87.945253,0.843,True,False,frame,0.85,0.0,-0.18,0.43,2
+χ:8S18W,8S18W,Richmond–67th chi,Ric67,χ:8S18W chi,χ:8S18W,41.766572,-87.964725,1.023,False,False,,1.0,0.0,-0.18,0.47,2
+χ:8S19W,8S19W,Williams–67th chi,Wil67,χ:8S19W chi,χ:8S19W,41.766052,-87.984159,1.019,False,False,,1.0,0.0,-0.19,0.5,2
+χ:8S1E,8S1E,Dr Martin Luther King Jr–67th chi,Dr67,Martin Luther King–67th chi,Mar67,41.772956,-87.615401,1.021,False,False,,1.0,1.0,,,
+χ:8S1W,8S1W,Stewart–67th chi,Ste67,River–67th chi,Riv67,41.772634,-87.634761,1.016,False,False,,1.0,1.0,,,
+χ:8S20W,8S20W,χ:9S20W chi,χ:9S20W,χ:9S20W chi,χ:9S20W,41.765946,-88.004176,1.062,False,False,,1.0,0.0,-0.17,0.51,3
+χ:8S21W,8S21W,χ:9S21W chi,χ:9S21W,χ:9S21W chi,χ:9S21W,41.765746,-88.024303,0.977,False,False,,1.0,0.0,-0.12,0.53,3
+χ:8S22W,8S22W,χ:9S22W chi,χ:9S22W,χ:9S22W chi,χ:9S22W,41.764969,-88.043758,1.029,False,False,,1.0,0.0,-0.12,0.59,3
+χ:8S23W,8S23W,State Rte 53–Hobson chi,StaHob,χ:9S23W chi,χ:9S23W,41.765391,-88.063246,0.958,True,False,frame,1.0,0.0,-0.14,0.58,3
+χ:8S24W,8S24W,Greene–Green Trails chi,GreGre,χ:9S24W chi,χ:9S24W,41.765191,-88.082717,0.393,True,False,frame,0.458,0.0,-0.12,0.56,3
+χ:8S2E,8S2E,Woodlawn–67th chi,Woo67,Woodlawn–67th chi,Woo67,41.773279,-87.596042,1.028,False,False,,1.0,1.0,,,
+χ:8S2W,8S2W,Racine–67th chi,Rac67,Racine–67th chi,Rac67,41.772309,-87.654216,1.019,False,False,,1.0,1.0,,,
+χ:8S3E,8S3E,Jeffery–67th chi,Jef67,Jeffery–67th chi,Jef67,41.77027,-87.576599,0.95,True,False,"city,frame,shore",0.996,0.999,-0.12,-0.02,1
+χ:8S3W,8S3W,Damen–67th chi,Dam67,Damen–67th chi,Dam67,41.771986,-87.673656,1.003,False,False,,1.0,1.0,,,
+χ:8S4E,8S4E,Jeffery–67th chi,Jef67,Burnham–67th chi,Bur67,41.770174,-87.564617,0.128,True,False,"city,shore",1.0,0.933,-0.15,-0.05,1
+χ:8S4W,8S4W,California–67th chi,Cal67,California–67th chi,Cal67,41.77166,-87.693185,1.016,False,False,,1.0,1.0,,,
+χ:8S5W,8S5W,Central Park–67th chi,Cen67,Central Park–67th chi,Cen67,41.771333,-87.71281,1.001,False,False,,1.0,1.0,,,
+χ:8S6W,8S6W,Kostner–69th chi,Kos69,Kostner–67th chi,Kos67,41.767565,-87.732214,1.228,True,False,,1.0,1.0,,,
+χ:8S7W,8S7W,Lockwood–67th chi,Loc67,Laramie–67th chi,Lar67,41.767424,-87.75233,0.811,False,True,,1.0,0.0,-0.1,0.18,1
+χ:8S8W,8S8W,Austin–65th chi,Aus65,Austin–67th chi,Aus67,41.768739,-87.771891,0.921,False,False,city,1.0,0.228,-0.09,0.2,1
+χ:8S9W,8S9W,Oak Park–65th chi,Oak65,Oak Park–67th chi,Oak67,41.768607,-87.791226,1.018,False,False,city,1.0,0.22,-0.1,0.22,1
+χ:9N10W,9N10W,Oriole–Pratt chi,OriPra,Oriole–Pratt chi,OriPra,42.006611,-87.817294,1.338,False,True,city,1.0,0.752,0.26,0.06,3
+χ:9N11W,9N11W,Clifton–Belleplaine chi,CliBel,Cumberland–Pratt chi,CumPra,42.003988,-87.837313,0.962,False,False,,1.0,0.0,0.27,0.08,3
+χ:9N12W,9N12W,Dee–Belleplaine chi,DeeBel,χ:9N12W chi,χ:9N12W,42.003829,-87.855943,0.9,False,False,,1.0,0.0,0.23,0.08,3
+χ:9N13W,9N13W,Scott–Higgins chi,ScoHig,χ:9N13W chi,χ:9N13W,42.003784,-87.87337,0.837,False,True,,1.0,0.0,0.12,0.09,3
+χ:9N14W,9N14W,χ:9N14W chi,χ:9N14W,χ:9N14W chi,χ:9N14W,42.001847,-87.890052,0.927,False,False,city,1.0,0.253,0.13,0.09,3
+χ:9N15W,9N15W,χ:9N15W chi,χ:9N15W,χ:9N15W chi,χ:9N15W,42.003337,-87.907086,1.015,False,False,city,1.0,0.606,0.22,0.1,3
+χ:9N16W,9N16W,χ:9N15W chi,χ:9N15W,χ:9N15W chi,χ:9N15W,42.003337,-87.933642,1.197,False,True,city,1.0,0.441,0.22,0.11,3
+χ:9N17W,9N17W,Nicholas–Lunt chi,NicLun,χ:9N17W chi,χ:9N17W,42.001927,-87.953077,0.922,False,False,,1.0,0.0,0.21,0.19,3
+χ:9N18W,9N18W,Lively–Lunt chi,LivLun,χ:9N18W chi,χ:9N18W,42.000961,-87.972524,0.844,False,True,,1.0,0.0,0.21,0.28,3
+χ:9N19W,9N19W,Arlington Heights–Clearmont chi,ArlCle,χ:9N19W chi,χ:9N19W,42.000585,-87.991988,0.819,False,True,,1.0,0.0,0.21,0.31,3
+χ:9N20W,9N20W,Arlington Heights–Biesterfield chi,ArlBie,χ:9N20W chi,χ:9N20W,42.000485,-88.01146,0.909,False,False,,1.0,0.0,0.24,0.28,3
+χ:9N21W,9N21W,Martingale–Biesterfield chi,MarBie,χ:9N21W chi,χ:9N21W,42.001672,-88.030968,1.012,False,False,,1.0,0.0,0.22,0.24,3
+χ:9N22W,9N22W,Meacham–Nerge chi,MeaNer,χ:9N22W chi,χ:9N22W,42.001475,-88.050437,1.012,False,False,,1.0,0.0,0.22,0.25,3
+χ:9N23W,9N23W,Summit–Nerge chi,SumNer,χ:9N23W chi,χ:9N23W,42.001278,-88.069906,1.013,False,False,,1.0,0.0,0.22,0.27,3
+χ:9N24W,9N24W,Cedarcrest–Morse chi,CedMor,χ:9N24W chi,χ:9N24W,42.001073,-88.090302,1.109,False,True,,1.0,0.0,0.27,0.28,3
+χ:9N25W,9N25W,Rodenburg–Lunt chi,RodLun,χ:9N25W chi,χ:9N25W,42.000874,-88.109774,0.917,False,False,,1.0,0.0,0.27,0.29,3
+χ:9N26W,9N26W,Northway–State Rte 19 chi,NorSta,χ:9N26W chi,χ:9N26W,42.000687,-88.128314,1.013,False,False,,1.0,0.0,0.22,0.31,3
+χ:9N27W,9N27W,Barrington–Sycamore chi,BarSyc,χ:9N27W chi,χ:9N27W,42.000491,-88.147783,1.014,False,False,,1.0,0.0,0.22,0.32,3
+χ:9N28W,9N28W,Prospect–Sycamore chi,ProSyc,χ:9N28W chi,χ:9N28W,42.000294,-88.167252,1.014,False,False,,1.0,0.0,0.22,0.34,3
+χ:9N29W,9N29W,Bartlett–Lake chi,BarLak,χ:9N29W chi,χ:9N29W,42.000097,-88.186721,0.649,True,False,frame,0.64,0.0,0.22,0.35,3
+χ:9N2W,9N2W,Sheridan–Pratt chi,ShePra,Racine–Pratt chi,RacPra,42.005213,-87.66375,0.684,True,False,"city,shore",1.0,0.995,0.19,-0.01,1
+χ:9N30W,9N30W,State Rte 59–Bartlett chi,StaBar,χ:9N30W chi,χ:9N30W,41.9999,-88.20619,0.009,True,False,frame,0.009,0.0,0.22,0.36,3
+χ:9N3W,9N3W,Ridge–Pratt chi,RidPra,Damen–Pratt chi,DamPra,42.00512,-87.680118,1.017,False,False,,1.0,1.0,,,
+χ:9N4W,9N4W,California–Pratt chi,CalPra,California–Pratt chi,CalPra,42.002078,-87.699564,1.01,False,False,city,1.0,0.996,0.2,0.01,1
+χ:9N5W,9N5W,Troy–Pratt chi,TroPra,Central Park–Pratt chi,CenPra,42.002026,-87.719141,1.019,False,False,city,1.0,0.005,0.2,0.02,1
+χ:9N6W,9N6W,Kostner–Pratt chi,KosPra,Kostner–Pratt chi,KosPra,42.004773,-87.738931,1.021,False,False,,1.0,0.0,0.22,0.03,1
+χ:9N7W,9N7W,Leclaire–Morse chi,LecMor,Laramie–Pratt chi,LarPra,42.005764,-87.755308,0.672,False,True,,1.0,0.0,0.18,0.03,1
+χ:9N8W,9N8W,Mason–Pratt chi,MasPra,Austin–Pratt chi,AusPra,42.005764,-87.774878,1.345,False,True,city,1.0,0.849,0.19,0.04,1
+χ:9N9W,9N9W,Nagle–Pratt chi,NagPra,Oak Park–Pratt chi,OakPra,42.006523,-87.797348,0.71,False,True,city,1.0,0.001,0.24,0.05,1
+χ:9S10W,9S10W,Beloit–75th chi,Bel75,Oriole–75th chi,Ori75,41.755192,-87.809969,0.985,False,False,,1.0,0.0,-0.14,0.25,3
+χ:9S11W,9S11W,Cumberland–75th chi,Cum75,Cumberland–75th chi,Cum75,41.754777,-87.829152,1.007,False,False,,1.0,0.0,-0.15,0.28,3
+χ:9S12W,9S12W,χ:9S12W chi,χ:9S12W,χ:9S12W chi,χ:9S12W,41.754432,-87.848169,0.616,True,False,frame,0.642,0.0,-0.17,0.3,3
+χ:9S16W,9S16W,Hamilton–Frontage chi,HamFro,χ:9S16W chi,χ:9S16W,41.753038,-87.925371,0.2,True,False,frame,0.201,0.0,-0.21,0.4,3
+χ:9S17W,9S17W,State Rte 83–75th chi,Sta75,χ:9S17W chi,χ:9S17W,41.752553,-87.944736,0.975,True,False,frame,0.99,0.0,-0.21,0.42,2
+χ:9S18W,9S18W,Nantucket–Co Rd 31 chi,NanCo,χ:9S18W chi,χ:9S18W,41.752062,-87.964146,0.969,False,False,,1.0,0.0,-0.22,0.46,2
+χ:9S19W,9S19W,Adams–75th chi,Ada75,χ:9S19W chi,χ:9S19W,41.751583,-87.983581,0.949,False,False,,1.0,0.0,-0.22,0.49,2
+χ:9S1E,9S1E,Dr Martin Luther King Jr–75th chi,Dr75,Martin Luther King–75th chi,Mar75,41.75829,-87.61504,0.994,False,False,,1.0,1.0,,,
+χ:9S1W,9S1W,Stewart–75th chi,Ste75,River–75th chi,Riv75,41.757999,-87.634374,0.997,False,False,,1.0,1.0,,,
+χ:9S20W,9S20W,Lyman–75th chi,Lym75,χ:9S20W chi,χ:9S20W,41.751764,-88.003827,1.019,False,False,,1.0,0.0,-0.18,0.48,3
+χ:9S21W,9S21W,Springside–75th chi,Spr75,χ:9S21W chi,χ:9S21W,41.751608,-88.024479,0.957,False,False,,1.0,0.0,-0.12,0.49,3
+χ:9S22W,9S22W,Janes–75th chi,Jan75,χ:10S22W chi,χ:10S22W,41.750881,-88.044815,0.891,True,False,frame,0.999,0.0,-0.08,0.54,3
+χ:9S23W,9S23W,State Rte 53–75th chi,Sta75,χ:10S23W chi,χ:10S23W,41.75073,-88.063762,0.312,True,False,frame,0.371,0.0,-0.08,0.5,3
+χ:9S24W,9S24W,Greene–75th chi,Gre75,χ:9S24W chi,χ:9S24W,41.751681,-88.082336,0.014,True,False,frame,0.014,0.0,-0.14,0.49,3
+χ:9S2E,9S2E,Woodlawn–75th chi,Woo75,Woodlawn–75th chi,Woo75,41.758583,-87.595639,1.001,False,False,,1.0,1.0,,,
+χ:9S2W,9S2W,Racine–75th chi,Rac75,Racine–75th chi,Rac75,41.757706,-87.653817,1.009,False,False,,1.0,1.0,,,
+χ:9S3E,9S3E,Jeffery–75th chi,Jef75,Jeffery–75th chi,Jef75,41.758875,-87.576211,0.994,False,False,,1.0,1.0,,,
+χ:9S3W,9S3W,Damen–75th chi,Dam75,Damen–75th chi,Dam75,41.757413,-87.673252,1.0,False,False,,1.0,1.0,,,
+χ:9S4E,9S4E,Saginaw–75th chi,Sag75,Burnham–75th chi,Bur75,41.759028,-87.557822,0.781,True,False,"city,shore",1.0,0.993,-0.17,-0.03,1
+χ:9S4W,9S4W,California–75th chi,Cal75,California–75th chi,Cal75,41.757119,-87.692782,1.022,False,False,,1.0,1.0,,,
+χ:9S5E,9S5E,Harbor–South Chicago chi,HarSou,Avenue L–75th chi,L75,41.756327,-87.543961,0.083,True,False,"city,shore",1.0,0.974,-0.24,-0.05,3
+χ:9S5W,9S5W,Central Park–75th chi,Cen75,Central Park–75th chi,Cen75,41.756823,-87.712412,1.014,False,False,,1.0,1.0,,,
+χ:9S6W,9S6W,Kostner–74th chi,Kos74,Kostner–75th chi,Kos75,41.758505,-87.731947,1.009,True,False,,1.0,1.0,,,
+χ:9S7W,9S7W,Latrobe–73rd chi,Lat73,Laramie–75th chi,Lar75,41.758354,-87.752112,1.09,False,False,,1.0,0.0,-0.11,0.18,1
+χ:9S8W,9S8W,McVicker–77th chi,McV77,Austin–75th chi,Aus75,41.755931,-87.771654,0.951,False,False,,1.0,0.0,-0.1,0.2,2
+χ:9S9W,9S9W,Oak Park–75th chi,Oak75,Oak Park–75th chi,Oak75,41.755654,-87.790664,1.031,False,False,,1.0,0.0,-0.13,0.21,2

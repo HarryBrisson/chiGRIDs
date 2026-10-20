@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# OpenStreetMap fetch metadata (ODbL data never ships in this MIT repo; see data/LICENSE-DATA.md)
+data/osm/

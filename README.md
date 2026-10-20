@@ -22,6 +22,61 @@ There's more than one reasonable way to draw a square-mile grid over a real city
 
 The concepts below (the cell, ordinates, names) are common to every version.
 
+## Extents: which Chicago
+
+Every version can tile one of three Chicagos. They share the origin, the ordinates and the names, and
+**a chi inside the city is the same cell in every extent** (same id, same names, and, unless it gained
+land across the city limit, byte-identical geometry).
+
+| Extent | Footprint | Source | Folder |
+| --- | --- | --- | --- |
+| **`city`** | The city limit, 599 km² | City of Chicago community areas | `data/<version>/` |
+| **`un2025`** | The UN's 2025 urban centre, 932 km² | GHSL [GHS-WUP-MTUC R2025A v1.1](https://human-settlement.emergency.copernicus.eu/), polygon `ID_UC_G0=7747` | `data/<version>/un2025/` |
+| **`jrc2023`** | The JRC's 2023 urban centre, 2,231 km² | GHSL [GHS-SMOD R2023A](https://human-settlement.emergency.copernicus.eu/), epoch 2025, class 30, the component holding the Loop | `data/<version>/jrc2023/` |
+
+Both UN frames come from the same global rule (the Degree of Urbanisation): one-kilometre squares with
+at least 1,500 people per km² of land, touching side to side, 50,000 people in all, small holes
+filled, edges smoothed by majority vote. The **2025** rule, made for UN World Urbanization Prospects,
+counts people only. The **2023** release added one clause: a square also counts if at least half of
+it is built up. That clause admits airports, rail yards, factories and malls, which sit exactly in the
+gaps between Chicago and its neighbours, so fourteen centres become one and Chicago more than doubles.
+Neither is wrong; they answer different questions. (The UN 2025 frame leaves out O'Hare and Lake
+Calumet, about 13% of the city; `--include-city` keeps those cells.)
+
+Cells on a frame's edge are handled one of two ways:
+
+- **`whole`** (`chigrid.geojson`): keep a chi when at least half of its land lies inside the frame.
+  Borders stay on mile roads.
+- **`clip`** (`chigrid_clip.geojson`): cut each chi at the frame. Areas add up to the frame exactly,
+  but edges follow the frame's staircase of tilted one-kilometre squares.
+
+Framed cells add `frame_share` (share of the chi's land inside the frame), `in_city_share`,
+`edge_kind` (`city`: it straddles the city limit, `frame`: it crosses the frame, `shore`: water cuts
+it), and in v2 `offset_mi` and `bounds_rule` (below).
+
+**Outside the city, ids count mile roads.** Past the city limit the mile roads keep counting from State
+& Madison — Dempster, Wolf, 159th — and `χ:20S9W` is the band between the 19th and 20th mile roads
+south and the 8th and 9th west. Chicago's road grid is rotated about a degree from true north and the
+suburbs keep that rotation (Harlem runs from 9.2 mi west of State at Touhy to 8.35 mi at 28 S), so far
+out a road-bounded chi can sit up to ~0.85 mi off its geographic mile band; `offset_mi` (miles west,
+miles south) records how far. Inside the city the two agree: every city chi's lattice id equals its
+geographic id (two slivers excepted, 11S6W and 6N16W, whose published ids are kept).
+
+**How v2 extends past the city.** The city grid is built exactly as before. Around it, each grid line
+continues as a chain of straight pieces that bend only at grid corners outside the city: the city's own
+fitted line wherever a corner touches the city, then a straight fit to the real suburban road
+(rule 1 the same road, rule 2 an aligned substitute; `data/anchors/anchors_regional.json`), else rule 3:
+interpolated between neighbouring roads, or the line of a smooth model of the city grid — its ~1.006 mi
+spacing and ~1° rotation, fit on the city's own mile roads, which the suburbs keep. Indiana is surveyed
+on its own grid, so its lines are always rule 3. `bounds_rule` is the highest rule among a chi's sides.
+Suburban roads come from the US Census Bureau's TIGER/Line files (public domain, so the regional grids
+stay MIT-friendly; an OpenStreetMap build is available with `--roads osm` but is ODbL and never committed
+here); `discover_anchors.py` proposes them —
+searching around the grid model, rejecting diagonals, short runs and roads that would squeeze a
+neighbour — for a person to review. Where the suburban grid is genuinely irregular (around O'Hare,
+where the city's own edge columns are narrow, and in DuPage County, which has its own road grid) more
+chis fall outside 0.9–1.1 sq mi and carry `flag: true`.
+
 ## The cell
 
 Every χGRID is **about one mile square**, with a simple rule:
@@ -64,7 +119,8 @@ The center roads are always **half-mile (secondary) roads** — never the mile r
 
 ## Geographic, not address-number
 
-χGRID uses **real miles on the ground**, not Chicago's address numbers. The south-side street numbers overstate distance — 43rd Street is ~4.5 mi south, not 5.4 — so the grid reads geographically: 43rd lands in the **5S** band, Ashland on the **2W/3W** boundary. Chicago's physical arterials sit ~0.5 mi apart regardless of their numbering, so the cells line up with the real street grid.
+χGRID uses **real miles on the ground**, not Chicago's address numbers (outside the city, see
+*Extents* above for how ids count mile roads). The south-side street numbers overstate distance — 43rd Street is ~4.5 mi south, not 5.4 — so the grid reads geographically: 43rd lands in the **5S** band, Ashland on the **2W/3W** boundary. Chicago's physical arterials sit ~0.5 mi apart regardless of their numbering, so the cells line up with the real street grid.
 
 ## How v2 is built
 
@@ -158,14 +214,32 @@ python generate_v2.py --boundary city_boundary.geojson \
                       --centerlines street_centerlines.geojson > data/v2/chigrid.geojson
 ```
 
+**Extents.** Fetch the frames once, then pass `--extent` and `--edges`:
+
+```bash
+python fetch_frames.py                       # data/frames/{un2025,jrc2023,land,city}.geojson
+python generate.py --extent un2025 --edges whole --boundary city_boundary.geojson \
+                   --names-from data/v1/chigrid.geojson > data/v1/un2025/chigrid.geojson
+python chigrid_tiger.py                      # TIGER/Line county road files (v2 only)
+python discover_anchors.py --boundary city_boundary.geojson --centerlines street_centerlines.geojson
+#   review data/anchors/anchors_regional.proposed.json, save it as anchors_regional.json
+python generate_v2.py --extent jrc2023 --edges clip --boundary city_boundary.geojson \
+                      --centerlines street_centerlines.geojson > data/v2/jrc2023/chigrid_clip.geojson
+python export.py data/v2/jrc2023/chigrid_clip.geojson   # CSV, Shapefile, GeoPackage
+```
+
+`generate_v2.py` refuses to write a grid whose corner lattice fails its checks (lines too close,
+crossing, or drifting more than 1.25 mi); `--allow-problems` writes a draft anyway. Tests: `pytest`
+(set `CHIGRID_BOUNDARY` and `CHIGRID_CENTERLINES` to also run the golden and invariance checks).
+
 Both the boundary and the centerlines are public data (Chicago's [community-area boundaries](https://data.cityofchicago.org/) and [street-center lines](https://data.cityofchicago.org/) on the city data portal). The centerlines file is large (~100 MB), so it isn't bundled here — fetch it from the portal.
 
 ## Explore
 
-The interactive map is published at **[harrybrisson.github.io/chiGRIDs/explorer.html](https://harrybrisson.github.io/chiGRIDs/explorer.html)** (GitHub Pages, from `main`). Or open [`explorer.html`](explorer.html) locally (served from this folder, e.g. `python -m http.server`). Use the **version toggle** to switch between the v1 mile-squares and the v2 street-aligned grid; click or search any chi to see its name, ordinate, label, and center.
+The interactive map is published at **[harrybrisson.github.io/chiGRIDs/explorer.html](https://harrybrisson.github.io/chiGRIDs/explorer.html)** (GitHub Pages, from `main`). Or open [`explorer.html`](explorer.html) locally (served from this folder, e.g. `python -m http.server`). Use the **version toggle** to switch between the v1 mile-squares and the v2 street-aligned grid, and the **extent toggle** to switch between the city, UN 2025 and JRC 2023 Chicagos (whole or clipped cells); click or search any chi to see its name, ordinate, label, and center.
 
 ## License & attribution
 
-**MIT** — see [LICENSE](LICENSE). Use, reference, and build on chiGRIDs freely. The polygons are derived entirely from public data (Chicago's address grid, the city boundary, and street centerlines).
+**MIT** for the code — see [LICENSE](LICENSE). Use, reference, and build on chiGRIDs freely. The city-extent polygons are derived entirely from public data (Chicago's address grid, the city boundary, and street centerlines). The UN frames are © European Union, EC JRC GHSL (CC BY 4.0, attribution required), and the street-aligned regional grids are fitted to US Census TIGER/Line roads (public domain) — see [data/LICENSE-DATA.md](data/LICENSE-DATA.md).
 
 If you use χGRIDs, a link back to this repo is appreciated but not required.

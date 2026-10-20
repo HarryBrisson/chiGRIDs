@@ -1,0 +1,5440 @@
+{
+ "version": 1,
+ "status": "proposed",
+ "chi_spec": "\u03c7 ordinates count mile roads from State & Madison",
+ "roads_snapshot": "tiger2025",
+ "roads_license": "Public domain (US federal government work, 17 U.S.C. \u00a7 105)",
+ "region": "data/frames/jrc2023.geojson",
+ "band_mi": 0.4,
+ "min_coverage": 0.5,
+ "ns": {
+  "0:north": {
+   "window_mi": [
+    -8.75,
+    -3.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-1:north": {
+   "window_mi": [
+    -4.25,
+    2.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "1:north": {
+   "window_mi": [
+    -12.5,
+    -7.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-2:north": {
+   "window_mi": [
+    -1.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "2:north": {
+   "window_mi": [
+    -14.75,
+    -9.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "sheridan",
+     "class": "4",
+     "coverage": 0.67,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.114,
+     "offset_from_nominal_mi": 0.389,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "judson",
+     "class": "4",
+     "coverage": 0.38,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.229,
+     "offset_from_nominal_mi": 0.488,
+     "rms_mi": 0.0384,
+     "max_mi": 0.1077,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 38% of the window"
+    },
+    {
+     "road": "hinman",
+     "class": "4",
+     "coverage": 0.38,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.315,
+     "offset_from_nominal_mi": 0.583,
+     "rms_mi": 0.0466,
+     "max_mi": 0.1242,
+     "n_pieces": 1,
+     "rejected": "1.31 mi from line 1 at -11.6"
+    }
+   ]
+  },
+  "3:north": {
+   "window_mi": [
+    -15.75,
+    -9.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "asbury",
+     "class": "4",
+     "coverage": 0.58,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.063,
+     "offset_from_nominal_mi": 0.203,
+     "rms_mi": 0.0103,
+     "max_mi": 0.0191,
+     "n_pieces": 1
+    },
+    {
+     "road": "wesley",
+     "class": "4",
+     "coverage": 0.46,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.031,
+     "offset_from_nominal_mi": 0.302,
+     "rms_mi": 0.0227,
+     "max_mi": 0.046,
+     "n_pieces": 1
+    },
+    {
+     "road": "ridge",
+     "class": "4",
+     "coverage": 0.46,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.247,
+     "offset_from_nominal_mi": 0.011,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "4:north": {
+   "window_mi": [
+    -16.25,
+    -8.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "mccormick",
+     "class": "4",
+     "coverage": 0.5,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.026,
+     "offset_from_nominal_mi": 0.273,
+     "rejected": "not straight"
+    },
+    {
+     "road": "bennett",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.023,
+     "offset_from_nominal_mi": 0.267,
+     "rms_mi": 0.0098,
+     "max_mi": 0.034,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 26% of the window"
+    },
+    {
+     "road": "ewing",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.081,
+     "offset_from_nominal_mi": 0.371,
+     "rms_mi": 0.0126,
+     "max_mi": 0.0191,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 26% of the window"
+    }
+   ]
+  },
+  "5:north": {
+   "window_mi": [
+    -18.0,
+    -8.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "karlov",
+     "class": "4",
+     "coverage": 0.41,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.019,
+     "offset_from_nominal_mi": 0.277,
+     "rms_mi": 0.0036,
+     "max_mi": 0.0194,
+     "n_pieces": 1
+    },
+    {
+     "road": "kedvale",
+     "class": "4",
+     "coverage": 0.41,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.08,
+     "offset_from_nominal_mi": 0.338,
+     "rms_mi": 0.0045,
+     "max_mi": 0.025,
+     "n_pieces": 1
+    },
+    {
+     "road": "keystone",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.073,
+     "offset_from_nominal_mi": 0.2,
+     "rms_mi": 0.0014,
+     "max_mi": 0.0029,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "6:north": {
+   "window_mi": [
+    -18.5,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "cicero",
+     "class": "2",
+     "coverage": 0.17,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.003,
+     "offset_from_nominal_mi": -0.017,
+     "rms_mi": 0.002,
+     "max_mi": 0.0072,
+     "n_pieces": 1
+    },
+    {
+     "road": "hibbard",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.045,
+     "offset_from_nominal_mi": 0.373,
+     "rms_mi": 0.0016,
+     "max_mi": 0.0032,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 50",
+     "class": "2",
+     "coverage": 0.17,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.003,
+     "offset_from_nominal_mi": -0.017,
+     "rms_mi": 0.0021,
+     "max_mi": 0.0073,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 17% of the window"
+    }
+   ]
+  },
+  "7:north": {
+   "window_mi": [
+    -18.5,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "central",
+     "class": "4",
+     "coverage": 0.42,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.098,
+     "offset_from_nominal_mi": 0.016,
+     "rms_mi": 0.0179,
+     "max_mi": 0.0357,
+     "n_pieces": 2,
+     "rejected": "0.69 mi from line 6 at -8.1"
+    },
+    {
+     "road": "us hwy 41",
+     "class": "2",
+     "coverage": 0.12,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": 0.01,
+     "offset_from_nominal_mi": 0.374,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "major",
+     "class": "4",
+     "coverage": 0.17,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.008,
+     "offset_from_nominal_mi": 0.27,
+     "rms_mi": 0.0012,
+     "max_mi": 0.0079,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 17% of the window"
+    }
+   ]
+  },
+  "8:north": {
+   "window_mi": [
+    -18.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ridgeland",
+     "class": "4",
+     "coverage": 0.38,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": 0.015,
+     "offset_from_nominal_mi": 0.021,
+     "rms_mi": 0.0212,
+     "max_mi": 0.0714,
+     "n_pieces": 1
+    },
+    {
+     "road": "cuyler",
+     "class": "4",
+     "coverage": 0.36,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.048,
+     "offset_from_nominal_mi": -0.029,
+     "rms_mi": 0.0064,
+     "max_mi": 0.0195,
+     "n_pieces": 1
+    },
+    {
+     "road": "elmwood",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.081,
+     "offset_from_nominal_mi": 0.112,
+     "rms_mi": 0.0066,
+     "max_mi": 0.0131,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "9:north": {
+   "window_mi": [
+    -19.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "harlem",
+     "class": "2",
+     "coverage": 0.6,
+     "covered_mi": 9.5,
+     "offset_from_prior_mi": -0.024,
+     "offset_from_nominal_mi": 0.157,
+     "rms_mi": 0.0283,
+     "max_mi": 0.0642,
+     "n_pieces": 1
+    },
+    {
+     "road": "maple",
+     "class": "4",
+     "coverage": 0.25,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": 0.007,
+     "offset_from_nominal_mi": 0.029,
+     "rms_mi": 0.0083,
+     "max_mi": 0.0249,
+     "n_pieces": 1
+    },
+    {
+     "road": "wisconsin",
+     "class": "4",
+     "coverage": 0.21,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.07,
+     "offset_from_nominal_mi": -0.056,
+     "rms_mi": 0.0023,
+     "max_mi": 0.0055,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "10:north": {
+   "window_mi": [
+    -21.0,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "washington",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.118,
+     "offset_from_nominal_mi": 0.169,
+     "rms_mi": 0.0042,
+     "max_mi": 0.0346,
+     "n_pieces": 1
+    },
+    {
+     "road": "shermer",
+     "class": "4",
+     "coverage": 0.18,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.019,
+     "offset_from_nominal_mi": 0.36,
+     "rejected": "not straight"
+    },
+    {
+     "road": "keystone",
+     "class": "4",
+     "coverage": 0.09,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.009,
+     "offset_from_nominal_mi": 0.06,
+     "rms_mi": 0.0137,
+     "max_mi": 0.0272,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 9% of the window"
+    }
+   ]
+  },
+  "11:north": {
+   "window_mi": [
+    -21.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "pfingsten",
+     "class": "4",
+     "coverage": 0.3,
+     "covered_mi": 6.5,
+     "offset_from_prior_mi": 0.003,
+     "offset_from_nominal_mi": 0.371,
+     "rms_mi": 0.0164,
+     "max_mi": 0.1583,
+     "n_pieces": 2
+    },
+    {
+     "road": "9th",
+     "class": "4",
+     "coverage": 0.23,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": 0.075,
+     "offset_from_nominal_mi": 0.122,
+     "rms_mi": 0.0137,
+     "max_mi": 0.0909,
+     "n_pieces": 1
+    },
+    {
+     "road": "10th",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.121,
+     "offset_from_nominal_mi": 0.131,
+     "rms_mi": 0.0011,
+     "max_mi": 0.0026,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "12:north": {
+   "window_mi": [
+    -21.25,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "25th",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": 0.083,
+     "offset_from_nominal_mi": 0.134,
+     "rms_mi": 0.046,
+     "max_mi": 0.1945,
+     "n_pieces": 2
+    },
+    {
+     "road": "24th",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.019,
+     "offset_from_nominal_mi": 0.071,
+     "rms_mi": 0.0015,
+     "max_mi": 0.004,
+     "n_pieces": 1
+    },
+    {
+     "road": "23rd",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.051,
+     "offset_from_nominal_mi": -0.021,
+     "rms_mi": 0.0022,
+     "max_mi": 0.0044,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "13:north": {
+   "window_mi": [
+    -20.5,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "mannheim",
+     "class": "2",
+     "coverage": 0.46,
+     "covered_mi": 9.75,
+     "offset_from_prior_mi": 0.088,
+     "offset_from_nominal_mi": 0.175,
+     "rejected": "not straight"
+    },
+    {
+     "road": "us hwy 45",
+     "class": "2",
+     "coverage": 0.79,
+     "covered_mi": 16.5,
+     "offset_from_prior_mi": 0.087,
+     "offset_from_nominal_mi": 0.2,
+     "rejected": "not straight"
+    },
+    {
+     "road": "us hwy 12",
+     "class": "2",
+     "coverage": 0.55,
+     "covered_mi": 11.5,
+     "offset_from_prior_mi": 0.084,
+     "offset_from_nominal_mi": 0.174,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "14:north": {
+   "window_mi": [
+    -21.5,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "wolf",
+     "class": "4",
+     "coverage": 0.86,
+     "covered_mi": 18.0,
+     "offset_from_prior_mi": 0.092,
+     "offset_from_nominal_mi": 0.386,
+     "rejected": "not straight"
+    },
+    {
+     "road": "us hwy 45",
+     "class": "2",
+     "coverage": 0.1,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.081,
+     "offset_from_nominal_mi": 0.502,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "state rte 21",
+     "class": "2",
+     "coverage": 0.1,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.081,
+     "offset_from_nominal_mi": 0.502,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "15:north": {
+   "window_mi": [
+    -22.25,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "county line",
+     "class": "4",
+     "coverage": 0.14,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.082,
+     "offset_from_nominal_mi": 0.032,
+     "rms_mi": 0.0005,
+     "max_mi": 0.002,
+     "n_pieces": 1
+    },
+    {
+     "road": "us hwy 45",
+     "class": "2",
+     "coverage": 0.13,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.017,
+     "offset_from_nominal_mi": 0.508,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "wheeling",
+     "class": "4",
+     "coverage": 0.21,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": 0.017,
+     "offset_from_nominal_mi": 0.382,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "16:north": {
+   "window_mi": [
+    -23.0,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "schoenbeck",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": -0.009,
+     "offset_from_nominal_mi": 0.379,
+     "rms_mi": 0.0057,
+     "max_mi": 0.0605,
+     "n_pieces": 1
+    },
+    {
+     "road": "elmhurst",
+     "class": "2",
+     "coverage": 0.25,
+     "covered_mi": 6.5,
+     "offset_from_prior_mi": -0.178,
+     "offset_from_nominal_mi": 0.071,
+     "rms_mi": 0.0071,
+     "max_mi": 0.0287,
+     "n_pieces": 1
+    },
+    {
+     "road": "york",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 7.0,
+     "offset_from_prior_mi": -0.089,
+     "offset_from_nominal_mi": 0.025,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "17:north": {
+   "window_mi": [
+    -22.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "windsor",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.001,
+     "offset_from_nominal_mi": 0.374,
+     "rms_mi": 0.0522,
+     "max_mi": 0.099,
+     "n_pieces": 1
+    },
+    {
+     "road": "busse",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": -0.183,
+     "offset_from_nominal_mi": 0.086,
+     "rms_mi": 0.0119,
+     "max_mi": 0.0261,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 83",
+     "class": "2",
+     "coverage": 0.5,
+     "covered_mi": 13.25,
+     "offset_from_prior_mi": -0.036,
+     "offset_from_nominal_mi": 0.057,
+     "rms_mi": 0.0572,
+     "max_mi": 0.1544,
+     "n_pieces": 5,
+     "rejected": "1.39 mi from line 16 at -3.1"
+    }
+   ]
+  },
+  "18:north": {
+   "window_mi": [
+    -21.5,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ardmore",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": -0.029,
+     "offset_from_nominal_mi": 0.033,
+     "rms_mi": 0.0158,
+     "max_mi": 0.0347,
+     "n_pieces": 1
+    },
+    {
+     "road": "vail",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.026,
+     "offset_from_nominal_mi": 0.31,
+     "rms_mi": 0.0121,
+     "max_mi": 0.028,
+     "n_pieces": 1
+    },
+    {
+     "road": "highland",
+     "class": "4",
+     "coverage": 0.18,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.048,
+     "offset_from_nominal_mi": 0.379,
+     "rms_mi": 0.0544,
+     "max_mi": 0.089,
+     "n_pieces": 2
+    }
+   ]
+  },
+  "19:north": {
+   "window_mi": [
+    -20.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "wilke",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 6.25,
+     "offset_from_prior_mi": -0.007,
+     "offset_from_nominal_mi": 0.363,
+     "rejected": "not straight"
+    },
+    {
+     "road": "new wilke",
+     "class": "4",
+     "coverage": 0.08,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.008,
+     "offset_from_nominal_mi": 0.295,
+     "rms_mi": 0.0185,
+     "max_mi": 0.0419,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 8% of the window"
+    },
+    {
+     "road": "arlington heights",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.092,
+     "offset_from_nominal_mi": 0.304,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "20:north": {
+   "window_mi": [
+    -19.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "main",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.007,
+     "offset_from_nominal_mi": 0.013,
+     "rejected": "not straight"
+    },
+    {
+     "road": "rohlwing",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.007,
+     "offset_from_nominal_mi": 0.37,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "lombard",
+     "class": "4",
+     "coverage": 0.1,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.165,
+     "offset_from_nominal_mi": 0.283,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "21:north": {
+   "window_mi": [
+    -19.75,
+    3.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "plum grove",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.023,
+     "offset_from_nominal_mi": 0.376,
+     "rms_mi": 0.0007,
+     "max_mi": 0.0015,
+     "n_pieces": 1
+    },
+    {
+     "road": "brockway",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.143,
+     "offset_from_nominal_mi": 0.499,
+     "rms_mi": 0.0127,
+     "max_mi": 0.0437,
+     "n_pieces": 1
+    },
+    {
+     "road": "meacham",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 6.75,
+     "offset_from_prior_mi": 0.13,
+     "offset_from_nominal_mi": 0.432,
+     "rms_mi": 0.0131,
+     "max_mi": 0.0274,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 20 at -9.0"
+    }
+   ]
+  },
+  "22:north": {
+   "window_mi": [
+    -18.5,
+    -1.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "quentin",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": -0.014,
+     "offset_from_nominal_mi": 0.368,
+     "rms_mi": 0.0136,
+     "max_mi": 0.033,
+     "n_pieces": 1
+    },
+    {
+     "road": "plum grove",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 5.5,
+     "offset_from_prior_mi": -0.028,
+     "offset_from_nominal_mi": 0.227,
+     "rms_mi": 0.0102,
+     "max_mi": 0.0305,
+     "n_pieces": 1
+    },
+    {
+     "road": "glen ellyn",
+     "class": "4",
+     "coverage": 0.21,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.239,
+     "offset_from_nominal_mi": 0.336,
+     "rms_mi": 0.0474,
+     "max_mi": 0.0946,
+     "n_pieces": 1,
+     "rejected": "1.26 mi from line 21 at -2.4"
+    }
+   ]
+  },
+  "23:north": {
+   "window_mi": [
+    -18.5,
+    -5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "roselle",
+     "class": "4",
+     "coverage": 0.81,
+     "covered_mi": 11.0,
+     "offset_from_prior_mi": -0.047,
+     "offset_from_nominal_mi": 0.227,
+     "rms_mi": 0.0176,
+     "max_mi": 0.0411,
+     "n_pieces": 1,
+     "rejected": "1.28 mi from line 24 at -16.7"
+    }
+   ]
+  },
+  "24:north": {
+   "window_mi": [
+    -13.5,
+    -5.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "salem",
+     "class": "4",
+     "coverage": 0.37,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.056,
+     "offset_from_nominal_mi": 0.32,
+     "rms_mi": 0.0489,
+     "max_mi": 0.078,
+     "n_pieces": 1
+    },
+    {
+     "road": "garden",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.255,
+     "offset_from_nominal_mi": 0.433,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "25:north": {
+   "window_mi": [
+    -13.5,
+    -5.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "springinsguth",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.001,
+     "offset_from_nominal_mi": 0.249,
+     "rms_mi": 0.0005,
+     "max_mi": 0.0015,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 29% of the window"
+    },
+    {
+     "road": "gary",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.149,
+     "offset_from_nominal_mi": 0.313,
+     "rms_mi": 0.0455,
+     "max_mi": 0.0955,
+     "n_pieces": 1,
+     "rejected": "runs 2.8 mi, 31% of the window"
+    },
+    {
+     "road": "braintree",
+     "class": "4",
+     "coverage": 0.09,
+     "covered_mi": 0.75,
+     "offset_from_prior_mi": -0.375,
+     "offset_from_nominal_mi": -0.133,
+     "rms_mi": 0.0084,
+     "max_mi": 0.0196,
+     "n_pieces": 1,
+     "rejected": "0.57 mi from line 24 at -10.4"
+    }
+   ]
+  },
+  "26:north": {
+   "window_mi": [
+    -13.5,
+    -5.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "barrington",
+     "class": "4",
+     "coverage": 0.74,
+     "covered_mi": 6.5,
+     "offset_from_prior_mi": 0.274,
+     "offset_from_nominal_mi": 0.557,
+     "rms_mi": 0.0536,
+     "max_mi": 0.0808,
+     "n_pieces": 2,
+     "rejected": "1.25 mi from line 25 at -12.1"
+    },
+    {
+     "road": "knollwood",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.11,
+     "offset_from_nominal_mi": 0.169,
+     "rms_mi": 0.0299,
+     "max_mi": 0.0573,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 26% of the window"
+    }
+   ]
+  },
+  "27:north": {
+   "window_mi": [
+    -12.25,
+    -5.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "county farm",
+     "class": "4",
+     "coverage": 0.3,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.308,
+     "offset_from_nominal_mi": -0.15,
+     "rms_mi": 0.0365,
+     "max_mi": 0.0546,
+     "n_pieces": 1,
+     "rejected": "0.67 mi from line 26 at -7.0"
+    }
+   ]
+  },
+  "28:north": {
+   "window_mi": [
+    -11.75,
+    -5.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "bartlett",
+     "class": "4",
+     "coverage": 0.73,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": 0.253,
+     "offset_from_nominal_mi": 0.502,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "prospect",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.127,
+     "offset_from_nominal_mi": 0.07,
+     "rms_mi": 0.0054,
+     "max_mi": 0.0149,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 35% of the window"
+    },
+    {
+     "road": "oltendorf",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.167,
+     "offset_from_nominal_mi": 0.103,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "29:north": {
+   "window_mi": [
+    -11.75,
+    -6.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state rte 59",
+     "class": "2",
+     "coverage": 0.62,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.293,
+     "offset_from_nominal_mi": 0.55,
+     "rejected": "not straight"
+    },
+    {
+     "road": "sutton",
+     "class": "2",
+     "coverage": 0.58,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.297,
+     "offset_from_nominal_mi": 0.552,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "30:north": {
+   "window_mi": [
+    -11.0,
+    -8.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "0:south": {
+   "window_mi": [
+    15.25,
+    22.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "indiana",
+     "class": "4",
+     "coverage": 0.71,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.205,
+     "offset_from_nominal_mi": -0.539,
+     "rms_mi": 0.0329,
+     "max_mi": 0.0981,
+     "n_pieces": 2
+    },
+    {
+     "road": "state",
+     "class": "4",
+     "coverage": 0.71,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.164,
+     "offset_from_nominal_mi": -0.545,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "michigan",
+     "class": "4",
+     "coverage": 0.46,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.114,
+     "offset_from_nominal_mi": -0.424,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "-1:south": {
+   "window_mi": [
+    16.5,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "cottage grove",
+     "class": "4",
+     "coverage": 0.73,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": -0.175,
+     "offset_from_nominal_mi": -0.541,
+     "rms_mi": 0.0014,
+     "max_mi": 0.0031,
+     "n_pieces": 1
+    },
+    {
+     "road": "school",
+     "class": "4",
+     "coverage": 0.36,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.055,
+     "offset_from_nominal_mi": -0.328,
+     "rms_mi": 0.0123,
+     "max_mi": 0.0468,
+     "n_pieces": 1,
+     "rejected": "0.74 mi from line 0 at 20.8"
+    },
+    {
+     "road": "irving",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.053,
+     "offset_from_nominal_mi": -0.284,
+     "rms_mi": 0.0064,
+     "max_mi": 0.022,
+     "n_pieces": 1,
+     "rejected": "0.74 mi from line 0 at 16.8"
+    }
+   ]
+  },
+  "1:south": {
+   "window_mi": [
+    14.75,
+    22.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "halsted",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.131,
+     "offset_from_nominal_mi": -0.547,
+     "rms_mi": 0.0551,
+     "max_mi": 0.1023,
+     "n_pieces": 3
+    },
+    {
+     "road": "state rte 1",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.13,
+     "offset_from_nominal_mi": -0.547,
+     "rms_mi": 0.0525,
+     "max_mi": 0.0989,
+     "n_pieces": 3
+    },
+    {
+     "road": "lathrop",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.089,
+     "offset_from_nominal_mi": -0.301,
+     "rms_mi": 0.0064,
+     "max_mi": 0.0269,
+     "n_pieces": 1,
+     "rejected": "1.27 mi from line 0 at 19.5"
+    }
+   ]
+  },
+  "-2:south": {
+   "window_mi": [
+    3.5,
+    22.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state rte 394",
+     "class": "2",
+     "coverage": 0.32,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.138,
+     "offset_from_nominal_mi": -0.28,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "dorchester",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.056,
+     "offset_from_nominal_mi": -0.284,
+     "rms_mi": 0.0074,
+     "max_mi": 0.0158,
+     "n_pieces": 1,
+     "rejected": "0.74 mi from line -1 at 17.0"
+    },
+    {
+     "road": "woodlawn",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.31,
+     "offset_from_nominal_mi": -0.031,
+     "rms_mi": 0.0022,
+     "max_mi": 0.0054,
+     "n_pieces": 1,
+     "rejected": "1.29 mi from line -3 at 16.9"
+    }
+   ]
+  },
+  "2:south": {
+   "window_mi": [
+    14.25,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ashland",
+     "class": "4",
+     "coverage": 0.94,
+     "covered_mi": 7.25,
+     "offset_from_prior_mi": -0.019,
+     "offset_from_nominal_mi": -0.337,
+     "rms_mi": 0.0297,
+     "max_mi": 0.1087,
+     "n_pieces": 3
+    },
+    {
+     "road": "wood",
+     "class": "4",
+     "coverage": 0.58,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.068,
+     "offset_from_nominal_mi": -0.299,
+     "rms_mi": 0.0086,
+     "max_mi": 0.0629,
+     "n_pieces": 1,
+     "rejected": "1.27 mi from line 1 at 19.0"
+    },
+    {
+     "road": "paulina",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.047,
+     "offset_from_nominal_mi": -0.424,
+     "rms_mi": 0.0037,
+     "max_mi": 0.0246,
+     "n_pieces": 1,
+     "rejected": "runs 2.8 mi, 35% of the window"
+    }
+   ]
+  },
+  "-3:south": {
+   "window_mi": [
+    5.0,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "torrence",
+     "class": "4",
+     "coverage": 0.75,
+     "covered_mi": 7.5,
+     "offset_from_prior_mi": -0.15,
+     "offset_from_nominal_mi": -0.534,
+     "rms_mi": 0.0036,
+     "max_mi": 0.0158,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 83",
+     "class": "2",
+     "coverage": 0.62,
+     "covered_mi": 6.25,
+     "offset_from_prior_mi": -0.116,
+     "offset_from_nominal_mi": -0.537,
+     "rejected": "not straight"
+    },
+    {
+     "road": "bensley",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.001,
+     "offset_from_nominal_mi": -0.332,
+     "rms_mi": 0.0095,
+     "max_mi": 0.0205,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 20% of the window"
+    }
+   ]
+  },
+  "3:south": {
+   "window_mi": [
+    10.25,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "western",
+     "class": "4",
+     "coverage": 0.57,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": -0.056,
+     "offset_from_nominal_mi": -0.376,
+     "rms_mi": 0.0315,
+     "max_mi": 0.0771,
+     "n_pieces": 2
+    },
+    {
+     "road": "old western",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.11,
+     "offset_from_nominal_mi": -0.437,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "greenwood",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.112,
+     "offset_from_nominal_mi": -0.172,
+     "rms_mi": 0.0041,
+     "max_mi": 0.0101,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 22% of the window"
+    }
+   ]
+  },
+  "-4:south": {
+   "window_mi": [
+    6.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "burnham",
+     "class": "4",
+     "coverage": 0.79,
+     "covered_mi": 7.5,
+     "offset_from_prior_mi": -0.137,
+     "offset_from_nominal_mi": -0.533,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0177,
+     "n_pieces": 1
+    },
+    {
+     "road": "lorenz",
+     "class": "4",
+     "coverage": 0.21,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.011,
+     "offset_from_nominal_mi": -0.409,
+     "rms_mi": 0.0079,
+     "max_mi": 0.0252,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 21% of the window"
+    },
+    {
+     "road": "chicago",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.139,
+     "offset_from_nominal_mi": -0.287,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0043,
+     "n_pieces": 1,
+     "rejected": "0.75 mi from line -3 at 20.6"
+    }
+   ]
+  },
+  "4:south": {
+   "window_mi": [
+    10.25,
+    20.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "kedzie",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 8.5,
+     "offset_from_prior_mi": -0.017,
+     "offset_from_nominal_mi": -0.311,
+     "rms_mi": 0.0398,
+     "max_mi": 0.0668,
+     "n_pieces": 3
+    },
+    {
+     "road": "albany",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.118,
+     "offset_from_nominal_mi": -0.319,
+     "rms_mi": 0.01,
+     "max_mi": 0.0361,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 24% of the window"
+    },
+    {
+     "road": "utica",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.182,
+     "offset_from_nominal_mi": -0.383,
+     "rms_mi": 0.0156,
+     "max_mi": 0.051,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 24% of the window"
+    }
+   ]
+  },
+  "-5:south": {
+   "window_mi": [
+    8.25,
+    24.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state line",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.115,
+     "offset_from_nominal_mi": -0.264,
+     "rms_mi": 0.0025,
+     "max_mi": 0.007,
+     "n_pieces": 1,
+     "rejected": "0.74 mi from line -4 at 17.9"
+    },
+    {
+     "road": "wentworth",
+     "class": "4",
+     "coverage": 0.36,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.363,
+     "offset_from_nominal_mi": -0.027,
+     "rms_mi": 0.0055,
+     "max_mi": 0.0262,
+     "n_pieces": 1,
+     "rejected": "1.33 mi from line -6 at 17.8"
+    }
+   ]
+  },
+  "5:south": {
+   "window_mi": [
+    10.25,
+    19.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "pulaski",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 7.25,
+     "offset_from_prior_mi": -0.021,
+     "offset_from_nominal_mi": -0.32,
+     "rms_mi": 0.0026,
+     "max_mi": 0.0166,
+     "n_pieces": 1
+    },
+    {
+     "road": "crawford",
+     "class": "4",
+     "coverage": 0.55,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": -0.032,
+     "offset_from_nominal_mi": -0.357,
+     "rms_mi": 0.0008,
+     "max_mi": 0.0029,
+     "n_pieces": 1
+    },
+    {
+     "road": "hamlin",
+     "class": "4",
+     "coverage": 0.62,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": -0.277,
+     "offset_from_nominal_mi": -0.591,
+     "rms_mi": 0.0083,
+     "max_mi": 0.0269,
+     "n_pieces": 1,
+     "rejected": "1.26 mi from line 6 at 15.0"
+    }
+   ]
+  },
+  "-6:south": {
+   "window_mi": [
+    8.75,
+    24.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "6:south": {
+   "window_mi": [
+    3.5,
+    20.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "cicero",
+     "class": "2",
+     "coverage": 0.89,
+     "covered_mi": 12.0,
+     "offset_from_prior_mi": -0.009,
+     "offset_from_nominal_mi": -0.276,
+     "rms_mi": 0.0126,
+     "max_mi": 0.0814,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 50",
+     "class": "2",
+     "coverage": 0.89,
+     "covered_mi": 12.0,
+     "offset_from_prior_mi": -0.02,
+     "offset_from_nominal_mi": -0.304,
+     "rms_mi": 0.014,
+     "max_mi": 0.0816,
+     "n_pieces": 1
+    },
+    {
+     "road": "kilpatrick",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": -0.154,
+     "offset_from_nominal_mi": -0.471,
+     "rms_mi": 0.0103,
+     "max_mi": 0.0379,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-7:south": {
+   "window_mi": [
+    12.5,
+    26.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "7:south": {
+   "window_mi": [
+    3.5,
+    22.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "central",
+     "class": "4",
+     "coverage": 0.97,
+     "covered_mi": 17.0,
+     "offset_from_prior_mi": -0.006,
+     "offset_from_nominal_mi": -0.24,
+     "rms_mi": 0.0263,
+     "max_mi": 0.099,
+     "n_pieces": 2
+    },
+    {
+     "road": "parkside",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.074,
+     "offset_from_nominal_mi": -0.129,
+     "rms_mi": 0.0073,
+     "max_mi": 0.0204,
+     "n_pieces": 1
+    },
+    {
+     "road": "major",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.136,
+     "offset_from_nominal_mi": -0.054,
+     "rms_mi": 0.0115,
+     "max_mi": 0.03,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-8:south": {
+   "window_mi": [
+    12.75,
+    26.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "8:south": {
+   "window_mi": [
+    3.5,
+    23.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ridgeland",
+     "class": "4",
+     "coverage": 0.79,
+     "covered_mi": 14.25,
+     "offset_from_prior_mi": -0.006,
+     "offset_from_nominal_mi": -0.273,
+     "rms_mi": 0.0383,
+     "max_mi": 0.0682,
+     "n_pieces": 4
+    },
+    {
+     "road": "mobile",
+     "class": "4",
+     "coverage": 0.14,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.105,
+     "offset_from_nominal_mi": -0.292,
+     "rms_mi": 0.0054,
+     "max_mi": 0.0162,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 14% of the window"
+    },
+    {
+     "road": "nashville",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 5.5,
+     "offset_from_prior_mi": 0.254,
+     "offset_from_nominal_mi": 0.043,
+     "rms_mi": 0.0416,
+     "max_mi": 0.1146,
+     "n_pieces": 2,
+     "rejected": "1.26 mi from line 7 at 12.4"
+    }
+   ]
+  },
+  "-9:south": {
+   "window_mi": [
+    12.25,
+    25.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "9:south": {
+   "window_mi": [
+    3.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state rte 43",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 18.0,
+     "offset_from_prior_mi": -0.03,
+     "offset_from_nominal_mi": -0.252,
+     "rms_mi": 0.0549,
+     "max_mi": 0.137,
+     "n_pieces": 4
+    },
+    {
+     "road": "harlem",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 18.0,
+     "offset_from_prior_mi": -0.031,
+     "offset_from_nominal_mi": -0.263,
+     "rejected": "not straight"
+    },
+    {
+     "road": "old harlem",
+     "class": "2",
+     "coverage": 0.04,
+     "covered_mi": 0.75,
+     "offset_from_prior_mi": 0.02,
+     "offset_from_nominal_mi": -0.08,
+     "rms_mi": 0.0131,
+     "max_mi": 0.0372,
+     "n_pieces": 1,
+     "rejected": "runs 0.8 mi, 4% of the window"
+    }
+   ]
+  },
+  "-10:south": {
+   "window_mi": [
+    12.0,
+    25.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "10:south": {
+   "window_mi": [
+    3.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "roberts",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 6.0,
+     "offset_from_prior_mi": -0.024,
+     "offset_from_nominal_mi": -0.206,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0044,
+     "n_pieces": 1
+    },
+    {
+     "road": "80th",
+     "class": "4",
+     "coverage": 0.42,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.078,
+     "offset_from_nominal_mi": -0.457,
+     "rms_mi": 0.003,
+     "max_mi": 0.0112,
+     "n_pieces": 1
+    },
+    {
+     "road": "81st",
+     "class": "4",
+     "coverage": 0.18,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.096,
+     "offset_from_nominal_mi": -0.101,
+     "rms_mi": 0.0099,
+     "max_mi": 0.0407,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-11:south": {
+   "window_mi": [
+    12.0,
+    25.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "11:south": {
+   "window_mi": [
+    3.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "88th",
+     "class": "4",
+     "coverage": 0.64,
+     "covered_mi": 11.75,
+     "offset_from_prior_mi": -0.065,
+     "offset_from_nominal_mi": -0.381,
+     "rms_mi": 0.0418,
+     "max_mi": 0.2243,
+     "n_pieces": 4
+    },
+    {
+     "road": "forest",
+     "class": "4",
+     "coverage": 0.11,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.101,
+     "offset_from_nominal_mi": 0.045,
+     "rms_mi": 0.0036,
+     "max_mi": 0.0141,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 11% of the window"
+    },
+    {
+     "road": "prairie",
+     "class": "4",
+     "coverage": 0.11,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.163,
+     "offset_from_nominal_mi": 0.11,
+     "rms_mi": 0.0034,
+     "max_mi": 0.0054,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 11% of the window"
+    }
+   ]
+  },
+  "-12:south": {
+   "window_mi": [
+    13.5,
+    16.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "12:south": {
+   "window_mi": [
+    3.5,
+    22.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "east",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.028,
+     "offset_from_nominal_mi": -0.119,
+     "rms_mi": 0.0004,
+     "max_mi": 0.0013,
+     "n_pieces": 1
+    },
+    {
+     "road": "us hwy 45",
+     "class": "2",
+     "coverage": 0.68,
+     "covered_mi": 10.75,
+     "offset_from_prior_mi": -0.069,
+     "offset_from_nominal_mi": -0.375,
+     "rejected": "not straight"
+    },
+    {
+     "road": "la grange",
+     "class": "2",
+     "coverage": 0.67,
+     "covered_mi": 10.5,
+     "offset_from_prior_mi": -0.064,
+     "offset_from_nominal_mi": -0.381,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "13:south": {
+   "window_mi": [
+    3.5,
+    18.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "brainard",
+     "class": "4",
+     "coverage": 0.62,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": -0.014,
+     "offset_from_nominal_mi": -0.069,
+     "rms_mi": 0.0091,
+     "max_mi": 0.0337,
+     "n_pieces": 1
+    },
+    {
+     "road": "stone",
+     "class": "4",
+     "coverage": 0.41,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.068,
+     "offset_from_nominal_mi": -0.119,
+     "rms_mi": 0.0061,
+     "max_mi": 0.0127,
+     "n_pieces": 1
+    },
+    {
+     "road": "spring",
+     "class": "4",
+     "coverage": 0.41,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.19,
+     "offset_from_nominal_mi": -0.241,
+     "rms_mi": 0.0024,
+     "max_mi": 0.0046,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "14:south": {
+   "window_mi": [
+    3.5,
+    7.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "wolf",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": -0.022,
+     "offset_from_nominal_mi": -0.103,
+     "rms_mi": 0.0157,
+     "max_mi": 0.0409,
+     "n_pieces": 1
+    },
+    {
+     "road": "lawn",
+     "class": "4",
+     "coverage": 0.59,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.056,
+     "offset_from_nominal_mi": -0.01,
+     "rms_mi": 0.0104,
+     "max_mi": 0.0193,
+     "n_pieces": 1
+    },
+    {
+     "road": "grand",
+     "class": "4",
+     "coverage": 0.71,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.137,
+     "offset_from_nominal_mi": 0.061,
+     "rms_mi": 0.0253,
+     "max_mi": 0.05,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "15:south": {
+   "window_mi": [
+    3.5,
+    11.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "county line",
+     "class": "4",
+     "coverage": 0.9,
+     "covered_mi": 6.75,
+     "offset_from_prior_mi": -0.061,
+     "offset_from_nominal_mi": -0.209,
+     "rms_mi": 0.0018,
+     "max_mi": 0.0061,
+     "n_pieces": 1
+    },
+    {
+     "road": "oak",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.093,
+     "offset_from_nominal_mi": 0.025,
+     "rms_mi": 0.0262,
+     "max_mi": 0.0594,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 33% of the window"
+    },
+    {
+     "road": "elm",
+     "class": "4",
+     "coverage": 0.47,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.216,
+     "offset_from_nominal_mi": 0.137,
+     "rms_mi": 0.0082,
+     "max_mi": 0.0282,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 14 at 6.9"
+    }
+   ]
+  },
+  "16:south": {
+   "window_mi": [
+    3.5,
+    11.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "madison",
+     "class": "4",
+     "coverage": 0.97,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.059,
+     "offset_from_nominal_mi": -0.177,
+     "rms_mi": 0.0035,
+     "max_mi": 0.0113,
+     "n_pieces": 1
+    },
+    {
+     "road": "monroe",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.082,
+     "offset_from_nominal_mi": 0.0,
+     "rms_mi": 0.0093,
+     "max_mi": 0.0234,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 28% of the window"
+    },
+    {
+     "road": "adams",
+     "class": "4",
+     "coverage": 0.38,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.213,
+     "offset_from_nominal_mi": 0.154,
+     "rms_mi": 0.0027,
+     "max_mi": 0.0051,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 15 at 3.7"
+    }
+   ]
+  },
+  "17:south": {
+   "window_mi": [
+    3.5,
+    11.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "clarendon hills",
+     "class": "4",
+     "coverage": 0.66,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": -0.066,
+     "offset_from_nominal_mi": -0.204,
+     "rms_mi": 0.0019,
+     "max_mi": 0.0045,
+     "n_pieces": 1
+    },
+    {
+     "road": "bentley",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.188,
+     "offset_from_nominal_mi": 0.079,
+     "rms_mi": 0.0137,
+     "max_mi": 0.0315,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 16 at 7.6"
+    }
+   ]
+  },
+  "18:south": {
+   "window_mi": [
+    3.5,
+    11.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "cass",
+     "class": "4",
+     "coverage": 0.97,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.068,
+     "offset_from_nominal_mi": -0.203,
+     "rms_mi": 0.038,
+     "max_mi": 0.2288,
+     "n_pieces": 2
+    },
+    {
+     "road": "adams",
+     "class": "4",
+     "coverage": 0.44,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.145,
+     "offset_from_nominal_mi": -0.001,
+     "rms_mi": 0.0104,
+     "max_mi": 0.0328,
+     "n_pieces": 1
+    },
+    {
+     "road": "grant",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.092,
+     "offset_from_nominal_mi": 0.029,
+     "rms_mi": 0.001,
+     "max_mi": 0.0018,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 28% of the window"
+    }
+   ]
+  },
+  "19:south": {
+   "window_mi": [
+    3.5,
+    13.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "fairview",
+     "class": "4",
+     "coverage": 0.64,
+     "covered_mi": 5.75,
+     "offset_from_prior_mi": -0.068,
+     "offset_from_nominal_mi": -0.174,
+     "rms_mi": 0.0077,
+     "max_mi": 0.0482,
+     "n_pieces": 1
+    },
+    {
+     "road": "grand",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.059,
+     "offset_from_nominal_mi": -0.035,
+     "rms_mi": 0.0105,
+     "max_mi": 0.0202,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 22% of the window"
+    },
+    {
+     "road": "douglas",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.084,
+     "offset_from_nominal_mi": 0.017,
+     "rms_mi": 0.0114,
+     "max_mi": 0.0327,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 22% of the window"
+    }
+   ]
+  },
+  "20:south": {
+   "window_mi": [
+    3.5,
+    13.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "saratoga",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.042,
+     "offset_from_nominal_mi": -0.088,
+     "rms_mi": 0.0134,
+     "max_mi": 0.0269,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 24% of the window"
+    },
+    {
+     "road": "dunham",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.175,
+     "offset_from_nominal_mi": 0.025,
+     "rejected": "not straight"
+    },
+    {
+     "road": "carpenter",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.166,
+     "offset_from_nominal_mi": -0.282,
+     "rms_mi": 0.0384,
+     "max_mi": 0.0878,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 24% of the window"
+    }
+   ]
+  },
+  "21:south": {
+   "window_mi": [
+    3.5,
+    15.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "woodward",
+     "class": "4",
+     "coverage": 0.47,
+     "covered_mi": 5.5,
+     "offset_from_prior_mi": -0.136,
+     "offset_from_nominal_mi": -0.303,
+     "rms_mi": 0.0376,
+     "max_mi": 0.0635,
+     "n_pieces": 2,
+     "rejected": "0.66 mi from line 20 at 11.9"
+    },
+    {
+     "road": "belmont",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.143,
+     "offset_from_nominal_mi": 0.049,
+     "rms_mi": 0.0111,
+     "max_mi": 0.0326,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 19% of the window"
+    },
+    {
+     "road": "janes",
+     "class": "4",
+     "coverage": 0.34,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": 0.353,
+     "offset_from_nominal_mi": 0.146,
+     "rms_mi": 0.0239,
+     "max_mi": 0.0984,
+     "n_pieces": 1,
+     "rejected": "1.37 mi from line 20 at 8.7"
+    }
+   ]
+  },
+  "22:south": {
+   "window_mi": [
+    6.5,
+    15.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ashbury",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.159,
+     "offset_from_nominal_mi": -0.039,
+     "rms_mi": 0.054,
+     "max_mi": 0.1042,
+     "n_pieces": 1
+    },
+    {
+     "road": "pinecrest",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.099,
+     "offset_from_nominal_mi": -0.293,
+     "rejected": "not straight"
+    },
+    {
+     "road": "woodridge",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.159,
+     "offset_from_nominal_mi": -0.297,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "23:south": {
+   "window_mi": [
+    5.75,
+    17.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state rte 53",
+     "class": "2",
+     "coverage": 0.63,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": -0.143,
+     "offset_from_nominal_mi": -0.366,
+     "rejected": "not straight"
+    },
+    {
+     "road": "lincoln",
+     "class": "2",
+     "coverage": 0.16,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.022,
+     "offset_from_nominal_mi": -0.073,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "bolingbrook",
+     "class": "2",
+     "coverage": 0.35,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": -0.144,
+     "offset_from_nominal_mi": -0.376,
+     "rms_mi": 0.0486,
+     "max_mi": 0.1755,
+     "n_pieces": 1,
+     "rejected": "0.61 mi from line 22 at 10.8"
+    }
+   ]
+  },
+  "24:south": {
+   "window_mi": [
+    5.75,
+    19.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "schmidt",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": -0.157,
+     "offset_from_nominal_mi": -0.392,
+     "rms_mi": 0.009,
+     "max_mi": 0.0379,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "25:south": {
+   "window_mi": [
+    11.0,
+    20.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "lindsey ln",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.086,
+     "offset_from_nominal_mi": -0.296,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "26:south": {
+   "window_mi": [
+    11.5,
+    20.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "weber",
+     "class": "4",
+     "coverage": 0.97,
+     "covered_mi": 9.0,
+     "offset_from_prior_mi": -0.188,
+     "offset_from_nominal_mi": -0.474,
+     "rejected": "not straight"
+    },
+    {
+     "road": "naperville",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.139,
+     "offset_from_nominal_mi": -0.344,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "27:south": {
+   "window_mi": [
+    11.5,
+    20.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "budler",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.376,
+     "offset_from_nominal_mi": 0.039,
+     "rms_mi": 0.0057,
+     "max_mi": 0.0238,
+     "n_pieces": 1,
+     "rejected": "1.38 mi from line 26 at 16.8"
+    }
+   ]
+  },
+  "28:south": {
+   "window_mi": [
+    12.5,
+    20.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "co hwy 14",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.093,
+     "offset_from_nominal_mi": -0.308,
+     "rejected": "not straight"
+    },
+    {
+     "road": "plainfield naperville",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.094,
+     "offset_from_nominal_mi": -0.312,
+     "rejected": "not straight"
+    },
+    {
+     "road": "essington",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.114,
+     "offset_from_nominal_mi": -0.391,
+     "rms_mi": 0.0583,
+     "max_mi": 0.157,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 32% of the window"
+    }
+   ]
+  }
+ },
+ "ew": {
+  "0:east": {
+   "window_mi": [
+    -2.5,
+    -0.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-8:east": {
+   "window_mi": [
+    0.25,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-9:east": {
+   "window_mi": [
+    0.5,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "9:east": {
+   "window_mi": [
+    -6.25,
+    -4.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-10:east": {
+   "window_mi": [
+    0.75,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "oakton",
+     "class": "4",
+     "coverage": 0.74,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.026,
+     "offset_from_nominal_mi": 0.023,
+     "rms_mi": 0.0052,
+     "max_mi": 0.0106,
+     "n_pieces": 1
+    },
+    {
+     "road": "cleveland",
+     "class": "4",
+     "coverage": 0.58,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.225,
+     "offset_from_nominal_mi": -0.209,
+     "rms_mi": 0.0069,
+     "max_mi": 0.0157,
+     "n_pieces": 1
+    },
+    {
+     "road": "brummel",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": 0.397,
+     "offset_from_nominal_mi": 0.397,
+     "rms_mi": 0.0074,
+     "max_mi": 0.0184,
+     "n_pieces": 1,
+     "rejected": "1.39 mi from line -11 at 2.9"
+    }
+   ]
+  },
+  "10:east": {
+   "window_mi": [
+    -6.5,
+    4.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-11:east": {
+   "window_mi": [
+    1.0,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "dempster",
+     "class": "4",
+     "coverage": 0.78,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.031,
+     "offset_from_nominal_mi": 0.026,
+     "rms_mi": 0.0047,
+     "max_mi": 0.0174,
+     "n_pieces": 1
+    },
+    {
+     "road": "greenwood",
+     "class": "4",
+     "coverage": 0.72,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.086,
+     "offset_from_nominal_mi": -0.088,
+     "rms_mi": 0.0047,
+     "max_mi": 0.0119,
+     "n_pieces": 1
+    },
+    {
+     "road": "lake",
+     "class": "4",
+     "coverage": 0.56,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.184,
+     "offset_from_nominal_mi": -0.191,
+     "rms_mi": 0.007,
+     "max_mi": 0.0195,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "11:east": {
+   "window_mi": [
+    -6.25,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "95th",
+     "class": "2",
+     "coverage": 0.71,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.01,
+     "offset_from_nominal_mi": 0.132,
+     "rms_mi": 0.0018,
+     "max_mi": 0.0042,
+     "n_pieces": 1
+    },
+    {
+     "road": "96th",
+     "class": "4",
+     "coverage": 0.71,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.115,
+     "offset_from_nominal_mi": 0.252,
+     "rms_mi": 0.0027,
+     "max_mi": 0.0115,
+     "n_pieces": 1
+    },
+    {
+     "road": "94th",
+     "class": "4",
+     "coverage": 0.57,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.137,
+     "offset_from_nominal_mi": 0.002,
+     "rms_mi": 0.0075,
+     "max_mi": 0.059,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-12:east": {
+   "window_mi": [
+    1.0,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "simpson",
+     "class": "4",
+     "coverage": 0.5,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.03,
+     "offset_from_nominal_mi": 0.015,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0179,
+     "n_pieces": 1
+    },
+    {
+     "road": "foster",
+     "class": "4",
+     "coverage": 0.61,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.159,
+     "offset_from_nominal_mi": 0.143,
+     "rms_mi": 0.0265,
+     "max_mi": 0.1122,
+     "n_pieces": 1
+    },
+    {
+     "road": "noyes",
+     "class": "4",
+     "coverage": 0.44,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.152,
+     "offset_from_nominal_mi": -0.173,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0136,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 44% of the window"
+    }
+   ]
+  },
+  "12:east": {
+   "window_mi": [
+    -6.75,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "103rd",
+     "class": "4",
+     "coverage": 0.25,
+     "covered_mi": 0.5,
+     "offset_from_prior_mi": -0.01,
+     "offset_from_nominal_mi": 0.156,
+     "rms_mi": 0.0001,
+     "max_mi": 0.0004,
+     "n_pieces": 1,
+     "rejected": "runs 0.5 mi, 25% of the window"
+    },
+    {
+     "road": "102nd",
+     "class": "4",
+     "coverage": 0.25,
+     "covered_mi": 0.5,
+     "offset_from_prior_mi": -0.136,
+     "offset_from_nominal_mi": 0.025,
+     "rms_mi": 0.007,
+     "max_mi": 0.0289,
+     "n_pieces": 1,
+     "rejected": "runs 0.5 mi, 25% of the window"
+    }
+   ]
+  },
+  "-13:east": {
+   "window_mi": [
+    1.5,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "isabella",
+     "class": "4",
+     "coverage": 0.69,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.12,
+     "offset_from_nominal_mi": 0.102,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0072,
+     "n_pieces": 1
+    },
+    {
+     "road": "central",
+     "class": "4",
+     "coverage": 0.5,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.226,
+     "offset_from_nominal_mi": -0.233,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "13:east": {
+   "window_mi": [
+    -11.75,
+    -5.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "-14:east": {
+   "window_mi": [
+    1.75,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "greenwood",
+     "class": "4",
+     "coverage": 0.53,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.14,
+     "offset_from_nominal_mi": 0.125,
+     "rms_mi": 0.0092,
+     "max_mi": 0.0341,
+     "n_pieces": 1
+    },
+    {
+     "road": "elmwood",
+     "class": "4",
+     "coverage": 0.6,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.212,
+     "offset_from_nominal_mi": 0.191,
+     "rms_mi": 0.0207,
+     "max_mi": 0.0793,
+     "n_pieces": 1,
+     "rejected": "1.27 mi from line -15 at 3.4"
+    },
+    {
+     "road": "forest",
+     "class": "4",
+     "coverage": 0.47,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.342,
+     "offset_from_nominal_mi": 0.323,
+     "rms_mi": 0.0138,
+     "max_mi": 0.0718,
+     "n_pieces": 1,
+     "rejected": "1.35 mi from line -15 at 3.3"
+    }
+   ]
+  },
+  "14:east": {
+   "window_mi": [
+    -12.25,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "119th",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.008,
+     "offset_from_nominal_mi": 0.144,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0034,
+     "n_pieces": 1
+    },
+    {
+     "road": "117th",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.26,
+     "offset_from_nominal_mi": -0.086,
+     "rms_mi": 0.0107,
+     "max_mi": 0.0335,
+     "n_pieces": 1,
+     "rejected": "0.73 mi from line 13 at 4.0"
+    }
+   ]
+  },
+  "-15:east": {
+   "window_mi": [
+    3.0,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "15:east": {
+   "window_mi": [
+    -12.25,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "127th",
+     "class": "4",
+     "coverage": 0.36,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": -0.007,
+     "offset_from_nominal_mi": 0.131,
+     "rms_mi": 0.0022,
+     "max_mi": 0.0052,
+     "n_pieces": 1
+    },
+    {
+     "road": "burr oak",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.007,
+     "offset_from_nominal_mi": 0.132,
+     "rms_mi": 0.0022,
+     "max_mi": 0.0054,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 22% of the window"
+    }
+   ]
+  },
+  "16:east": {
+   "window_mi": [
+    -12.5,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "135th",
+     "class": "4",
+     "coverage": 0.23,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.008,
+     "offset_from_nominal_mi": 0.168,
+     "rms_mi": 0.0005,
+     "max_mi": 0.0025,
+     "n_pieces": 1
+    },
+    {
+     "road": "broadway",
+     "class": "4",
+     "coverage": 0.17,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.172,
+     "offset_from_nominal_mi": -0.029,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "137th",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.244,
+     "offset_from_nominal_mi": 0.419,
+     "rms_mi": 0.0402,
+     "max_mi": 0.1224,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 15 at 3.4"
+    }
+   ]
+  },
+  "17:east": {
+   "window_mi": [
+    -11.5,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "144th",
+     "class": "4",
+     "coverage": 0.37,
+     "covered_mi": 6.25,
+     "offset_from_prior_mi": 0.095,
+     "offset_from_nominal_mi": 0.147,
+     "rms_mi": 0.0212,
+     "max_mi": 0.0477,
+     "n_pieces": 1
+    },
+    {
+     "road": "142nd",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": -0.181,
+     "offset_from_nominal_mi": -0.106,
+     "rms_mi": 0.0193,
+     "max_mi": 0.0739,
+     "n_pieces": 1
+    },
+    {
+     "road": "143rd",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.009,
+     "offset_from_nominal_mi": 0.158,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "18:east": {
+   "window_mi": [
+    -10.5,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "149th",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.008,
+     "offset_from_nominal_mi": 0.145,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "sibley",
+     "class": "2",
+     "coverage": 0.5,
+     "covered_mi": 8.0,
+     "offset_from_prior_mi": -0.171,
+     "offset_from_nominal_mi": -0.106,
+     "rms_mi": 0.0352,
+     "max_mi": 0.0704,
+     "n_pieces": 3,
+     "rejected": "0.71 mi from line 17 at 0.5"
+    },
+    {
+     "road": "150th",
+     "class": "4",
+     "coverage": 0.42,
+     "covered_mi": 6.75,
+     "offset_from_prior_mi": -0.125,
+     "offset_from_nominal_mi": 0.072,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "19:east": {
+   "window_mi": [
+    -10.0,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "157th",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.007,
+     "offset_from_nominal_mi": 0.148,
+     "rms_mi": 0.0123,
+     "max_mi": 0.0288,
+     "n_pieces": 1
+    },
+    {
+     "road": "159th",
+     "class": "2",
+     "coverage": 0.71,
+     "covered_mi": 11.0,
+     "offset_from_prior_mi": 0.281,
+     "offset_from_nominal_mi": 0.394,
+     "rms_mi": 0.0478,
+     "max_mi": 0.0908,
+     "n_pieces": 3,
+     "rejected": "1.40 mi from line 18 at -5.3"
+    },
+    {
+     "road": "us hwy 6",
+     "class": "2",
+     "coverage": 0.6,
+     "covered_mi": 9.25,
+     "offset_from_prior_mi": 0.272,
+     "offset_from_nominal_mi": 0.395,
+     "rms_mi": 0.0437,
+     "max_mi": 0.071,
+     "n_pieces": 3,
+     "rejected": "1.37 mi from line 18 at -3.5"
+    }
+   ]
+  },
+  "20:east": {
+   "window_mi": [
+    -10.75,
+    5.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "168th",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.053,
+     "offset_from_nominal_mi": 0.125,
+     "rms_mi": 0.0222,
+     "max_mi": 0.0752,
+     "n_pieces": 1,
+     "rejected": "runs 2.2 mi, 15% of the window"
+    },
+    {
+     "road": "167th",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.225,
+     "offset_from_nominal_mi": 0.403,
+     "rms_mi": 0.0443,
+     "max_mi": 0.0772,
+     "n_pieces": 2,
+     "rejected": "1.25 mi from line 19 at 1.4"
+    },
+    {
+     "road": "170th",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": 0.356,
+     "offset_from_nominal_mi": 0.388,
+     "rms_mi": 0.0033,
+     "max_mi": 0.0134,
+     "n_pieces": 1,
+     "rejected": "1.38 mi from line 19 at -4.5"
+    }
+   ]
+  },
+  "21:east": {
+   "window_mi": [
+    -11.0,
+    3.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "us hwy 6",
+     "class": "2",
+     "coverage": 0.14,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.024,
+     "offset_from_nominal_mi": -0.016,
+     "rejected": "not straight"
+    },
+    {
+     "road": "bernice",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.125,
+     "offset_from_nominal_mi": -0.113,
+     "rms_mi": 0.0279,
+     "max_mi": 0.085,
+     "n_pieces": 1,
+     "rejected": "runs 2.8 mi, 19% of the window"
+    },
+    {
+     "road": "175th",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": 0.225,
+     "offset_from_nominal_mi": 0.397,
+     "rms_mi": 0.0233,
+     "max_mi": 0.0965,
+     "n_pieces": 2,
+     "rejected": "1.31 mi from line 20 at -1.0"
+    }
+   ]
+  },
+  "22:east": {
+   "window_mi": [
+    -12.0,
+    1.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "ridge",
+     "class": "4",
+     "coverage": 0.39,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": -0.139,
+     "offset_from_nominal_mi": -0.11,
+     "rms_mi": 0.0408,
+     "max_mi": 0.1857,
+     "n_pieces": 3
+    },
+    {
+     "road": "182nd",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.152,
+     "offset_from_nominal_mi": -0.111,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0068,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 20% of the window"
+    },
+    {
+     "road": "186th",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.361,
+     "offset_from_nominal_mi": 0.39,
+     "rms_mi": 0.0012,
+     "max_mi": 0.0028,
+     "n_pieces": 1,
+     "rejected": "1.39 mi from line 21 at -5.2"
+    }
+   ]
+  },
+  "23:east": {
+   "window_mi": [
+    -12.25,
+    -3.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "glenwood lansing",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.378,
+     "offset_from_nominal_mi": 0.403,
+     "rms_mi": 0.0025,
+     "max_mi": 0.0069,
+     "n_pieces": 1,
+     "rejected": "1.48 mi from line 22 at -5.3"
+    }
+   ]
+  },
+  "24:east": {
+   "window_mi": [
+    -12.0,
+    -5.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "25:east": {
+   "window_mi": [
+    -11.75,
+    -6.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": []
+  },
+  "0:west": {
+   "window_mi": [
+    7.75,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "madison",
+     "class": "4",
+     "coverage": 0.88,
+     "covered_mi": 12.5,
+     "offset_from_prior_mi": 0.029,
+     "offset_from_nominal_mi": 0.21,
+     "rms_mi": 0.0163,
+     "max_mi": 0.0746,
+     "n_pieces": 1
+    },
+    {
+     "road": "washington",
+     "class": "4",
+     "coverage": 0.63,
+     "covered_mi": 9.0,
+     "offset_from_prior_mi": -0.193,
+     "offset_from_nominal_mi": 0.013,
+     "rms_mi": 0.0285,
+     "max_mi": 0.0861,
+     "n_pieces": 2
+    },
+    {
+     "road": "butterfield",
+     "class": "2",
+     "coverage": 0.19,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.011,
+     "offset_from_nominal_mi": 0.241,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "-1:west": {
+   "window_mi": [
+    7.75,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "chicago",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 4.0,
+     "offset_from_prior_mi": 0.015,
+     "offset_from_nominal_mi": 0.169,
+     "rms_mi": 0.0029,
+     "max_mi": 0.0138,
+     "n_pieces": 1
+    },
+    {
+     "road": "saint charles",
+     "class": "4",
+     "coverage": 0.74,
+     "covered_mi": 10.5,
+     "offset_from_prior_mi": 0.239,
+     "offset_from_nominal_mi": 0.497,
+     "rejected": "not straight"
+    },
+    {
+     "road": "lake",
+     "class": "4",
+     "coverage": 0.23,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.04,
+     "offset_from_nominal_mi": 0.15,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "1:west": {
+   "window_mi": [
+    7.75,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "roosevelt",
+     "class": "4",
+     "coverage": 0.53,
+     "covered_mi": 7.5,
+     "offset_from_prior_mi": 0.037,
+     "offset_from_nominal_mi": 0.24,
+     "rms_mi": 0.0077,
+     "max_mi": 0.031,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 38",
+     "class": "2",
+     "coverage": 0.63,
+     "covered_mi": 9.0,
+     "offset_from_prior_mi": 0.156,
+     "offset_from_nominal_mi": 0.445,
+     "rms_mi": 0.018,
+     "max_mi": 0.0384,
+     "n_pieces": 1
+    },
+    {
+     "road": "fillmore",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.113,
+     "offset_from_nominal_mi": 0.048,
+     "rms_mi": 0.0026,
+     "max_mi": 0.0054,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-2:west": {
+   "window_mi": [
+    9.25,
+    22.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "north",
+     "class": "2",
+     "coverage": 0.92,
+     "covered_mi": 12.0,
+     "offset_from_prior_mi": 0.04,
+     "offset_from_nominal_mi": 0.241,
+     "rms_mi": 0.0095,
+     "max_mi": 0.0338,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 64",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 13.0,
+     "offset_from_prior_mi": 0.045,
+     "offset_from_nominal_mi": 0.249,
+     "rms_mi": 0.008,
+     "max_mi": 0.0303,
+     "n_pieces": 1
+    },
+    {
+     "road": "lake",
+     "class": "4",
+     "coverage": 0.17,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.094,
+     "offset_from_nominal_mi": 0.32,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "2:west": {
+   "window_mi": [
+    5.75,
+    21.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "cermak",
+     "class": "4",
+     "coverage": 0.74,
+     "covered_mi": 12.0,
+     "offset_from_prior_mi": 0.029,
+     "offset_from_nominal_mi": 0.231,
+     "rms_mi": 0.0097,
+     "max_mi": 0.028,
+     "n_pieces": 1
+    },
+    {
+     "road": "22nd",
+     "class": "4",
+     "coverage": 0.68,
+     "covered_mi": 11.0,
+     "offset_from_prior_mi": 0.067,
+     "offset_from_nominal_mi": 0.206,
+     "rms_mi": 0.0279,
+     "max_mi": 0.0425,
+     "n_pieces": 2
+    },
+    {
+     "road": "23rd",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.133,
+     "offset_from_nominal_mi": 0.274,
+     "rms_mi": 0.0201,
+     "max_mi": 0.054,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-3:west": {
+   "window_mi": [
+    9.25,
+    22.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "fullerton",
+     "class": "4",
+     "coverage": 0.77,
+     "covered_mi": 10.0,
+     "offset_from_prior_mi": 0.041,
+     "offset_from_nominal_mi": 0.216,
+     "rms_mi": 0.0331,
+     "max_mi": 0.0781,
+     "n_pieces": 4
+    },
+    {
+     "road": "grand",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.182,
+     "offset_from_nominal_mi": -0.043,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "palmer",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.3,
+     "offset_from_nominal_mi": 0.486,
+     "rms_mi": 0.0085,
+     "max_mi": 0.0229,
+     "n_pieces": 1,
+     "rejected": "1.30 mi from line -4 at 12.2"
+    }
+   ]
+  },
+  "3:west": {
+   "window_mi": [
+    5.75,
+    21.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "31st",
+     "class": "4",
+     "coverage": 0.86,
+     "covered_mi": 13.5,
+     "offset_from_prior_mi": 0.032,
+     "offset_from_nominal_mi": 0.248,
+     "rms_mi": 0.0141,
+     "max_mi": 0.0886,
+     "n_pieces": 1
+    },
+    {
+     "road": "oak brook",
+     "class": "4",
+     "coverage": 0.3,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": 0.126,
+     "offset_from_nominal_mi": 0.435,
+     "rms_mi": 0.0079,
+     "max_mi": 0.0178,
+     "n_pieces": 1
+    },
+    {
+     "road": "butterfield",
+     "class": "2",
+     "coverage": 0.16,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.055,
+     "offset_from_nominal_mi": 0.311,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "-4:west": {
+   "window_mi": [
+    11.5,
+    22.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "belmont",
+     "class": "4",
+     "coverage": 0.25,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.058,
+     "offset_from_nominal_mi": 0.232,
+     "rms_mi": 0.0035,
+     "max_mi": 0.0107,
+     "n_pieces": 1
+    },
+    {
+     "road": "franklin",
+     "class": "4",
+     "coverage": 0.2,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.153,
+     "offset_from_nominal_mi": 0.024,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "army trail",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.194,
+     "offset_from_nominal_mi": 0.496,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "4:west": {
+   "window_mi": [
+    5.75,
+    21.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "pershing",
+     "class": "4",
+     "coverage": 0.23,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.011,
+     "offset_from_nominal_mi": 0.18,
+     "rms_mi": 0.0009,
+     "max_mi": 0.0028,
+     "n_pieces": 1
+    },
+    {
+     "road": "39th",
+     "class": "4",
+     "coverage": 0.37,
+     "covered_mi": 5.75,
+     "offset_from_prior_mi": 0.013,
+     "offset_from_nominal_mi": 0.199,
+     "rms_mi": 0.0095,
+     "max_mi": 0.0234,
+     "n_pieces": 1
+    },
+    {
+     "road": "ogden",
+     "class": "2",
+     "coverage": 0.48,
+     "covered_mi": 7.5,
+     "offset_from_prior_mi": 0.094,
+     "offset_from_nominal_mi": 0.338,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-5:west": {
+   "window_mi": [
+    11.25,
+    22.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "irving park",
+     "class": "2",
+     "coverage": 0.33,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": -0.231,
+     "offset_from_nominal_mi": -0.054,
+     "rejected": "not straight"
+    },
+    {
+     "road": "lake",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.005,
+     "offset_from_nominal_mi": 0.288,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "us hwy 20",
+     "class": "2",
+     "coverage": 0.21,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.121,
+     "offset_from_nominal_mi": 0.164,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "5:west": {
+   "window_mi": [
+    6.5,
+    21.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "47th",
+     "class": "4",
+     "coverage": 0.42,
+     "covered_mi": 6.25,
+     "offset_from_prior_mi": 0.047,
+     "offset_from_nominal_mi": 0.282,
+     "rms_mi": 0.0261,
+     "max_mi": 0.1251,
+     "n_pieces": 2
+    },
+    {
+     "road": "grant",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.097,
+     "offset_from_nominal_mi": 0.292,
+     "rms_mi": 0.0072,
+     "max_mi": 0.0138,
+     "n_pieces": 1,
+     "rejected": "runs 2.8 mi, 19% of the window"
+    },
+    {
+     "road": "walnut",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.09,
+     "offset_from_nominal_mi": 0.206,
+     "rms_mi": 0.0007,
+     "max_mi": 0.0018,
+     "n_pieces": 1,
+     "rejected": "runs 1.8 mi, 12% of the window"
+    }
+   ]
+  },
+  "-6:west": {
+   "window_mi": [
+    11.75,
+    28.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "state rte 19",
+     "class": "2",
+     "coverage": 0.26,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.15,
+     "offset_from_nominal_mi": 0.381,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "6:west": {
+   "window_mi": [
+    9.0,
+    24.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "55th",
+     "class": "4",
+     "coverage": 0.59,
+     "covered_mi": 9.25,
+     "offset_from_prior_mi": 0.073,
+     "offset_from_nominal_mi": 0.362,
+     "rms_mi": 0.0029,
+     "max_mi": 0.0131,
+     "n_pieces": 1
+    },
+    {
+     "road": "co rd 35",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 5.5,
+     "offset_from_prior_mi": 0.108,
+     "offset_from_nominal_mi": 0.449,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0116,
+     "n_pieces": 1
+    },
+    {
+     "road": "maple",
+     "class": "4",
+     "coverage": 0.32,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": 0.189,
+     "offset_from_nominal_mi": 0.626,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-7:west": {
+   "window_mi": [
+    11.75,
+    29.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "bryn mawr",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.22,
+     "offset_from_nominal_mi": 0.516,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "state rte 19",
+     "class": "2",
+     "coverage": 0.16,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.092,
+     "offset_from_nominal_mi": 0.192,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "thorndale",
+     "class": "4",
+     "coverage": 0.43,
+     "covered_mi": 6.25,
+     "offset_from_prior_mi": -0.247,
+     "offset_from_nominal_mi": -0.008,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "7:west": {
+   "window_mi": [
+    9.0,
+    24.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "63rd",
+     "class": "4",
+     "coverage": 0.48,
+     "covered_mi": 7.5,
+     "offset_from_prior_mi": 0.115,
+     "offset_from_nominal_mi": 0.517,
+     "rms_mi": 0.0115,
+     "max_mi": 0.0469,
+     "n_pieces": 1
+    },
+    {
+     "road": "61st",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.138,
+     "offset_from_nominal_mi": 0.276,
+     "rms_mi": 0.0139,
+     "max_mi": 0.0311,
+     "n_pieces": 1,
+     "rejected": "0.75 mi from line 6 at 20.4"
+    },
+    {
+     "road": "59th",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": -0.388,
+     "offset_from_nominal_mi": 0.009,
+     "rms_mi": 0.0034,
+     "max_mi": 0.0075,
+     "n_pieces": 1,
+     "rejected": "0.50 mi from line 6 at 17.6"
+    }
+   ]
+  },
+  "-8:west": {
+   "window_mi": [
+    5.5,
+    30.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "devon",
+     "class": "4",
+     "coverage": 0.57,
+     "covered_mi": 10.25,
+     "offset_from_prior_mi": 0.137,
+     "offset_from_nominal_mi": 0.351,
+     "rejected": "not straight"
+    },
+    {
+     "road": "state rte 72",
+     "class": "2",
+     "coverage": 0.08,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": 0.018,
+     "offset_from_nominal_mi": 0.154,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "higgins",
+     "class": "2",
+     "coverage": 0.08,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": -0.052,
+     "offset_from_nominal_mi": 0.087,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "8:west": {
+   "window_mi": [
+    6.0,
+    24.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "71st",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.131,
+     "offset_from_nominal_mi": 0.528,
+     "rms_mi": 0.0374,
+     "max_mi": 0.0696,
+     "n_pieces": 2
+    },
+    {
+     "road": "hobson",
+     "class": "4",
+     "coverage": 0.14,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.079,
+     "offset_from_nominal_mi": 0.558,
+     "rejected": "not straight"
+    },
+    {
+     "road": "69th",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.171,
+     "offset_from_nominal_mi": 0.185,
+     "rms_mi": 0.0102,
+     "max_mi": 0.023,
+     "n_pieces": 1,
+     "rejected": "0.74 mi from line 7 at 16.1"
+    }
+   ]
+  },
+  "-9:west": {
+   "window_mi": [
+    5.5,
+    30.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "touhy",
+     "class": "4",
+     "coverage": 0.48,
+     "covered_mi": 11.25,
+     "offset_from_prior_mi": 0.018,
+     "offset_from_nominal_mi": 0.128,
+     "rms_mi": 0.0229,
+     "max_mi": 0.0804,
+     "n_pieces": 2
+    },
+    {
+     "road": "us hwy 20",
+     "class": "2",
+     "coverage": 0.1,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.006,
+     "offset_from_nominal_mi": 0.357,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "lake",
+     "class": "2",
+     "coverage": 0.1,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.01,
+     "offset_from_nominal_mi": 0.361,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "9:west": {
+   "window_mi": [
+    6.0,
+    23.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "79th",
+     "class": "4",
+     "coverage": 0.58,
+     "covered_mi": 9.0,
+     "offset_from_prior_mi": 0.016,
+     "offset_from_nominal_mi": 0.235,
+     "rms_mi": 0.0204,
+     "max_mi": 0.0997,
+     "n_pieces": 2
+    },
+    {
+     "road": "80th",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.148,
+     "offset_from_nominal_mi": 0.373,
+     "rms_mi": 0.0025,
+     "max_mi": 0.0103,
+     "n_pieces": 1
+    },
+    {
+     "road": "78th",
+     "class": "4",
+     "coverage": 0.18,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.117,
+     "offset_from_nominal_mi": 0.07,
+     "rms_mi": 0.0004,
+     "max_mi": 0.0013,
+     "n_pieces": 1,
+     "rejected": "runs 2.8 mi, 18% of the window"
+    }
+   ]
+  },
+  "-10:west": {
+   "window_mi": [
+    5.5,
+    30.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "oakton",
+     "class": "4",
+     "coverage": 0.52,
+     "covered_mi": 13.25,
+     "offset_from_prior_mi": 0.014,
+     "offset_from_nominal_mi": 0.098,
+     "rms_mi": 0.0139,
+     "max_mi": 0.1271,
+     "n_pieces": 3
+    },
+    {
+     "road": "state rte 19",
+     "class": "2",
+     "coverage": 0.08,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.036,
+     "offset_from_nominal_mi": 0.381,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "streamwood",
+     "class": "4",
+     "coverage": 0.1,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.004,
+     "offset_from_nominal_mi": 0.313,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "10:west": {
+   "window_mi": [
+    6.0,
+    23.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "87th",
+     "class": "4",
+     "coverage": 0.41,
+     "covered_mi": 6.5,
+     "offset_from_prior_mi": 0.014,
+     "offset_from_nominal_mi": 0.226,
+     "rms_mi": 0.002,
+     "max_mi": 0.0086,
+     "n_pieces": 1
+    },
+    {
+     "road": "86th",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": -0.11,
+     "offset_from_nominal_mi": 0.104,
+     "rms_mi": 0.0011,
+     "max_mi": 0.0059,
+     "n_pieces": 1
+    },
+    {
+     "road": "frontage",
+     "class": "4",
+     "coverage": 0.17,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.11,
+     "offset_from_nominal_mi": 0.285,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-11:west": {
+   "window_mi": [
+    5.5,
+    31.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "dempster",
+     "class": "4",
+     "coverage": 0.47,
+     "covered_mi": 12.0,
+     "offset_from_prior_mi": 0.028,
+     "offset_from_nominal_mi": 0.12,
+     "rms_mi": 0.0276,
+     "max_mi": 0.0903,
+     "n_pieces": 2
+    },
+    {
+     "road": "greenwood",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": -0.132,
+     "offset_from_nominal_mi": -0.083,
+     "rms_mi": 0.008,
+     "max_mi": 0.0219,
+     "n_pieces": 1
+    },
+    {
+     "road": "us hwy 14",
+     "class": "2",
+     "coverage": 0.2,
+     "covered_mi": 5.25,
+     "offset_from_prior_mi": 0.013,
+     "offset_from_nominal_mi": 0.102,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "11:west": {
+   "window_mi": [
+    5.5,
+    27.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "95th",
+     "class": "2",
+     "coverage": 0.42,
+     "covered_mi": 6.75,
+     "offset_from_prior_mi": 0.02,
+     "offset_from_nominal_mi": 0.262,
+     "rms_mi": 0.0415,
+     "max_mi": 0.0858,
+     "n_pieces": 3
+    },
+    {
+     "road": "boughton",
+     "class": "4",
+     "coverage": 0.11,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.035,
+     "offset_from_nominal_mi": 0.532,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "96th",
+     "class": "4",
+     "coverage": 0.11,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": 0.124,
+     "offset_from_nominal_mi": 0.316,
+     "rms_mi": 0.0045,
+     "max_mi": 0.0068,
+     "n_pieces": 1,
+     "rejected": "runs 1.8 mi, 11% of the window"
+    }
+   ]
+  },
+  "-12:west": {
+   "window_mi": [
+    5.5,
+    29.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "simpson",
+     "class": "2",
+     "coverage": 0.27,
+     "covered_mi": 6.5,
+     "offset_from_prior_mi": 0.006,
+     "offset_from_nominal_mi": 0.091,
+     "rms_mi": 0.0225,
+     "max_mi": 0.0558,
+     "n_pieces": 1
+    },
+    {
+     "road": "golf",
+     "class": "2",
+     "coverage": 0.91,
+     "covered_mi": 22.25,
+     "offset_from_prior_mi": 0.139,
+     "offset_from_nominal_mi": 0.315,
+     "rejected": "not straight"
+    },
+    {
+     "road": "state rte 58",
+     "class": "2",
+     "coverage": 0.78,
+     "covered_mi": 19.0,
+     "offset_from_prior_mi": 0.159,
+     "offset_from_nominal_mi": 0.35,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "12:west": {
+   "window_mi": [
+    5.5,
+    27.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "103rd",
+     "class": "4",
+     "coverage": 0.37,
+     "covered_mi": 5.75,
+     "offset_from_prior_mi": -0.008,
+     "offset_from_nominal_mi": 0.212,
+     "rms_mi": 0.0066,
+     "max_mi": 0.0308,
+     "n_pieces": 1
+    },
+    {
+     "road": "briarcliff",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.134,
+     "offset_from_nominal_mi": 0.645,
+     "rms_mi": 0.0339,
+     "max_mi": 0.0718,
+     "n_pieces": 1
+    },
+    {
+     "road": "boughton",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.073,
+     "offset_from_nominal_mi": 0.515,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-13:west": {
+   "window_mi": [
+    5.5,
+    27.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "linneman",
+     "class": "4",
+     "coverage": 0.14,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.009,
+     "offset_from_nominal_mi": 0.069,
+     "rms_mi": 0.0184,
+     "max_mi": 0.0638,
+     "n_pieces": 1
+    },
+    {
+     "road": "central",
+     "class": "4",
+     "coverage": 0.77,
+     "covered_mi": 16.75,
+     "offset_from_prior_mi": 0.221,
+     "offset_from_nominal_mi": 0.308,
+     "rejected": "not straight"
+    },
+    {
+     "road": "state rte 62",
+     "class": "2",
+     "coverage": 0.09,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": 0.008,
+     "offset_from_nominal_mi": 0.202,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "13:west": {
+   "window_mi": [
+    6.0,
+    27.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "111th",
+     "class": "4",
+     "coverage": 0.53,
+     "covered_mi": 7.75,
+     "offset_from_prior_mi": 0.018,
+     "offset_from_nominal_mi": 0.292,
+     "rms_mi": 0.0229,
+     "max_mi": 0.0507,
+     "n_pieces": 1
+    },
+    {
+     "road": "calumet sag",
+     "class": "2",
+     "coverage": 0.0,
+     "covered_mi": 0.0,
+     "offset_from_prior_mi": 0.052,
+     "offset_from_nominal_mi": 0.428,
+     "rejected": "not straight"
+    },
+    {
+     "road": "main",
+     "class": "4",
+     "coverage": 0.0,
+     "covered_mi": 0.0,
+     "offset_from_prior_mi": -0.015,
+     "offset_from_nominal_mi": 0.392,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "-14:west": {
+   "window_mi": [
+    5.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "kensington",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.164,
+     "offset_from_nominal_mi": 0.283,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0037,
+     "n_pieces": 1
+    },
+    {
+     "road": "miner",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.125,
+     "offset_from_nominal_mi": 0.017,
+     "rms_mi": 0.0177,
+     "max_mi": 0.0619,
+     "n_pieces": 1
+    },
+    {
+     "road": "campbell",
+     "class": "4",
+     "coverage": 0.15,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": -0.013,
+     "offset_from_nominal_mi": 0.139,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "14:west": {
+   "window_mi": [
+    5.5,
+    27.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "119th",
+     "class": "4",
+     "coverage": 0.33,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.018,
+     "offset_from_nominal_mi": 0.315,
+     "rms_mi": 0.0059,
+     "max_mi": 0.0439,
+     "n_pieces": 1
+    },
+    {
+     "road": "college",
+     "class": "2",
+     "coverage": 0.2,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.01,
+     "offset_from_nominal_mi": 0.282,
+     "rejected": "not straight"
+    },
+    {
+     "road": "crossroads pkwy",
+     "class": "4",
+     "coverage": 0.18,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.038,
+     "offset_from_nominal_mi": 0.523,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-15:west": {
+   "window_mi": [
+    5.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "oakton",
+     "class": "4",
+     "coverage": 0.16,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.133,
+     "offset_from_nominal_mi": 0.265,
+     "rms_mi": 0.0014,
+     "max_mi": 0.0027,
+     "n_pieces": 1
+    },
+    {
+     "road": "camp mcdonald",
+     "class": "4",
+     "coverage": 0.19,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.188,
+     "offset_from_nominal_mi": 0.287,
+     "rms_mi": 0.0011,
+     "max_mi": 0.0026,
+     "n_pieces": 1
+    },
+    {
+     "road": "illinois",
+     "class": "4",
+     "coverage": 0.14,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.073,
+     "offset_from_nominal_mi": 0.245,
+     "rms_mi": 0.03,
+     "max_mi": 0.0654,
+     "n_pieces": 1,
+     "rejected": "runs 2.5 mi, 14% of the window"
+    }
+   ]
+  },
+  "15:west": {
+   "window_mi": [
+    5.5,
+    27.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "127th",
+     "class": "4",
+     "coverage": 0.44,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": 0.063,
+     "offset_from_nominal_mi": 0.527,
+     "rms_mi": 0.0033,
+     "max_mi": 0.0296,
+     "n_pieces": 1
+    },
+    {
+     "road": "normantown",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.131,
+     "offset_from_nominal_mi": 0.722,
+     "rms_mi": 0.0258,
+     "max_mi": 0.0965,
+     "n_pieces": 1
+    },
+    {
+     "road": "125th",
+     "class": "4",
+     "coverage": 0.22,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.248,
+     "offset_from_nominal_mi": 0.015,
+     "rms_mi": 0.0159,
+     "max_mi": 0.028,
+     "n_pieces": 1,
+     "rejected": "1.26 mi from line 16 at 8.8"
+    }
+   ]
+  },
+  "-16:west": {
+   "window_mi": [
+    5.5,
+    23.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "palatine",
+     "class": "4",
+     "coverage": 0.61,
+     "covered_mi": 10.75,
+     "offset_from_prior_mi": 0.142,
+     "offset_from_nominal_mi": 0.266,
+     "rms_mi": 0.0154,
+     "max_mi": 0.0757,
+     "n_pieces": 1,
+     "rejected": "1.26 mi from line -17 at 13.1"
+    },
+    {
+     "road": "tower",
+     "class": "4",
+     "coverage": 0.11,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.137,
+     "offset_from_nominal_mi": -0.14,
+     "rms_mi": 0.0153,
+     "max_mi": 0.0496,
+     "n_pieces": 1,
+     "rejected": "runs 2.0 mi, 11% of the window"
+    },
+    {
+     "road": "wood",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": -0.175,
+     "offset_from_nominal_mi": -0.009,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "16:west": {
+   "window_mi": [
+    5.5,
+    28.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "135th",
+     "class": "4",
+     "coverage": 0.57,
+     "covered_mi": 6.75,
+     "offset_from_prior_mi": 0.009,
+     "offset_from_nominal_mi": 0.313,
+     "rms_mi": 0.0125,
+     "max_mi": 0.0564,
+     "n_pieces": 1
+    },
+    {
+     "road": "romeo",
+     "class": "4",
+     "coverage": 0.49,
+     "covered_mi": 5.75,
+     "offset_from_prior_mi": 0.12,
+     "offset_from_nominal_mi": 0.72,
+     "rms_mi": 0.0023,
+     "max_mi": 0.0046,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-17:west": {
+   "window_mi": [
+    5.5,
+    23.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "walters",
+     "class": "4",
+     "coverage": 0.24,
+     "covered_mi": 4.25,
+     "offset_from_prior_mi": 0.011,
+     "offset_from_nominal_mi": 0.059,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0042,
+     "n_pieces": 1
+    },
+    {
+     "road": "hintz",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 5.5,
+     "offset_from_prior_mi": 0.174,
+     "offset_from_nominal_mi": 0.272,
+     "rms_mi": 0.0174,
+     "max_mi": 0.0603,
+     "n_pieces": 1
+    },
+    {
+     "road": "us hwy 14",
+     "class": "2",
+     "coverage": 0.16,
+     "covered_mi": 2.75,
+     "offset_from_prior_mi": 0.085,
+     "offset_from_nominal_mi": 0.242,
+     "rejected": "runs diagonal to the grid"
+    }
+   ]
+  },
+  "17:west": {
+   "window_mi": [
+    5.5,
+    28.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "143rd",
+     "class": "4",
+     "coverage": 0.7,
+     "covered_mi": 9.25,
+     "offset_from_prior_mi": 0.012,
+     "offset_from_nominal_mi": 0.363,
+     "rms_mi": 0.0137,
+     "max_mi": 0.0326,
+     "n_pieces": 1
+    },
+    {
+     "road": "taylor",
+     "class": "4",
+     "coverage": 0.34,
+     "covered_mi": 4.5,
+     "offset_from_prior_mi": 0.144,
+     "offset_from_nominal_mi": 0.788,
+     "rms_mi": 0.0108,
+     "max_mi": 0.0616,
+     "n_pieces": 1
+    },
+    {
+     "road": "state rte 7",
+     "class": "2",
+     "coverage": 0.11,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": 0.016,
+     "offset_from_nominal_mi": 0.388,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "-18:west": {
+   "window_mi": [
+    5.5,
+    24.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "dundee",
+     "class": "2",
+     "coverage": 0.89,
+     "covered_mi": 16.5,
+     "offset_from_prior_mi": 0.181,
+     "offset_from_nominal_mi": 0.272,
+     "rms_mi": 0.0307,
+     "max_mi": 0.0929,
+     "n_pieces": 3,
+     "rejected": "1.37 mi from line -19 at 6.9"
+    },
+    {
+     "road": "state rte 68",
+     "class": "2",
+     "coverage": 0.82,
+     "covered_mi": 15.25,
+     "offset_from_prior_mi": 0.184,
+     "offset_from_nominal_mi": 0.275,
+     "rms_mi": 0.0283,
+     "max_mi": 0.0801,
+     "n_pieces": 3,
+     "rejected": "1.35 mi from line -19 at 8.2"
+    }
+   ]
+  },
+  "18:west": {
+   "window_mi": [
+    5.5,
+    28.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "151st",
+     "class": "4",
+     "coverage": 0.55,
+     "covered_mi": 7.0,
+     "offset_from_prior_mi": 0.004,
+     "offset_from_nominal_mi": 0.348,
+     "rms_mi": 0.0087,
+     "max_mi": 0.0292,
+     "n_pieces": 1
+    },
+    {
+     "road": "airport",
+     "class": "4",
+     "coverage": 0.25,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": 0.133,
+     "offset_from_nominal_mi": 0.805,
+     "rms_mi": 0.0031,
+     "max_mi": 0.0071,
+     "n_pieces": 1
+    },
+    {
+     "road": "153rd",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 1.5,
+     "offset_from_prior_mi": 0.259,
+     "offset_from_nominal_mi": 0.636,
+     "rms_mi": 0.0017,
+     "max_mi": 0.003,
+     "n_pieces": 1,
+     "rejected": "1.25 mi from line 17 at 11.6"
+    }
+   ]
+  },
+  "-19:west": {
+   "window_mi": [
+    8.75,
+    22.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "lake cook",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 13.5,
+     "offset_from_prior_mi": 0.255,
+     "offset_from_nominal_mi": 0.3,
+     "rms_mi": 0.0317,
+     "max_mi": 0.0865,
+     "n_pieces": 3,
+     "rejected": "1.35 mi from line -20 at 8.5"
+    },
+    {
+     "road": "county line",
+     "class": "4",
+     "coverage": 0.59,
+     "covered_mi": 8.0,
+     "offset_from_prior_mi": 0.27,
+     "offset_from_nominal_mi": 0.303,
+     "rms_mi": 0.004,
+     "max_mi": 0.0143,
+     "n_pieces": 1,
+     "rejected": "1.35 mi from line -20 at 8.5"
+    },
+    {
+     "road": "lake-cook",
+     "class": "4",
+     "coverage": 0.26,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.231,
+     "offset_from_nominal_mi": 0.29,
+     "rms_mi": 0.0037,
+     "max_mi": 0.0184,
+     "n_pieces": 1,
+     "rejected": "1.27 mi from line -20 at 13.3"
+    }
+   ]
+  },
+  "19:west": {
+   "window_mi": [
+    5.5,
+    28.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "159th",
+     "class": "2",
+     "coverage": 0.65,
+     "covered_mi": 7.0,
+     "offset_from_prior_mi": 0.006,
+     "offset_from_nominal_mi": 0.339,
+     "rms_mi": 0.0085,
+     "max_mi": 0.0229,
+     "n_pieces": 1
+    },
+    {
+     "road": "renwick",
+     "class": "4",
+     "coverage": 0.35,
+     "covered_mi": 3.75,
+     "offset_from_prior_mi": 0.12,
+     "offset_from_nominal_mi": 0.807,
+     "rms_mi": 0.0409,
+     "max_mi": 0.0811,
+     "n_pieces": 2
+    },
+    {
+     "road": "co hwy 36",
+     "class": "4",
+     "coverage": 0.28,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.122,
+     "offset_from_nominal_mi": 0.815,
+     "rms_mi": 0.0028,
+     "max_mi": 0.0064,
+     "n_pieces": 1
+    }
+   ]
+  },
+  "-20:west": {
+   "window_mi": [
+    10.0,
+    21.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "deerfield pkwy",
+     "class": "4",
+     "coverage": 0.27,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": -0.006,
+     "offset_from_nominal_mi": 0.054,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "state rte 53",
+     "class": "2",
+     "coverage": 0.18,
+     "covered_mi": 2.0,
+     "offset_from_prior_mi": -0.089,
+     "offset_from_nominal_mi": 0.007,
+     "rejected": "not straight"
+    },
+    {
+     "road": "deerfield",
+     "class": "4",
+     "coverage": 0.43,
+     "covered_mi": 4.75,
+     "offset_from_prior_mi": 0.273,
+     "offset_from_nominal_mi": 0.299,
+     "rejected": "not straight"
+    }
+   ]
+  },
+  "20:west": {
+   "window_mi": [
+    5.5,
+    26.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "167th",
+     "class": "4",
+     "coverage": 0.88,
+     "covered_mi": 7.0,
+     "offset_from_prior_mi": 0.004,
+     "offset_from_nominal_mi": 0.361,
+     "rms_mi": 0.014,
+     "max_mi": 0.0919,
+     "n_pieces": 1
+    },
+    {
+     "road": "division",
+     "class": "4",
+     "coverage": 0.12,
+     "covered_mi": 1.0,
+     "offset_from_prior_mi": 0.059,
+     "offset_from_nominal_mi": 0.664,
+     "rms_mi": 0.0041,
+     "max_mi": 0.0247,
+     "n_pieces": 1,
+     "rejected": "runs 1.0 mi, 12% of the window"
+    },
+    {
+     "road": "170th",
+     "class": "4",
+     "coverage": 0.31,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": 0.342,
+     "offset_from_nominal_mi": 0.66,
+     "rms_mi": 0.0243,
+     "max_mi": 0.0836,
+     "n_pieces": 1,
+     "rejected": "1.32 mi from line 19 at 8.7"
+    }
+   ]
+  },
+  "-21:west": {
+   "window_mi": [
+    10.5,
+    19.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "aptakisic",
+     "class": "4",
+     "coverage": 0.45,
+     "covered_mi": 3.5,
+     "offset_from_prior_mi": 0.197,
+     "offset_from_nominal_mi": 0.252,
+     "rms_mi": 0.0279,
+     "max_mi": 0.0715,
+     "n_pieces": 1,
+     "rejected": "1.28 mi from line -22 at 15.3"
+    },
+    {
+     "road": "co hwy 33",
+     "class": "4",
+     "coverage": 0.29,
+     "covered_mi": 2.25,
+     "offset_from_prior_mi": 0.201,
+     "offset_from_nominal_mi": 0.253,
+     "rejected": "runs diagonal to the grid"
+    },
+    {
+     "road": "duffy ln",
+     "class": "4",
+     "coverage": 0.13,
+     "covered_mi": 1.0,
+     "offset_from_prior_mi": -0.228,
+     "offset_from_nominal_mi": -0.202,
+     "rms_mi": 0.0024,
+     "max_mi": 0.005,
+     "n_pieces": 1,
+     "rejected": "runs 1.0 mi, 13% of the window"
+    }
+   ]
+  },
+  "21:west": {
+   "window_mi": [
+    6.75,
+    12.25
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "175th",
+     "class": "4",
+     "coverage": 0.87,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": -0.003,
+     "offset_from_nominal_mi": 0.333,
+     "rms_mi": 0.0054,
+     "max_mi": 0.0245,
+     "n_pieces": 1
+    },
+    {
+     "road": "173rd",
+     "class": "4",
+     "coverage": 0.3,
+     "covered_mi": 1.75,
+     "offset_from_prior_mi": -0.18,
+     "offset_from_nominal_mi": 0.124,
+     "rms_mi": 0.0069,
+     "max_mi": 0.025,
+     "n_pieces": 1,
+     "rejected": "runs 1.8 mi, 30% of the window"
+    }
+   ]
+  },
+  "-22:west": {
+   "window_mi": [
+    15.0,
+    17.75
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "half day",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.194,
+     "offset_from_nominal_mi": 0.233,
+     "rejected": "not straight"
+    },
+    {
+     "road": "state rte 22",
+     "class": "2",
+     "coverage": 1.0,
+     "covered_mi": 3.0,
+     "offset_from_prior_mi": 0.233,
+     "offset_from_nominal_mi": 0.273,
+     "rejected": "not straight"
+    },
+    {
+     "road": "port clinton",
+     "class": "4",
+     "coverage": 0.83,
+     "covered_mi": 2.5,
+     "offset_from_prior_mi": -0.3,
+     "offset_from_nominal_mi": -0.252,
+     "rms_mi": 0.0238,
+     "max_mi": 0.0451,
+     "n_pieces": 1,
+     "rejected": "0.68 mi from line -23 at 15.7"
+    }
+   ]
+  },
+  "22:west": {
+   "window_mi": [
+    6.5,
+    11.5
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "183rd",
+     "class": "4",
+     "coverage": 0.95,
+     "covered_mi": 5.0,
+     "offset_from_prior_mi": 0.002,
+     "offset_from_nominal_mi": 0.317,
+     "rms_mi": 0.0539,
+     "max_mi": 0.1669,
+     "n_pieces": 2
+    }
+   ]
+  },
+  "23:west": {
+   "window_mi": [
+    8.0,
+    11.0
+   ],
+   "prior": {
+    "source": "model",
+    "rule": 3
+   },
+   "top": [
+    {
+     "road": "191st",
+     "class": "4",
+     "coverage": 1.0,
+     "covered_mi": 3.25,
+     "offset_from_prior_mi": -0.005,
+     "offset_from_nominal_mi": 0.34,
+     "rms_mi": 0.0534,
+     "max_mi": 0.1412,
+     "n_pieces": 1
+    }
+   ]
+  }
+ }
+}

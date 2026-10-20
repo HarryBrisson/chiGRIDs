@@ -1,0 +1,63 @@
+{
+ "snapshot": "tiger2025",
+ "source": "US Census Bureau TIGER/Line Shapefiles, roads",
+ "license": "Public domain (US federal government work, 17 U.S.C. \u00a7 105)",
+ "vintage": "2025",
+ "fetched_at": "2026-10-20T18:08:04Z",
+ "files": [
+  {
+   "file": "tl_2025_17031_roads.zip",
+   "county": "Cook, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17031_roads.zip",
+   "sha256": "975808fbc86037f85767345fd8efb301333a4996e68446c63209f791a65f68e2"
+  },
+  {
+   "file": "tl_2025_17043_roads.zip",
+   "county": "DuPage, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17043_roads.zip",
+   "sha256": "df5eb000a58a9ec95e7a8a2dca1159adacaa4aec387aca26b1168f9fe2f54235"
+  },
+  {
+   "file": "tl_2025_17089_roads.zip",
+   "county": "Kane, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17089_roads.zip",
+   "sha256": "445da59ec792d16587bf6e3e7acd7f214843ecee13427175ea877d550ca53b20"
+  },
+  {
+   "file": "tl_2025_17093_roads.zip",
+   "county": "Kendall, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17093_roads.zip",
+   "sha256": "eef6ab8c3fb975ea3b5ae6191282e54955f6424c3e077ff117206b5ca544151f"
+  },
+  {
+   "file": "tl_2025_17097_roads.zip",
+   "county": "Lake, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17097_roads.zip",
+   "sha256": "679acf4abb09ae8175bb039070c68737d9d775cc93f131904372ff44bdde653d"
+  },
+  {
+   "file": "tl_2025_17111_roads.zip",
+   "county": "McHenry, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17111_roads.zip",
+   "sha256": "04472d4be37f4d2318dabac7e411dacc28f9f7ae063f7c3aa6193918b5abd26c"
+  },
+  {
+   "file": "tl_2025_17197_roads.zip",
+   "county": "Will, IL",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_17197_roads.zip",
+   "sha256": "a7489c0b7aefe0c42db37aba9dd92dbd3e57932c10a4d1951db8a59f1923fdfb"
+  },
+  {
+   "file": "tl_2025_18089_roads.zip",
+   "county": "Lake, IN",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_18089_roads.zip",
+   "sha256": "75d5c1f771d15bca1d373e22e20c8758efab038898be99eeb1207667e6889e75"
+  },
+  {
+   "file": "tl_2025_18127_roads.zip",
+   "county": "Porter, IN",
+   "url": "https://www2.census.gov/geo/tiger/TIGER2025/ROADS/tl_2025_18127_roads.zip",
+   "sha256": "3b861bad93432c5dbe6405c66d0273392d177d7130808490329294aa74898c42"
+  }
+ ]
+}
