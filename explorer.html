@@ -48,6 +48,17 @@
     padding: 0.4rem 0.9rem; cursor: pointer; }
   .vbtn + .vbtn { border-left: 1px solid var(--border); }
   .vbtn.on { background: var(--accent); color: #fff; font-weight: 600; }
+  .vbtn:disabled { opacity: 0.45; cursor: default; }
+  .toggles { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+  .toggles .versions { margin-bottom: 0.6rem; }
+  .frame { fill: none; stroke: var(--strong); stroke-width: 1.2; stroke-dasharray: 4 3; pointer-events: none; }
+  .citylim { fill: none; stroke: var(--accent-dark); stroke-width: 1; opacity: 0.7; pointer-events: none; }
+  .chi.out { fill: #e6eef0; }
+  .chi.out:hover { fill: #d3e1e4; }
+  .legend { color: var(--muted-text); font-size: 0.82rem; margin: 0.4rem 0 1rem; }
+  .legend i { display: inline-block; width: 1.4rem; height: 0; vertical-align: middle; margin: 0 0.3rem 0 0.8rem; }
+  .legend i:first-child { margin-left: 0; }
+  .note { color: var(--muted-text); font-size: 0.85rem; margin: 0.75rem 0 0; }
 </style>
 </head>
 <body>
@@ -58,10 +69,22 @@
     <code>Damen–43rd chi</code>, a compact label <code>Dam43</code>, and a formal chi-ordinate
     <code>χ:5S3W</code> indexing its position from State &amp; Madison. Click a cell to inspect it.</p>
 
-  <div class="versions" id="versions">
-    <button class="vbtn on" data-v="v2">Street-aligned · v2</button>
-    <button class="vbtn" data-v="v1">Mile-squares · v1</button>
+  <div class="toggles">
+    <div class="versions" id="versions">
+      <button class="vbtn on" data-v="v2">Street-aligned · v2</button>
+      <button class="vbtn" data-v="v1">Mile-squares · v1</button>
+    </div>
+    <div class="versions" id="extents" title="Which Chicago to tile">
+      <button class="vbtn on" data-x="city">City limits</button>
+      <button class="vbtn" data-x="un2025">UN 2025</button>
+      <button class="vbtn" data-x="jrc2023">JRC 2023</button>
+    </div>
+    <div class="versions" id="edges" title="Cells on the frame's edge">
+      <button class="vbtn on" data-e="whole" disabled>Whole cells</button>
+      <button class="vbtn" data-e="clip" disabled>Clipped</button>
+    </div>
   </div>
+  <p class="legend" id="legend"></p>
 
   <div class="layout">
     <div class="mapcard"><div id="map">Loading the grid…</div></div>
@@ -78,6 +101,18 @@
     <p><b>Limits &amp; midpoints.</b> Every chi is bounded by mile roads and centered on the half-mile
       roads between them. The Damen–43rd chi spans Ashland→Western (east–west) and 39th→47th
       (north–south), centered on Damen and 43rd.</p>
+    <p><b>Which Chicago.</b> <i>City limits</i> tiles the city. <i>UN 2025</i> tiles the urban centre the
+      UN's 2025 World Urbanization Prospects draws for Chicago (932 km²): one-kilometre squares with at
+      least 1,500 people per km², touching side to side, with 50,000 people in all. <i>JRC 2023</i> tiles
+      the Joint Research Centre's 2023 version (2,231 km²), whose rule also counted mostly built-up
+      squares, so airports, rail yards and malls bridge the gaps and fourteen centres become one. The
+      UN 2025 frame leaves out O'Hare and Lake Calumet. In-city chis are the same cells in every extent;
+      <i>Whole cells</i> keeps a chi when at least half its land is inside the frame, <i>Clipped</i> cuts
+      it at the frame's edge.</p>
+    <p><b>Outside the city</b> the mile roads keep counting from State &amp; Madison (Dempster, Wolf,
+      159th…), so an id like χ:20S9W means the band between the 19th and 20th mile roads south and the 8th
+      and 9th west. Chicago's road grid is rotated about a degree from true north, so far out a chi can
+      sit up to ~0.85 mi from its geographic band; the panel shows that offset.</p>
     <p><b>Geographic, not address-number.</b> Distances are real miles. Chicago's south-side street
       numbers overstate distance (43rd St is ~4.5 mi south, not 5.4), so the grid uses true geography —
       which is why 43rd lands in the 5S band and Ashland on the 2W/3W boundary.</p>
@@ -93,6 +128,7 @@
   // v2 cells can be MultiPolygons (lakefront-split); always iterate the outer ring(s).
   const outerRings = (g) => g.type === "MultiPolygon" ? g.coordinates.map((p) => p[0]) : [g.coordinates[0]];
 
+  let state = { v: "v2", x: "city", e: "whole" }, overlays = {};
   function render(geo) {
     cells = geo.features;
     const lons = [], lats = [];
@@ -108,15 +144,16 @@
     svg.setAttribute("viewBox", `0 0 ${W} ${Math.round(H)}`);
     svg.setAttribute("role", "img");
     svg.setAttribute("aria-label", "Map of Chicago's chi cells");
-    const ring0 = outerRings(cells[0].geometry)[0];
-    const cellLon = Math.max(...ring0.map((p) => p[0])) - Math.min(...ring0.map((p) => p[0]));
+    // median cell width (the first cell can be a clipped sliver)
+    const widths = cells.map((f) => { const r = outerRings(f.geometry)[0].map((p) => p[0]); return Math.max(...r) - Math.min(...r); }).sort((a, b) => a - b);
+    const cellLon = widths[Math.floor(widths.length / 2)];
     const fontPx = Math.max(4, Math.min(8, (sx * cellLon) / 5.5)); // fit ~5 chars in a cell
     for (const f of cells) {
       for (const ring of outerRings(f.geometry)) {
         const pts = ring.map(([x, y]) => `${px(x).toFixed(1)},${py(y).toFixed(1)}`).join(" ");
         const poly = document.createElementNS(svgNS, "polygon");
         poly.setAttribute("points", pts);
-        poly.setAttribute("class", "chi");
+        poly.setAttribute("class", f.properties.in_city_share === 0 ? "chi out" : "chi");
         poly.dataset.ord = f.properties.chi_ordinate;
         const t = document.createElementNS(svgNS, "title");
         t.textContent = `${f.properties.name} · ${f.properties.label}`;
@@ -135,6 +172,20 @@
       txt.textContent = token;
       svg.appendChild(txt);
     }
+    const drawOutline = (gj, cls) => {
+      if (!gj) return;
+      for (const feat of gj.features || [gj]) {
+        const g = feat.geometry || feat;
+        const polys = g.type === "MultiPolygon" ? g.coordinates : [g.coordinates];
+        for (const poly of polys) for (const ring of poly) {
+          const path = document.createElementNS(svgNS, "polygon");
+          path.setAttribute("points", ring.map(([x, y]) => `${px(x).toFixed(1)},${py(y).toFixed(1)}`).join(" "));
+          path.setAttribute("class", cls);
+          svg.appendChild(path);
+        }
+      }
+    };
+    if (state.x !== "city") { drawOutline(overlays.city, "citylim"); drawOutline(overlays[state.x], "frame"); }
     const o = document.createElementNS(svgNS, "circle");
     o.setAttribute("cx", px(ORIGIN[0])); o.setAttribute("cy", py(ORIGIN[1]));
     o.setAttribute("r", 3.5); o.setAttribute("class", "origin");
@@ -152,7 +203,7 @@
     document.querySelectorAll(`.chi[data-ord="${CSS.escape(ord)}"]`).forEach((s) => s.parentNode.appendChild(s)); // raise above neighbors
     const selLabel = document.querySelector(`.chilabel[data-ord="${CSS.escape(ord)}"]`);
     if (selLabel) selLabel.parentNode.appendChild(selLabel);
-    history.replaceState(null, "", `#chi=${ord.replace("χ:", "")}`);
+    writeHash();
     renderDetail();
   }
 
@@ -169,13 +220,26 @@
         ${p.label_canon && p.label_canon !== p.label ? `<dt>Canonical</dt><dd>${p.label_canon}</dd>` : ""}
         <dt>Center</dt><dd>${p.center[1].toFixed(4)}, ${p.center[0].toFixed(4)}</dd>
         <dt>Cell</dt><dd>${typeof p.area_sqmi === "number" ? p.area_sqmi.toFixed(2) + " sq mi" : "1 sq mile"}</dd>
-        ${p.edge ? `<dt>Edge</dt><dd>city-clipped</dd>` : ""}
+        ${p.edge ? `<dt>Edge</dt><dd>${(p.edge_kind && p.edge_kind.length) ? p.edge_kind.join(", ") : "city-clipped"}</dd>` : ""}
+        ${typeof p.frame_share === "number" ? `<dt>In frame</dt><dd>${Math.round(p.frame_share * 100)}%</dd>` : ""}
+        ${typeof p.in_city_share === "number" ? `<dt>In city</dt><dd>${Math.round(p.in_city_share * 100)}%</dd>` : ""}
+        ${p.offset_mi && Math.max(Math.abs(p.offset_mi[0]), Math.abs(p.offset_mi[1])) >= 0.05
+          ? `<dt>Off band</dt><dd>${p.offset_mi[0].toFixed(2)} mi W, ${p.offset_mi[1].toFixed(2)} mi S</dd>` : ""}
+        ${p.flag ? `<dt>Flag</dt><dd>outside 0.9–1.1 sq mi</dd>` : ""}
       </dl>`;
   }
 
+  function hashParams() { return new URLSearchParams((location.hash || "").replace(/^#/, "")); }
+  function writeHash() {
+    const h = new URLSearchParams();
+    if (state.v !== "v2") h.set("v", state.v);
+    if (state.x !== "city") { h.set("extent", state.x); if (state.e !== "whole") h.set("edges", state.e); }
+    if (selected) h.set("chi", selected.properties.chi_ordinate.replace("χ:", ""));
+    history.replaceState(null, "", h.toString() ? `#${h}` : location.pathname);
+  }
   function restoreFromHash() {
-    const m = (location.hash || "").match(/chi=([A-Za-z0-9]+)/);
-    if (m) select(`χ:${m[1].toUpperCase()}`);
+    const m = hashParams().get("chi");
+    if (m && cells.some((f) => f.properties.chi_ordinate === `χ:${m.toUpperCase()}`)) select(`χ:${m.toUpperCase()}`);
   }
 
   document.getElementById("search").addEventListener("input", (e) => {
@@ -188,21 +252,47 @@
     if (hit) select(hit.properties.chi_ordinate);
   });
 
-  function load(version) {
-    document.getElementById("map").textContent = "Loading the grid…";
-    fetch(`./data/${version}/chigrid.geojson`)
-      .then((r) => r.json())
-      .then(render)
-      .catch(() => { document.getElementById("map").textContent = "Could not load the grid."; });
+  function dataPath() {
+    if (state.x === "city") return `./data/${state.v}/chigrid.geojson`;
+    return `./data/${state.v}/${state.x}/chigrid${state.e === "clip" ? "_clip" : ""}.geojson`;
   }
-  document.getElementById("versions").addEventListener("click", (e) => {
-    const b = e.target.closest(".vbtn");
-    if (!b) return;
-    document.querySelectorAll(".vbtn").forEach((x) => x.classList.toggle("on", x === b));
-    selected = null; renderDetail();
-    load(b.dataset.v);
-  });
-  load("v2");
+  function getOverlay(name) {
+    if (name in overlays) return Promise.resolve(overlays[name]);
+    return fetch(`./data/frames/${name}.geojson`).then((r) => r.ok ? r.json() : null).catch(() => null)
+      .then((gj) => (overlays[name] = gj));
+  }
+  function syncButtons() {
+    document.querySelectorAll("#versions .vbtn").forEach((b) => b.classList.toggle("on", b.dataset.v === state.v));
+    document.querySelectorAll("#extents .vbtn").forEach((b) => b.classList.toggle("on", b.dataset.x === state.x));
+    document.querySelectorAll("#edges .vbtn").forEach((b) => {
+      b.classList.toggle("on", b.dataset.e === state.e); b.disabled = state.x === "city"; });
+    document.getElementById("legend").innerHTML = state.x === "city" ? "" :
+      `<i style="border-top:1.2px dashed var(--strong)"></i>${state.x === "un2025" ? "UN 2025" : "JRC 2023"} urban centre` +
+      `<i style="border-top:1px solid var(--accent-dark)"></i>city limits` +
+      `<i style="border-top:8px solid #e6eef0"></i>outside the city`;
+  }
+  function load() {
+    syncButtons();
+    document.getElementById("map").textContent = "Loading the grid…";
+    const extras = state.x === "city" ? [] : [getOverlay("city"), getOverlay(state.x)];
+    Promise.all([fetch(dataPath()).then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); }), ...extras])
+      .then(([geo]) => { render(geo); writeHash(); })
+      .catch(() => { document.getElementById("map").textContent = "This version of the grid isn't built for this extent yet."; });
+  }
+  for (const [id, key, attr] of [["versions", "v", "v"], ["extents", "x", "x"], ["edges", "e", "e"]]) {
+    document.getElementById(id).addEventListener("click", (ev) => {
+      const b = ev.target.closest(".vbtn");
+      if (!b || b.disabled) return;
+      state[key] = b.dataset[attr];
+      selected = null; renderDetail();
+      load();
+    });
+  }
+  { const h = hashParams();
+    if (["v1", "v2"].includes(h.get("v"))) state.v = h.get("v");
+    if (["un2025", "jrc2023"].includes(h.get("extent"))) state.x = h.get("extent");
+    if (h.get("edges") === "clip") state.e = "clip"; }
+  load();
 </script>
 </body>
 </html>

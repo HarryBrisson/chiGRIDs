@@ -1,0 +1,1756 @@
+{
+ "version": 1,
+ "status": "proposed",
+ "chi_spec": "\u03c7 ordinates count mile roads from State & Madison",
+ "roads_snapshot": "tiger2025",
+ "roads_license": "Public domain (US federal government work, 17 U.S.C. \u00a7 105)",
+ "region": "data/frames/jrc2023.geojson",
+ "band_mi": 0.4,
+ "min_coverage": 0.5,
+ "ns": {
+  "14": {
+   "core": false,
+   "pieces": [
+    {
+     "side": "south",
+     "road": "wolf",
+     "rule": 2,
+     "from_mi": 3.282,
+     "to_mi": 7.747,
+     "slope": -0.05744127104801571,
+     "intercept": -85.497233808265,
+     "rms_mi": 0.0157,
+     "max_mi": 0.0409,
+     "status": "proposed"
+    }
+   ],
+   "note": "extrapolated past mannheim: city edge cells only"
+  },
+  "3": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "asbury",
+     "rule": 2,
+     "from_mi": -12.889,
+     "to_mi": -9.497,
+     "slope": 0.018013979281837362,
+     "intercept": -88.4472350211877,
+     "rms_mi": 0.0103,
+     "max_mi": 0.0191,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "western",
+     "rule": 1,
+     "from_mi": 14.125,
+     "to_mi": 16.998,
+     "slope": -0.04522956804311242,
+     "intercept": -85.79586393851221,
+     "rms_mi": 0.0182,
+     "max_mi": 0.0493,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "western",
+     "rule": 1,
+     "from_mi": 17.0,
+     "to_mi": 19.396,
+     "slope": -0.07137373227516874,
+     "intercept": -84.70535973873994,
+     "rms_mi": 0.0315,
+     "max_mi": 0.0771,
+     "status": "proposed"
+    }
+   ]
+  },
+  "5": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "karlov",
+     "rule": 2,
+     "from_mi": -12.455,
+     "to_mi": -8.325,
+     "slope": 0.02674660242660326,
+     "intercept": -88.85466780446761,
+     "rms_mi": 0.0036,
+     "max_mi": 0.0194,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "pulaski",
+     "rule": 1,
+     "from_mi": 10.309,
+     "to_mi": 19.492,
+     "slope": -0.03927600969876516,
+     "intercept": -86.08283999183391,
+     "rms_mi": 0.0026,
+     "max_mi": 0.0166,
+     "status": "proposed"
+    }
+   ]
+  },
+  "6": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "cicero",
+     "rule": 1,
+     "from_mi": 1.109,
+     "to_mi": 3.483,
+     "slope": -0.03354802924190939,
+     "intercept": -86.34024650005394,
+     "rms_mi": 0.002,
+     "max_mi": 0.0072,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "cicero",
+     "rule": 1,
+     "from_mi": 7.666,
+     "to_mi": 20.748,
+     "slope": -0.037064312202195256,
+     "intercept": -86.19438338115766,
+     "rms_mi": 0.0126,
+     "max_mi": 0.0814,
+     "status": "proposed"
+    }
+   ]
+  },
+  "8": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "ridgeland",
+     "rule": 2,
+     "from_mi": -1.873,
+     "to_mi": 3.493,
+     "slope": -0.019680871187210302,
+     "intercept": -86.95990659798433,
+     "rms_mi": 0.0212,
+     "max_mi": 0.0714,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ridgeland",
+     "rule": 2,
+     "from_mi": 3.251,
+     "to_mi": 13.985,
+     "slope": -0.029810614145833865,
+     "intercept": -86.53613601096257,
+     "rms_mi": 0.0084,
+     "max_mi": 0.0485,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ridgeland",
+     "rule": 2,
+     "from_mi": 14.053,
+     "to_mi": 18.993,
+     "slope": -0.03741834809211735,
+     "intercept": -86.21874748090144,
+     "rms_mi": 0.0021,
+     "max_mi": 0.0044,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ridgeland",
+     "rule": 2,
+     "from_mi": 19.001,
+     "to_mi": 21.999,
+     "slope": -0.03194446085210071,
+     "intercept": -86.44651258367936,
+     "rms_mi": 0.0016,
+     "max_mi": 0.0043,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ridgeland",
+     "rule": 2,
+     "from_mi": 22.0,
+     "to_mi": 23.222,
+     "slope": -0.17552794560125792,
+     "intercept": -80.47777807856674,
+     "rms_mi": 0.0383,
+     "max_mi": 0.0682,
+     "status": "proposed"
+    }
+   ]
+  },
+  "9": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "harlem",
+     "rule": 1,
+     "from_mi": -13.255,
+     "to_mi": 3.499,
+     "slope": -0.011151456245839218,
+     "intercept": -87.33754253819093,
+     "rms_mi": 0.0283,
+     "max_mi": 0.0642,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "state rte 43",
+     "rule": 2,
+     "from_mi": 3.251,
+     "to_mi": 6.667,
+     "slope": -0.034944655793058034,
+     "intercept": -86.34115886813743,
+     "rms_mi": 0.0055,
+     "max_mi": 0.0167,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "state rte 43",
+     "rule": 2,
+     "from_mi": 7.28,
+     "to_mi": 9.993,
+     "slope": -0.10408742992615472,
+     "intercept": -83.4543499224944,
+     "rms_mi": 0.0549,
+     "max_mi": 0.137,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "state rte 43",
+     "rule": 2,
+     "from_mi": 10.004,
+     "to_mi": 11.977,
+     "slope": -0.03800930659457744,
+     "intercept": -86.2128429539096,
+     "rms_mi": 0.0033,
+     "max_mi": 0.0067,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "state rte 43",
+     "rule": 2,
+     "from_mi": 12.072,
+     "to_mi": 23.944,
+     "slope": -0.0386342557259102,
+     "intercept": -86.18686889491639,
+     "rms_mi": 0.0175,
+     "max_mi": 0.0699,
+     "status": "proposed"
+    }
+   ]
+  },
+  "10": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "washington",
+     "rule": 2,
+     "from_mi": -12.678,
+     "to_mi": -7.124,
+     "slope": 0.013345138902363782,
+     "intercept": -88.38683146178784,
+     "rms_mi": 0.0042,
+     "max_mi": 0.0346,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "roberts",
+     "rule": 2,
+     "from_mi": 7.865,
+     "to_mi": 13.625,
+     "slope": -0.04115727579832714,
+     "intercept": -86.10090455492832,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0044,
+     "status": "proposed"
+    }
+   ]
+  },
+  "11": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "pfingsten",
+     "rule": 2,
+     "from_mi": -19.029,
+     "to_mi": -16.01,
+     "slope": 0.027325177211224985,
+     "intercept": -88.99979280522396,
+     "rms_mi": 0.0164,
+     "max_mi": 0.1583,
+     "status": "proposed"
+    },
+    {
+     "side": "north",
+     "road": "pfingsten",
+     "rule": 2,
+     "from_mi": -15.998,
+     "to_mi": -12.82,
+     "slope": 0.007889614961902738,
+     "intercept": -88.18125997077338,
+     "rms_mi": 0.0082,
+     "max_mi": 0.0556,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "88th",
+     "rule": 2,
+     "from_mi": 8.289,
+     "to_mi": 11.991,
+     "slope": -0.044237227148893166,
+     "intercept": -85.99177147049953,
+     "rms_mi": 0.003,
+     "max_mi": 0.0082,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "88th",
+     "rule": 2,
+     "from_mi": 12.004,
+     "to_mi": 15.989,
+     "slope": -0.03483779886414832,
+     "intercept": -86.3835153860178,
+     "rms_mi": 0.0418,
+     "max_mi": 0.2243,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "88th",
+     "rule": 2,
+     "from_mi": 16.002,
+     "to_mi": 16.941,
+     "slope": -0.15591245121886207,
+     "intercept": -81.34110643769695,
+     "rms_mi": 0.0149,
+     "max_mi": 0.028,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "88th",
+     "rule": 2,
+     "from_mi": 17.001,
+     "to_mi": 23.988,
+     "slope": -0.03827861930898068,
+     "intercept": -86.24079718680055,
+     "rms_mi": 0.0229,
+     "max_mi": 0.0693,
+     "status": "proposed"
+    }
+   ]
+  },
+  "12": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "25th",
+     "rule": 2,
+     "from_mi": -4.734,
+     "to_mi": -1.001,
+     "slope": -0.06751010913631017,
+     "intercept": -85.03505320547127,
+     "rms_mi": 0.046,
+     "max_mi": 0.1945,
+     "status": "proposed"
+    },
+    {
+     "side": "north",
+     "road": "25th",
+     "rule": 2,
+     "from_mi": -0.964,
+     "to_mi": 2.767,
+     "slope": -0.04207714885097583,
+     "intercept": -86.10131763868233,
+     "rms_mi": 0.0011,
+     "max_mi": 0.0032,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "east",
+     "rule": 2,
+     "from_mi": 4.457,
+     "to_mi": 7.806,
+     "slope": -0.03928440594482431,
+     "intercept": -86.21716803094601,
+     "rms_mi": 0.0004,
+     "max_mi": 0.0013,
+     "status": "proposed"
+    }
+   ]
+  },
+  "15": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "county line",
+     "rule": 2,
+     "from_mi": -4.67,
+     "to_mi": -1.729,
+     "slope": 0.0046526059530620275,
+     "intercept": -88.11538667943648,
+     "rms_mi": 0.0005,
+     "max_mi": 0.002,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "county line",
+     "rule": 2,
+     "from_mi": 4.423,
+     "to_mi": 11.029,
+     "slope": -0.03782223598618497,
+     "intercept": -86.33648485223422,
+     "rms_mi": 0.0018,
+     "max_mi": 0.0061,
+     "status": "proposed"
+    }
+   ]
+  },
+  "16": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "schoenbeck",
+     "rule": 2,
+     "from_mi": -17.721,
+     "to_mi": -14.36,
+     "slope": 0.0002395683651466012,
+     "intercept": -87.95659943553186,
+     "rms_mi": 0.0057,
+     "max_mi": 0.0605,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "madison",
+     "rule": 2,
+     "from_mi": 3.868,
+     "to_mi": 11.44,
+     "slope": -0.03683209129011242,
+     "intercept": -86.39721153015155,
+     "rms_mi": 0.0035,
+     "max_mi": 0.0113,
+     "status": "proposed"
+    }
+   ]
+  },
+  "17": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "windsor",
+     "rule": 2,
+     "from_mi": -17.516,
+     "to_mi": -14.73,
+     "slope": -0.045403201665873465,
+     "intercept": -86.05425322014666,
+     "rms_mi": 0.0522,
+     "max_mi": 0.099,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "clarendon hills",
+     "rule": 2,
+     "from_mi": 6.442,
+     "to_mi": 11.37,
+     "slope": -0.03420917703342918,
+     "intercept": -86.5261070721132,
+     "rms_mi": 0.0019,
+     "max_mi": 0.0045,
+     "status": "proposed"
+    }
+   ]
+  },
+  "18": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "ardmore",
+     "rule": 2,
+     "from_mi": -2.631,
+     "to_mi": 1.994,
+     "slope": -0.01460203698191927,
+     "intercept": -87.36686513880122,
+     "rms_mi": 0.0158,
+     "max_mi": 0.0347,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "cass",
+     "rule": 2,
+     "from_mi": 3.979,
+     "to_mi": 7.975,
+     "slope": -0.020699263022444216,
+     "intercept": -87.1100057888141,
+     "rms_mi": 0.0354,
+     "max_mi": 0.1576,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "cass",
+     "rule": 2,
+     "from_mi": 8.07,
+     "to_mi": 11.27,
+     "slope": -0.06442149607664228,
+     "intercept": -85.28408439393841,
+     "rms_mi": 0.038,
+     "max_mi": 0.2288,
+     "status": "proposed"
+    }
+   ]
+  },
+  "21": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "plum grove",
+     "rule": 2,
+     "from_mi": -16.504,
+     "to_mi": -13.837,
+     "slope": 0.0031700867539522764,
+     "intercept": -88.1772495176616,
+     "rms_mi": 0.0007,
+     "max_mi": 0.0015,
+     "status": "proposed"
+    }
+   ]
+  },
+  "22": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "quentin",
+     "rule": 2,
+     "from_mi": -18.742,
+     "to_mi": -13.281,
+     "slope": -0.006666139341363522,
+     "intercept": -87.78220369749711,
+     "rms_mi": 0.0136,
+     "max_mi": 0.033,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ashbury",
+     "rule": 2,
+     "from_mi": 10.101,
+     "to_mi": 13.043,
+     "slope": -0.035069075730331876,
+     "intercept": -86.5926962876145,
+     "rms_mi": 0.054,
+     "max_mi": 0.1042,
+     "status": "proposed"
+    }
+   ]
+  },
+  "24": {
+   "pieces": [
+    {
+     "side": "north",
+     "road": "salem",
+     "rule": 2,
+     "from_mi": -11.495,
+     "to_mi": -8.455,
+     "slope": 0.0006037201337535835,
+     "intercept": -88.12632338685079,
+     "rms_mi": 0.0489,
+     "max_mi": 0.078,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "schmidt",
+     "rule": 2,
+     "from_mi": 11.959,
+     "to_mi": 15.593,
+     "slope": -0.037174798278556374,
+     "intercept": -86.53752837184372,
+     "rms_mi": 0.009,
+     "max_mi": 0.0379,
+     "status": "proposed"
+    }
+   ]
+  },
+  "0": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "indiana",
+     "rule": 2,
+     "from_mi": 16.149,
+     "to_mi": 17.993,
+     "slope": -0.0038382589979463477,
+     "intercept": -87.45739406471941,
+     "rms_mi": 0.0008,
+     "max_mi": 0.0024,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "indiana",
+     "rule": 2,
+     "from_mi": 18.011,
+     "to_mi": 20.866,
+     "slope": -0.04047777247394384,
+     "intercept": -85.93277730763747,
+     "rms_mi": 0.0329,
+     "max_mi": 0.0981,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-1": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "cottage grove",
+     "rule": 1,
+     "from_mi": 16.378,
+     "to_mi": 20.402,
+     "slope": -0.004958184465926056,
+     "intercept": -87.39140658981854,
+     "rms_mi": 0.0014,
+     "max_mi": 0.0031,
+     "status": "proposed"
+    }
+   ]
+  },
+  "1": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "halsted",
+     "rule": 1,
+     "from_mi": 14.81,
+     "to_mi": 16.998,
+     "slope": 0.011632813940714179,
+     "intercept": -88.12580993252347,
+     "rms_mi": 0.0078,
+     "max_mi": 0.0239,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "halsted",
+     "rule": 1,
+     "from_mi": 17.023,
+     "to_mi": 18.997,
+     "slope": -0.25552547297926453,
+     "intercept": -77.00452621710716,
+     "rms_mi": 0.0551,
+     "max_mi": 0.1023,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "halsted",
+     "rule": 1,
+     "from_mi": 19.013,
+     "to_mi": 22.749,
+     "slope": -0.00874823975413115,
+     "intercept": -87.2725674231544,
+     "rms_mi": 0.0084,
+     "max_mi": 0.0451,
+     "status": "proposed"
+    }
+   ]
+  },
+  "2": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "ashland",
+     "rule": 1,
+     "from_mi": 14.166,
+     "to_mi": 16.829,
+     "slope": -0.03258989571551147,
+     "intercept": -86.30308477078998,
+     "rms_mi": 0.0043,
+     "max_mi": 0.0198,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ashland",
+     "rule": 1,
+     "from_mi": 17.498,
+     "to_mi": 18.997,
+     "slope": -0.004164551718972703,
+     "intercept": -87.48265588171621,
+     "rms_mi": 0.0006,
+     "max_mi": 0.0011,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "ashland",
+     "rule": 1,
+     "from_mi": 19.022,
+     "to_mi": 21.985,
+     "slope": -0.013286806976139721,
+     "intercept": -87.10310911220377,
+     "rms_mi": 0.0297,
+     "max_mi": 0.1087,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-3": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "torrence",
+     "rule": 2,
+     "from_mi": 16.377,
+     "to_mi": 23.931,
+     "slope": -0.0069551321209591335,
+     "intercept": -87.26964665645099,
+     "rms_mi": 0.0036,
+     "max_mi": 0.0158,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-4": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "burnham",
+     "rule": 2,
+     "from_mi": 16.398,
+     "to_mi": 23.979,
+     "slope": -0.0039200256218573145,
+     "intercept": -87.37638946216845,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0177,
+     "status": "proposed"
+    }
+   ]
+  },
+  "4": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "kedzie",
+     "rule": 1,
+     "from_mi": 10.138,
+     "to_mi": 15.975,
+     "slope": -0.03572217329403928,
+     "intercept": -86.21147030435088,
+     "rms_mi": 0.0018,
+     "max_mi": 0.0087,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "kedzie",
+     "rule": 1,
+     "from_mi": 16.057,
+     "to_mi": 17.981,
+     "slope": -0.037473254956185385,
+     "intercept": -86.13846994829208,
+     "rms_mi": 0.0003,
+     "max_mi": 0.001,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "kedzie",
+     "rule": 1,
+     "from_mi": 18.048,
+     "to_mi": 20.179,
+     "slope": -0.12255859459703422,
+     "intercept": -82.59647238787613,
+     "rms_mi": 0.0398,
+     "max_mi": 0.0668,
+     "status": "proposed"
+    }
+   ]
+  },
+  "7": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "central",
+     "rule": 1,
+     "from_mi": 3.271,
+     "to_mi": 12.988,
+     "slope": -0.028248062287851244,
+     "intercept": -86.58164377403935,
+     "rms_mi": 0.0079,
+     "max_mi": 0.0142,
+     "status": "proposed"
+    },
+    {
+     "side": "south",
+     "road": "central",
+     "rule": 1,
+     "from_mi": 13.007,
+     "to_mi": 22.982,
+     "slope": -0.04207217154070944,
+     "intercept": -86.00538605695107,
+     "rms_mi": 0.0263,
+     "max_mi": 0.099,
+     "status": "proposed"
+    }
+   ]
+  },
+  "13": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "brainard",
+     "rule": 2,
+     "from_mi": 3.305,
+     "to_mi": 7.903,
+     "slope": -0.04780963219436086,
+     "intercept": -85.88044849345751,
+     "rms_mi": 0.0091,
+     "max_mi": 0.0337,
+     "status": "proposed"
+    }
+   ]
+  },
+  "19": {
+   "pieces": [
+    {
+     "side": "south",
+     "road": "fairview",
+     "rule": 2,
+     "from_mi": 3.993,
+     "to_mi": 9.35,
+     "slope": -0.03252321095340063,
+     "intercept": -86.63541947466915,
+     "rms_mi": 0.0077,
+     "max_mi": 0.0482,
+     "status": "proposed"
+    }
+   ]
+  }
+ },
+ "ew": {
+  "-10": {
+   "core": false,
+   "note": "howard is 0.49 mi from touhy: a half-mile street at the city edge, not a mile road",
+   "pieces": [
+    {
+     "side": "east",
+     "road": "oakton",
+     "rule": 2,
+     "from_mi": 2.048,
+     "to_mi": 5.486,
+     "slope": 0.00813250742982619,
+     "intercept": 42.73973494205034,
+     "rms_mi": 0.0052,
+     "max_mi": 0.0106,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "oakton",
+     "rule": 2,
+     "from_mi": 5.276,
+     "to_mi": 10.992,
+     "slope": 0.006178430528319255,
+     "intercept": 42.56858606621115,
+     "rms_mi": 0.0139,
+     "max_mi": 0.0292,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "oakton",
+     "rule": 2,
+     "from_mi": 11.005,
+     "to_mi": 14.988,
+     "slope": 0.0291748007462604,
+     "intercept": 44.58824241615599,
+     "rms_mi": 0.0124,
+     "max_mi": 0.0436,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "oakton",
+     "rule": 2,
+     "from_mi": 15.009,
+     "to_mi": 18.535,
+     "slope": 0.01408711490021248,
+     "intercept": 43.261540983697344,
+     "rms_mi": 0.0122,
+     "max_mi": 0.1271,
+     "status": "proposed"
+    }
+   ]
+  },
+  "17": {
+   "core": false,
+   "pieces": [
+    {
+     "side": "east",
+     "road": "144th",
+     "rule": 2,
+     "from_mi": -2.405,
+     "to_mi": 5.465,
+     "slope": 0.021785870497592126,
+     "intercept": 43.54212212427489,
+     "rms_mi": 0.0212,
+     "max_mi": 0.0477,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "143rd",
+     "rule": 2,
+     "from_mi": 5.255,
+     "to_mi": 28.577,
+     "slope": 0.02126423206425436,
+     "intercept": 43.498583100918836,
+     "rms_mi": 0.0137,
+     "max_mi": 0.0326,
+     "status": "proposed"
+    }
+   ],
+   "note": "extrapolated past 135th: city edge cells only"
+  },
+  "-11": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "dempster",
+     "rule": 2,
+     "from_mi": 2.211,
+     "to_mi": 5.496,
+     "slope": 0.009501858743510394,
+     "intercept": 42.87436053337692,
+     "rms_mi": 0.0047,
+     "max_mi": 0.0174,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "dempster",
+     "rule": 2,
+     "from_mi": 5.254,
+     "to_mi": 11.984,
+     "slope": 0.010339441475529397,
+     "intercept": 42.948356647136514,
+     "rms_mi": 0.0183,
+     "max_mi": 0.0432,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "dempster",
+     "rule": 2,
+     "from_mi": 12.003,
+     "to_mi": 17.262,
+     "slope": 0.020776364138749347,
+     "intercept": 43.86444459226683,
+     "rms_mi": 0.0276,
+     "max_mi": 0.0903,
+     "status": "proposed"
+    }
+   ]
+  },
+  "11": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "95th",
+     "rule": 1,
+     "from_mi": 2.91,
+     "to_mi": 5.499,
+     "slope": 0.013948011548560629,
+     "intercept": 42.943979539758644,
+     "rms_mi": 0.0018,
+     "max_mi": 0.0042,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "95th",
+     "rule": 1,
+     "from_mi": 5.262,
+     "to_mi": 8.97,
+     "slope": 0.014432992942024433,
+     "intercept": 42.9864422457611,
+     "rms_mi": 0.0051,
+     "max_mi": 0.0265,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "95th",
+     "rule": 1,
+     "from_mi": 9.01,
+     "to_mi": 10.989,
+     "slope": 0.01882718785569889,
+     "intercept": 43.37191470212951,
+     "rms_mi": 0.0008,
+     "max_mi": 0.0049,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "95th",
+     "rule": 1,
+     "from_mi": 11.012,
+     "to_mi": 13.943,
+     "slope": 0.04357758158286708,
+     "intercept": 45.546414738741845,
+     "rms_mi": 0.0415,
+     "max_mi": 0.0858,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-12": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "simpson",
+     "rule": 2,
+     "from_mi": 2.671,
+     "to_mi": 4.521,
+     "slope": 0.012139656800377104,
+     "intercept": 43.120250980406475,
+     "rms_mi": 0.0044,
+     "max_mi": 0.0179,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "simpson",
+     "rule": 2,
+     "from_mi": 6.999,
+     "to_mi": 13.218,
+     "slope": 0.015353663919692657,
+     "intercept": 43.40314905673828,
+     "rms_mi": 0.0225,
+     "max_mi": 0.0558,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-13": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "isabella",
+     "rule": 2,
+     "from_mi": 2.577,
+     "to_mi": 5.21,
+     "slope": -0.011059693978865021,
+     "intercept": 41.09895884640188,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0072,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "linneman",
+     "rule": 2,
+     "from_mi": 8.844,
+     "to_mi": 11.513,
+     "slope": 0.004558790144618434,
+     "intercept": 42.469641313274806,
+     "rms_mi": 0.0184,
+     "max_mi": 0.0638,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-14": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "greenwood",
+     "rule": 2,
+     "from_mi": 3.563,
+     "to_mi": 5.408,
+     "slope": -0.020857024897576452,
+     "intercept": 40.25351626516289,
+     "rms_mi": 0.0092,
+     "max_mi": 0.0341,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "kensington",
+     "rule": 2,
+     "from_mi": 13.615,
+     "to_mi": 17.895,
+     "slope": -0.005658128732762664,
+     "intercept": 41.58320795223633,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0037,
+     "status": "proposed"
+    }
+   ]
+  },
+  "14": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "119th",
+     "rule": 1,
+     "from_mi": 1.761,
+     "to_mi": 5.301,
+     "slope": 0.014202442658973755,
+     "intercept": 42.922518298220915,
+     "rms_mi": 0.0015,
+     "max_mi": 0.0034,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "119th",
+     "rule": 1,
+     "from_mi": 8.693,
+     "to_mi": 27.731,
+     "slope": 0.022547557897940936,
+     "intercept": 43.654986812249895,
+     "rms_mi": 0.0059,
+     "max_mi": 0.0439,
+     "status": "proposed"
+    }
+   ]
+  },
+  "15": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "127th",
+     "rule": 1,
+     "from_mi": 1.021,
+     "to_mi": 5.49,
+     "slope": 0.014609841495892324,
+     "intercept": 42.94365434934412,
+     "rms_mi": 0.0022,
+     "max_mi": 0.0052,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "127th",
+     "rule": 1,
+     "from_mi": 5.283,
+     "to_mi": 21.505,
+     "slope": 0.019835012263686627,
+     "intercept": 43.40209727191107,
+     "rms_mi": 0.0033,
+     "max_mi": 0.0296,
+     "status": "proposed"
+    }
+   ]
+  },
+  "16": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "135th",
+     "rule": 1,
+     "from_mi": 2.723,
+     "to_mi": 5.489,
+     "slope": 0.01744280127299211,
+     "intercept": 43.17755334582047,
+     "rms_mi": 0.0005,
+     "max_mi": 0.0025,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "135th",
+     "rule": 1,
+     "from_mi": 5.251,
+     "to_mi": 28.745,
+     "slope": 0.02158115751865634,
+     "intercept": 43.54089554113819,
+     "rms_mi": 0.0125,
+     "max_mi": 0.0564,
+     "status": "proposed"
+    }
+   ]
+  },
+  "19": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "157th",
+     "rule": 2,
+     "from_mi": 0.203,
+     "to_mi": 4.541,
+     "slope": 0.006382925495880685,
+     "intercept": 42.16397644193871,
+     "rms_mi": 0.0123,
+     "max_mi": 0.0288,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "159th",
+     "rule": 2,
+     "from_mi": 5.28,
+     "to_mi": 20.803,
+     "slope": 0.018312917528232383,
+     "intercept": 43.21007688239785,
+     "rms_mi": 0.0085,
+     "max_mi": 0.0229,
+     "status": "proposed"
+    }
+   ]
+  },
+  "22": {
+   "pieces": [
+    {
+     "side": "east",
+     "road": "ridge",
+     "rule": 2,
+     "from_mi": -5.258,
+     "to_mi": -3.005,
+     "slope": -0.013593698299545685,
+     "intercept": 40.37451658434623,
+     "rms_mi": 0.0165,
+     "max_mi": 0.0582,
+     "status": "proposed"
+    },
+    {
+     "side": "east",
+     "road": "ridge",
+     "rule": 2,
+     "from_mi": -2.996,
+     "to_mi": -0.011,
+     "slope": 0.0050493978693738105,
+     "intercept": 42.00693561954195,
+     "rms_mi": 0.0408,
+     "max_mi": 0.1857,
+     "status": "proposed"
+    },
+    {
+     "side": "east",
+     "road": "ridge",
+     "rule": 2,
+     "from_mi": 0.024,
+     "to_mi": 1.469,
+     "slope": 0.1674406335535206,
+     "intercept": 56.23714436400537,
+     "rms_mi": 0.0364,
+     "max_mi": 0.1038,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "183rd",
+     "rule": 2,
+     "from_mi": 6.303,
+     "to_mi": 7.981,
+     "slope": -0.06854969673662836,
+     "intercept": 35.54162185440095,
+     "rms_mi": 0.0283,
+     "max_mi": 0.0533,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "183rd",
+     "rule": 2,
+     "from_mi": 8.001,
+     "to_mi": 11.488,
+     "slope": 0.0048160173618072705,
+     "intercept": 41.98117766932951,
+     "rms_mi": 0.0539,
+     "max_mi": 0.1669,
+     "status": "proposed"
+    }
+   ]
+  },
+  "0": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "madison",
+     "rule": 1,
+     "from_mi": 7.55,
+     "to_mi": 20.819,
+     "slope": 0.023367996780324245,
+     "intercept": 43.931460625518405,
+     "rms_mi": 0.0163,
+     "max_mi": 0.0746,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-1": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "chicago",
+     "rule": 1,
+     "from_mi": 7.575,
+     "to_mi": 11.633,
+     "slope": 0.01844523268584394,
+     "intercept": 43.51379170769617,
+     "rms_mi": 0.0029,
+     "max_mi": 0.0138,
+     "status": "proposed"
+    }
+   ]
+  },
+  "1": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "roosevelt",
+     "rule": 1,
+     "from_mi": 7.511,
+     "to_mi": 15.034,
+     "slope": 0.022387792645691327,
+     "intercept": 43.83074817894111,
+     "rms_mi": 0.0077,
+     "max_mi": 0.031,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-2": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "north",
+     "rule": 1,
+     "from_mi": 9.055,
+     "to_mi": 22.226,
+     "slope": 0.020427125553056483,
+     "intercept": 43.70261216006209,
+     "rms_mi": 0.0095,
+     "max_mi": 0.0338,
+     "status": "proposed"
+    }
+   ]
+  },
+  "2": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "cermak",
+     "rule": 1,
+     "from_mi": 5.745,
+     "to_mi": 17.635,
+     "slope": 0.021836547520527518,
+     "intercept": 43.76764926386767,
+     "rms_mi": 0.0097,
+     "max_mi": 0.028,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-3": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "fullerton",
+     "rule": 1,
+     "from_mi": 9.185,
+     "to_mi": 11.998,
+     "slope": 0.019151211223532392,
+     "intercept": 43.60510949436937,
+     "rms_mi": 0.0037,
+     "max_mi": 0.0256,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "fullerton",
+     "rule": 1,
+     "from_mi": 12.045,
+     "to_mi": 12.991,
+     "slope": 0.019320524059689002,
+     "intercept": 43.61991006850563,
+     "rms_mi": 0.0002,
+     "max_mi": 0.0005,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "fullerton",
+     "rule": 1,
+     "from_mi": 13.0,
+     "to_mi": 14.566,
+     "slope": -0.016861276488395593,
+     "intercept": 40.44001889135887,
+     "rms_mi": 0.0331,
+     "max_mi": 0.0781,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "fullerton",
+     "rule": 1,
+     "from_mi": 17.543,
+     "to_mi": 22.191,
+     "slope": 0.02224000985455048,
+     "intercept": 43.87678831196771,
+     "rms_mi": 0.0033,
+     "max_mi": 0.0086,
+     "status": "proposed"
+    }
+   ]
+  },
+  "3": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "31st",
+     "rule": 1,
+     "from_mi": 5.716,
+     "to_mi": 19.865,
+     "slope": 0.021713110357845452,
+     "intercept": 43.742158401753194,
+     "rms_mi": 0.0141,
+     "max_mi": 0.0886,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-4": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "belmont",
+     "rule": 1,
+     "from_mi": 11.265,
+     "to_mi": 14.229,
+     "slope": 0.02184524594611421,
+     "intercept": 43.85628340553802,
+     "rms_mi": 0.0035,
+     "max_mi": 0.0107,
+     "status": "proposed"
+    }
+   ]
+  },
+  "4": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "pershing",
+     "rule": 1,
+     "from_mi": 6.024,
+     "to_mi": 9.278,
+     "slope": 0.014483491567562835,
+     "intercept": 43.09286573729544,
+     "rms_mi": 0.0009,
+     "max_mi": 0.0028,
+     "status": "proposed"
+    }
+   ]
+  },
+  "5": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "47th",
+     "rule": 1,
+     "from_mi": 8.957,
+     "to_mi": 11.989,
+     "slope": 0.027603213233522116,
+     "intercept": 44.23031024321765,
+     "rms_mi": 0.0261,
+     "max_mi": 0.1251,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "47th",
+     "rule": 1,
+     "from_mi": 12.002,
+     "to_mi": 14.894,
+     "slope": 0.022722860497061154,
+     "intercept": 43.80172094069803,
+     "rms_mi": 0.0011,
+     "max_mi": 0.007,
+     "status": "proposed"
+    }
+   ]
+  },
+  "6": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "55th",
+     "rule": 2,
+     "from_mi": 11.018,
+     "to_mi": 20.089,
+     "slope": 0.02135160315883897,
+     "intercept": 43.666599211966165,
+     "rms_mi": 0.0029,
+     "max_mi": 0.0131,
+     "status": "proposed"
+    }
+   ]
+  },
+  "7": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "63rd",
+     "rule": 1,
+     "from_mi": 15.332,
+     "to_mi": 22.636,
+     "slope": 0.020618925722486955,
+     "intercept": 43.58760629478819,
+     "rms_mi": 0.0115,
+     "max_mi": 0.0469,
+     "status": "proposed"
+    }
+   ]
+  },
+  "8": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "71st",
+     "rule": 1,
+     "from_mi": 16.798,
+     "to_mi": 18.791,
+     "slope": 0.0325178956036129,
+     "intercept": 44.6195812906687,
+     "rms_mi": 0.0088,
+     "max_mi": 0.0184,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "71st",
+     "rule": 1,
+     "from_mi": 20.035,
+     "to_mi": 21.207,
+     "slope": 0.059241251795796375,
+     "intercept": 46.97313835817279,
+     "rms_mi": 0.0374,
+     "max_mi": 0.0696,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-9": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "touhy",
+     "rule": 1,
+     "from_mi": 5.257,
+     "to_mi": 12.0,
+     "slope": 0.011001231807131678,
+     "intercept": 42.97736862843322,
+     "rms_mi": 0.0229,
+     "max_mi": 0.0744,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "touhy",
+     "rule": 1,
+     "from_mi": 12.004,
+     "to_mi": 18.054,
+     "slope": 0.028402969422137363,
+     "intercept": 44.50584540464042,
+     "rms_mi": 0.0186,
+     "max_mi": 0.0804,
+     "status": "proposed"
+    }
+   ]
+  },
+  "9": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "79th",
+     "rule": 1,
+     "from_mi": 5.852,
+     "to_mi": 8.976,
+     "slope": 0.01758153708880897,
+     "intercept": 43.29177413289318,
+     "rms_mi": 0.0004,
+     "max_mi": 0.001,
+     "status": "proposed"
+    },
+    {
+     "side": "west",
+     "road": "79th",
+     "rule": 1,
+     "from_mi": 9.038,
+     "to_mi": 17.774,
+     "slope": 0.017553302813549467,
+     "intercept": 43.28917125822811,
+     "rms_mi": 0.0204,
+     "max_mi": 0.0997,
+     "status": "proposed"
+    }
+   ]
+  },
+  "10": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "87th",
+     "rule": 1,
+     "from_mi": 5.81,
+     "to_mi": 12.54,
+     "slope": 0.018626359511229082,
+     "intercept": 43.36885258779228,
+     "rms_mi": 0.002,
+     "max_mi": 0.0086,
+     "status": "proposed"
+    }
+   ]
+  },
+  "12": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "103rd",
+     "rule": 1,
+     "from_mi": 5.286,
+     "to_mi": 11.231,
+     "slope": 0.020343196174375515,
+     "intercept": 43.4905614393715,
+     "rms_mi": 0.0066,
+     "max_mi": 0.0308,
+     "status": "proposed"
+    }
+   ]
+  },
+  "13": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "111th",
+     "rule": 1,
+     "from_mi": 5.756,
+     "to_mi": 27.738,
+     "slope": 0.022437909990788086,
+     "intercept": 43.65969535701028,
+     "rms_mi": 0.0229,
+     "max_mi": 0.0507,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-15": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "oakton",
+     "rule": 2,
+     "from_mi": 16.624,
+     "to_mi": 19.366,
+     "slope": -0.0038595746991764,
+     "intercept": 41.75596093069882,
+     "rms_mi": 0.0014,
+     "max_mi": 0.0027,
+     "status": "proposed"
+    }
+   ]
+  },
+  "-17": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "walters",
+     "rule": 2,
+     "from_mi": 9.349,
+     "to_mi": 13.292,
+     "slope": -0.00339650747225375,
+     "intercept": 41.82904293106098,
+     "rms_mi": 0.0013,
+     "max_mi": 0.0042,
+     "status": "proposed"
+    }
+   ]
+  },
+  "18": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "151st",
+     "rule": 2,
+     "from_mi": 5.264,
+     "to_mi": 21.209,
+     "slope": 0.01895310598386554,
+     "intercept": 43.280960297053625,
+     "rms_mi": 0.0087,
+     "max_mi": 0.0292,
+     "status": "proposed"
+    }
+   ]
+  },
+  "20": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "167th",
+     "rule": 2,
+     "from_mi": 5.261,
+     "to_mi": 20.452,
+     "slope": 0.01766855696850535,
+     "intercept": 43.13896576011305,
+     "rms_mi": 0.014,
+     "max_mi": 0.0919,
+     "status": "proposed"
+    }
+   ]
+  },
+  "21": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "175th",
+     "rule": 2,
+     "from_mi": 6.508,
+     "to_mi": 11.513,
+     "slope": 0.01510619977647717,
+     "intercept": 42.89934620018206,
+     "rms_mi": 0.0054,
+     "max_mi": 0.0245,
+     "status": "proposed"
+    }
+   ]
+  },
+  "23": {
+   "pieces": [
+    {
+     "side": "west",
+     "road": "191st",
+     "rule": 2,
+     "from_mi": 8.134,
+     "to_mi": 11.226,
+     "slope": 0.03881282690303531,
+     "intercept": 44.95226864686472,
+     "rms_mi": 0.0534,
+     "max_mi": 0.1412,
+     "status": "proposed"
+    }
+   ]
+  }
+ }
+}

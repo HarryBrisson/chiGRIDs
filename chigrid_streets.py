@@ -138,10 +138,15 @@ def _complete(fits):
     return out, lo_k, hi_k
 
 
-def build_street_aligned_chigrid(boundary, street_centerlines, road_grid=None, *, extend=4) -> dict[str, Any]:
-    import numpy as np
-    from shapely.geometry import LineString, shape
-    from shapely.ops import polygonize, unary_union
+DEFAULT_COLLECTION_PROPS = {"system": "chiGRID", "origin": "State & Madison", "aligned": "mile_roads",
+                            "edges": "straight_fit"}
+
+
+def city_polygon(boundary):
+    """The cleaned city limit that clips the grid: the union of the boundary features with the
+    community-area seams closed and interior holes filled."""
+    from shapely.geometry import shape
+    from shapely.ops import unary_union
 
     feats = boundary["features"] if boundary.get("type") == "FeatureCollection" else [boundary]
     city = unary_union([shape(f.get("geometry", f)).buffer(0) for f in feats if f])
@@ -157,13 +162,19 @@ def build_street_aligned_chigrid(boundary, street_centerlines, road_grid=None, *
         if geom.geom_type == "Polygon":
             return Polygon(geom.exterior)
         return MultiPolygon([Polygon(p.exterior) for p in geom.geoms])
-    city = _fill(city)
-    min_lon, min_lat, max_lon, max_lat = city.bounds
+    return _fill(city)
 
+
+def fit_city_lines(street_centerlines, *, extend=4):
+    """Fit the city's mile-road grid lines. Returns ``(ns_all, ew_all)`` — {signed mile index:
+    (slope, intercept)} for N/S avenues (x = m*y + c) and E/W streets (y = m*x + c) — or None when
+    the centerlines carry no anchors (minimal fixtures, degraded input)."""
     ns_fits = _fit_anchors(ANCHOR_NS, _road_points(street_centerlines, ANCHOR_NS.values()), vertical=True,
                            clip=ANCHOR_FIT_CLIP)
     ew_fits = _fit_anchors(ANCHOR_EW, _road_points(street_centerlines, ANCHOR_EW.values()), vertical=False,
                            clip_west=CITY_WEST_FIT_CAP, clip_west_overrides=ANCHOR_FIT_CLIP_WEST)
+    if not ns_fits or not ew_fits:
+        return None
     # Each line follows its OWN road (its fitted slope+intercept), so a real mile road is a real cell
     # boundary (e.g. Irving Park bounds the Addison row exactly). Missing indices interpolate between
     # neighbors; a curving road is fit to a straight line so it still can't break the grid.
@@ -181,12 +192,20 @@ def build_street_aligned_chigrid(boundary, street_centerlines, road_grid=None, *
                 allfits[edge + d * n] = tuple(allfits[edge][i] + n * step[i] for i in (0, 1))
     _extrapolate(ns_all, ns_lo, ns_hi)
     _extrapolate(ew_all, ew_lo, ew_hi)
+    return ns_all, ew_all
 
+
+def city_cells(city, ns_all, ew_all, namer) -> list[dict[str, Any]]:
+    """Polygonize the fitted lines against the city limit and merge faces into chi cells (sorted by
+    chi_id). This is the whole city grid; regional extents add cells around it, never change these."""
+    from shapely.geometry import LineString
+    from shapely.ops import polygonize, unary_union
+
+    min_lon, min_lat, max_lon, max_lat = city.bounds
     lines = [LineString([(m * y + c, y) for y in (min_lat - 0.06, max_lat + 0.06)]) for m, c in ns_all.values()]
     lines += [LineString([(x, m * x + c) for x in (min_lon - 0.06, max_lon + 0.06)]) for m, c in ew_all.values()]
 
     faces = [p for p in polygonize(unary_union(lines + [city.boundary])) if p.representative_point().within(city)]
-    namer = build_road_namer(street_centerlines, road_grid)
     sqmi = MILE_LAT * MILE_LON
 
     # Every in-city face belongs to a cell — group by ordinate and MERGE (don't drop), so a cell split
@@ -233,9 +252,18 @@ def build_street_aligned_chigrid(boundary, street_centerlines, road_grid=None, *
             },
         })
     features.sort(key=lambda f: f["properties"]["chi_id"])
-    return {
-        "type": "FeatureCollection",
-        "properties": {"system": "chiGRID", "origin": "State & Madison", "aligned": "mile_roads",
-                       "edges": "straight_fit", "count": len(features)},
-        "features": features,
-    }
+    return features
+
+
+def build_street_aligned_chigrid(boundary, street_centerlines, road_grid=None, *, extend=4,
+                                 collection_props=None) -> dict[str, Any]:
+    """The city-extent v2 chiGRID. ``collection_props`` replaces the FeatureCollection's top-level
+    properties (``count`` is always appended)."""
+    props = dict(DEFAULT_COLLECTION_PROPS if collection_props is None else collection_props)
+    fitted = fit_city_lines(street_centerlines, extend=extend)
+    if fitted is None:
+        # No mile-road anchors in the centerlines -> a street-aligned grid can't be built. Return an
+        # empty grid rather than crash (mirrors the v1 grid's empty-boundary case).
+        return {"type": "FeatureCollection", "properties": {**props, "count": 0}, "features": []}
+    features = city_cells(city_polygon(boundary), *fitted, build_road_namer(street_centerlines, road_grid))
+    return {"type": "FeatureCollection", "properties": {**props, "count": len(features)}, "features": features}
