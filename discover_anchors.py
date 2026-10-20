@@ -283,7 +283,11 @@ def main() -> None:
     ap.add_argument("--roads-file", help="a derived roads GeoJSON to use instead of --roads")
     ap.add_argument("--band", type=float, default=0.4, help="miles either side of the prior to search")
     ap.add_argument("--min-coverage", type=float, default=0.5)
+    ap.add_argument("--out-dir", default=out_dir,
+                    help="where to write the proposal and candidates (default data/anchors; use a folder outside "
+                         "this repo for --roads osm)")
     args = ap.parse_args()
+    out_dir = args.out_dir
 
     from chigrid_frames import load_frame
     from chigrid_osm import cluster_roads
